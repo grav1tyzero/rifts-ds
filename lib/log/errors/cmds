@@ -1,0 +1,264 @@
+2023.12.05-12.03,25 /cmds/players/equipment.c line 23: syntax error
+2023.12.05-12.03,25 /cmds/players/equipment.c line 24: Undefined variable 'tmp'
+2023.12.05-12.03,25 /cmds/players/equipment.c line 24: Illegal LHS
+2023.12.05-12.03,25 /cmds/players/equipment.c line 25: Illegal LHS
+2023.12.05-12.03,25 /cmds/players/equipment.c line 25: syntax error
+2023.12.05-12.03,25 /cmds/players/equipment.c line 27: Undefined variable 'limb'
+2023.12.05-12.03,29 /cmds/players/equipment.c line 23: syntax error
+2023.12.05-12.03,29 /cmds/players/equipment.c line 24: Undefined variable 'tmp'
+2023.12.05-12.03,29 /cmds/players/equipment.c line 24: Illegal LHS
+2023.12.05-12.03,29 /cmds/players/equipment.c line 25: Illegal LHS
+2023.12.05-12.03,29 /cmds/players/equipment.c line 25: syntax error
+2023.12.05-12.03,29 /cmds/players/equipment.c line 27: Undefined variable 'limb'
+2023.12.05-12.04,39 /cmds/players/equipment.c line 23: syntax error
+2023.12.05-12.04,39 /cmds/players/equipment.c line 24: Undefined variable 'tmp'
+2023.12.05-12.04,39 /cmds/players/equipment.c line 24: Illegal LHS
+2023.12.05-12.04,39 /cmds/players/equipment.c line 25: Illegal LHS
+2023.12.05-12.04,39 /cmds/players/equipment.c line 25: syntax error
+2023.12.05-12.04,39 /cmds/players/equipment.c line 27: Undefined variable 'limb'
+2023.12.05-12.04,39 /cmds/players/equipment.c line 23: syntax error
+2023.12.05-12.04,39 /cmds/players/equipment.c line 24: Undefined variable 'tmp'
+2023.12.05-12.04,39 /cmds/players/equipment.c line 24: Illegal LHS
+2023.12.05-12.04,39 /cmds/players/equipment.c line 25: Illegal LHS
+2023.12.05-12.04,39 /cmds/players/equipment.c line 25: syntax error
+2023.12.05-12.04,39 /cmds/players/equipment.c line 27: Undefined variable 'limb'
+2023.12.05-12.04,42 /cmds/players/equipment.c line 23: syntax error
+2023.12.05-12.04,42 /cmds/players/equipment.c line 24: Undefined variable 'tmp'
+2023.12.05-12.04,42 /cmds/players/equipment.c line 24: Illegal LHS
+2023.12.05-12.04,42 /cmds/players/equipment.c line 25: Illegal LHS
+2023.12.05-12.04,42 /cmds/players/equipment.c line 25: syntax error
+2023.12.05-12.04,42 /cmds/players/equipment.c line 27: Undefined variable 'limb'
+2023.12.05-12.06,22 /cmds/players/equipment.c line 23: syntax error
+2023.12.05-12.06,22 /cmds/players/equipment.c line 24: Illegal LHS
+2023.12.05-12.06,22 /cmds/players/equipment.c line 24: syntax error
+2023.12.05-12.06,22 /cmds/players/equipment.c line 25: Undefined variable 'tmp'
+2023.12.05-12.06,22 /cmds/players/equipment.c line 25: Illegal LHS
+2023.12.05-12.06,22 /cmds/players/equipment.c line 27: Undefined variable 'limb'
+2023.12.05-12.06,22 /cmds/players/equipment.c line 23: syntax error
+2023.12.05-12.06,22 /cmds/players/equipment.c line 24: Illegal LHS
+2023.12.05-12.06,22 /cmds/players/equipment.c line 24: syntax error
+2023.12.05-12.06,22 /cmds/players/equipment.c line 25: Undefined variable 'tmp'
+2023.12.05-12.06,22 /cmds/players/equipment.c line 25: Illegal LHS
+2023.12.05-12.06,22 /cmds/players/equipment.c line 27: Undefined variable 'limb'
+2023.12.05-12.06,24 /cmds/players/equipment.c line 23: syntax error
+2023.12.05-12.06,24 /cmds/players/equipment.c line 24: Illegal LHS
+2023.12.05-12.06,24 /cmds/players/equipment.c line 24: syntax error
+2023.12.05-12.06,24 /cmds/players/equipment.c line 25: Undefined variable 'tmp'
+2023.12.05-12.06,24 /cmds/players/equipment.c line 25: Illegal LHS
+2023.12.05-12.06,24 /cmds/players/equipment.c line 27: Undefined variable 'limb'
+2023.12.05-12.06,43 /cmds/players/equipment.c line 23: syntax error
+2023.12.05-12.06,43 /cmds/players/equipment.c line 24: Illegal LHS
+2023.12.05-12.06,43 /cmds/players/equipment.c line 24: syntax error
+2023.12.05-12.06,43 /cmds/players/equipment.c line 25: Undefined variable 'tmp'
+2023.12.05-12.06,43 /cmds/players/equipment.c line 25: Illegal LHS
+2023.12.05-12.06,43 /cmds/players/equipment.c line 27: Undefined variable 'limb'
+2023.12.05-12.06,43 /cmds/players/equipment.c line 23: syntax error
+2023.12.05-12.06,43 /cmds/players/equipment.c line 24: Illegal LHS
+2023.12.05-12.06,43 /cmds/players/equipment.c line 24: syntax error
+2023.12.05-12.06,43 /cmds/players/equipment.c line 25: Undefined variable 'tmp'
+2023.12.05-12.06,43 /cmds/players/equipment.c line 25: Illegal LHS
+2023.12.05-12.06,43 /cmds/players/equipment.c line 27: Undefined variable 'limb'
+2023.12.05-12.06,44 /cmds/players/equipment.c line 23: syntax error
+2023.12.05-12.06,44 /cmds/players/equipment.c line 24: Illegal LHS
+2023.12.05-12.06,44 /cmds/players/equipment.c line 24: syntax error
+2023.12.05-12.06,44 /cmds/players/equipment.c line 25: Undefined variable 'tmp'
+2023.12.05-12.06,44 /cmds/players/equipment.c line 25: Illegal LHS
+2023.12.05-12.06,44 /cmds/players/equipment.c line 27: Undefined variable 'limb'
+2023.12.06-16.46,44 /cmds/players/equipment.c line 45: syntax error
+2023.12.08-21.33,39 /cmds/players/score.c line 77: syntax error
+2023.12.08-21.33,39 /cmds/players/score.c line 79: Illegal LHS
+2023.12.08-21.33,39 /cmds/players/score.c line 79: syntax error
+2023.12.08-21.33,39 /cmds/players/score.c line 80: Illegal LHS
+2023.12.08-21.33,39 /cmds/players/score.c line 80: syntax error
+2023.12.08-21.33,39 /cmds/players/score.c line 82: Illegal LHS
+2023.12.08-22.02,38 /cmds/players/score.c line 86: Left argument of -> is not a class
+2023.12.08-22.02,38 /cmds/players/score.c line 86: syntax error
+2023.12.08-22.02,38 /cmds/players/score.c line 88: Illegal LHS
+2023.12.08-22.02,38 /cmds/players/score.c line 88: syntax error
+2023.12.08-22.02,38 /cmds/players/score.c line 95: Illegal LHS
+2023.12.08-22.02,38 /cmds/players/score.c line 95: syntax error
+2023.12.08-22.09,28 /cmds/players/score.c line 74: Reserved type name unexpected.
+2023.12.08-22.09,28 /cmds/players/score.c line 74: syntax error
+2023.12.08-22.09,28 /cmds/players/score.c line 74: Illegal LHS
+2023.12.08-22.09,28 /cmds/players/score.c line 75: Undefined variable 'str'
+2023.12.08-22.09,28 /cmds/players/score.c line 75: Illegal lvalue
+2023.12.08-22.09,28 /cmds/players/score.c line 76: Undefined variable 'i'
+2023.12.08-22.09,57 /cmds/players/score.c line 74: Reserved type name unexpected.
+2023.12.08-22.09,57 /cmds/players/score.c line 74: syntax error
+2023.12.08-22.09,57 /cmds/players/score.c line 74: Illegal LHS
+2023.12.08-22.09,57 /cmds/players/score.c line 75: Undefined variable 'str'
+2023.12.08-22.09,57 /cmds/players/score.c line 75: Illegal lvalue
+2023.12.08-22.09,57 /cmds/players/score.c line 76: Undefined variable 'i'
+2023.12.08-22.09,57 /cmds/players/score.c line 74: Reserved type name unexpected.
+2023.12.08-22.09,57 /cmds/players/score.c line 74: syntax error
+2023.12.08-22.09,57 /cmds/players/score.c line 74: Illegal LHS
+2023.12.08-22.09,57 /cmds/players/score.c line 75: Undefined variable 'str'
+2023.12.08-22.09,57 /cmds/players/score.c line 75: Illegal lvalue
+2023.12.08-22.09,57 /cmds/players/score.c line 76: Undefined variable 'i'
+2023.12.08-22.10,05 /cmds/players/score.c line 74: Reserved type name unexpected.
+2023.12.08-22.10,05 /cmds/players/score.c line 74: syntax error
+2023.12.08-22.10,05 /cmds/players/score.c line 74: Illegal LHS
+2023.12.08-22.10,05 /cmds/players/score.c line 75: Undefined variable 'str'
+2023.12.08-22.10,05 /cmds/players/score.c line 75: Illegal lvalue
+2023.12.08-22.10,05 /cmds/players/score.c line 76: Undefined variable 'i'
+2023.12.08-22.18,58 /cmds/players/score.c line 74: Reserved type name unexpected.
+2023.12.08-22.18,58 /cmds/players/score.c line 74: syntax error
+2023.12.08-22.18,58 /cmds/players/score.c line 74: Illegal LHS
+2023.12.08-22.18,58 /cmds/players/score.c line 75: Undefined variable 'str'
+2023.12.08-22.18,58 /cmds/players/score.c line 75: Illegal lvalue
+2023.12.08-22.18,58 /cmds/players/score.c line 75: Undefined variable 'who'
+2023.12.08-22.18,58 /cmds/players/score.c line 74: Reserved type name unexpected.
+2023.12.08-22.18,58 /cmds/players/score.c line 74: syntax error
+2023.12.08-22.18,58 /cmds/players/score.c line 74: Illegal LHS
+2023.12.08-22.18,58 /cmds/players/score.c line 75: Undefined variable 'str'
+2023.12.08-22.18,58 /cmds/players/score.c line 75: Illegal lvalue
+2023.12.08-22.18,58 /cmds/players/score.c line 75: Undefined variable 'who'
+2023.12.09-09.51,02 /cmds/players/score.c line 97: syntax error
+2023.12.09-09.51,02 /cmds/players/score.c line 100: Illegal LHS
+2023.12.09-09.51,02 /cmds/players/score.c line 100: syntax error
+2023.12.09-09.51,02 /cmds/players/score.c line 101: Illegal LHS
+2023.12.09-09.51,02 /cmds/players/score.c line 101: syntax error
+2023.12.09-09.51,02 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-09.51,02 /cmds/players/score.c line 97: syntax error
+2023.12.09-09.51,02 /cmds/players/score.c line 100: Illegal LHS
+2023.12.09-09.51,02 /cmds/players/score.c line 100: syntax error
+2023.12.09-09.51,02 /cmds/players/score.c line 101: Illegal LHS
+2023.12.09-09.51,02 /cmds/players/score.c line 101: syntax error
+2023.12.09-09.51,02 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-09.51,39 /cmds/players/score.c line 97: syntax error
+2023.12.09-09.51,39 /cmds/players/score.c line 100: Illegal LHS
+2023.12.09-09.51,39 /cmds/players/score.c line 100: syntax error
+2023.12.09-09.51,39 /cmds/players/score.c line 101: Illegal LHS
+2023.12.09-09.51,39 /cmds/players/score.c line 101: syntax error
+2023.12.09-09.51,39 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-09.55,37 /cmds/players/score.c line 97: syntax error
+2023.12.09-09.55,37 /cmds/players/score.c line 167: Illegal character constant
+2023.12.09-09.55,37 /cmds/players/score.c line 167: Illegal character constant
+2023.12.09-09.55,37 /cmds/players/score.c line 97: syntax error
+2023.12.09-09.55,37 /cmds/players/score.c line 167: Illegal character constant
+2023.12.09-09.55,37 /cmds/players/score.c line 167: Illegal character constant
+2023.12.09-09.55,43 /cmds/players/score.c line 97: syntax error
+2023.12.09-09.55,43 /cmds/players/score.c line 167: Illegal character constant
+2023.12.09-09.55,43 /cmds/players/score.c line 167: Illegal character constant
+2023.12.09-10.02,19 /cmds/players/score.c line 98: syntax error
+2023.12.09-10.02,19 /cmds/players/score.c line 101: Illegal LHS
+2023.12.09-10.02,19 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.02,19 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.02,19 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.02,19 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.02,24 /cmds/players/score.c line 98: syntax error
+2023.12.09-10.02,24 /cmds/players/score.c line 101: Illegal LHS
+2023.12.09-10.02,24 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.02,24 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.02,24 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.02,24 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.10,52 /cmds/players/score.c line 97: Bad assignment ( string array vs string ).
+2023.12.09-10.10,58 /cmds/players/score.c line 97: Bad assignment ( string array vs string ).
+2023.12.09-10.12,12 /cmds/players/score.c line 97: syntax error
+2023.12.09-10.12,12 /cmds/players/score.c line 101: Illegal LHS
+2023.12.09-10.12,12 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.12,12 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.12,12 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.12,12 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.12,12 /cmds/players/score.c line 97: syntax error
+2023.12.09-10.12,12 /cmds/players/score.c line 101: Illegal LHS
+2023.12.09-10.12,12 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.12,12 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.12,12 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.12,12 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.12,13 /cmds/players/score.c line 97: syntax error
+2023.12.09-10.12,13 /cmds/players/score.c line 101: Illegal LHS
+2023.12.09-10.12,13 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.12,13 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.12,13 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.12,13 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.12,47 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.12,47 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.12,47 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.12,47 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.12,47 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.12,47 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.12,47 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.12,47 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.12,47 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.12,47 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.12,47 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.12,47 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.12,49 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.12,49 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.12,49 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.12,49 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.12,49 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.12,49 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.13,56 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.13,56 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.13,56 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.13,56 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.13,56 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.13,56 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.13,56 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.13,56 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.13,56 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.13,56 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.13,56 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.13,56 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.13,57 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.13,57 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.13,57 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.13,57 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.13,57 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.13,57 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.14,18 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.14,18 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.14,18 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.14,18 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.14,18 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.14,18 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.14,18 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.14,18 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.14,18 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.14,18 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.14,18 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.14,18 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.14,20 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.14,20 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.14,20 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.14,20 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.14,20 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.14,20 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.15,01 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.15,01 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.15,01 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.15,01 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.15,01 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.15,01 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.15,01 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.15,01 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.15,01 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.15,01 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.15,01 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.15,01 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.15,16 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.15,16 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.15,16 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.15,16 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.15,16 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.15,16 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.15,16 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.15,16 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.15,16 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.15,16 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.15,16 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.15,16 /cmds/players/score.c line 104: Illegal LHS
+2023.12.09-10.15,19 /cmds/players/score.c line 101: syntax error
+2023.12.09-10.15,19 /cmds/players/score.c line 102: Illegal LHS
+2023.12.09-10.15,19 /cmds/players/score.c line 102: syntax error
+2023.12.09-10.15,19 /cmds/players/score.c line 103: Illegal LHS
+2023.12.09-10.15,19 /cmds/players/score.c line 103: syntax error
+2023.12.09-10.15,19 /cmds/players/score.c line 104: Illegal LHS
+2023.12.12-19.17,08 /cmds/players/score.c line 74: syntax error
+2023.12.12-19.17,08 /cmds/players/score.c line 75: Illegal LHS
+2023.12.12-19.17,08 /cmds/players/score.c line 75: syntax error
+2023.12.12-19.17,08 /cmds/players/score.c line 76: Illegal LHS
+2023.12.12-19.17,08 /cmds/players/score.c line 76: syntax error
+2023.12.12-19.17,08 /cmds/players/score.c line 78: Illegal LHS
