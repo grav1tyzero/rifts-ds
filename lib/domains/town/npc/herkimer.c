@@ -50,7 +50,7 @@ static void create() {
                 "Herkimer thinks.", "Herkimer thinks carefully.",
                 "Herkimer says, \"%^BOLD%^CYAN%^You don't have to be a mage to learn a spell, but it sure helps.%^RESET%^\"",
                 "Herkimer says, \"%^BOLD%^CYAN%^The more you use your magic skills, the more proficient you become.%^RESET%^\"",
-                "Herkimer says, \"%^BOLD%^CYAN%^Casting spells costs you mana points. Make sure you don't run out unexpectedly!%^RESET%^\"",
+                "Herkimer says, \"%^BOLD%^CYAN%^Casting spells costs you ppe points. Make sure you don't run out unexpectedly!%^RESET%^\"",
                 "Herkimer says, \"%^BOLD%^CYAN%^If you join us and then leave the guild, you will not be alowed to become a mage again.%^RESET%^\"",
                 "Herkimer says, \"%^BOLD%^CYAN%^Some spells require total concentration. If you move or if you are attacked, it may interrupt the casting.%^RESET%^\"",
                 "Herkimer says, \"%^BOLD%^CYAN%^All magical training is free of charge to guild members, of course.%^RESET%^\"",

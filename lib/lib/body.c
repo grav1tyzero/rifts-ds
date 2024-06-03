@@ -36,7 +36,7 @@ inherit LIB_PERSIST;
 #define SEVERABLE_LIMBS 1
 #endif
 
-private int HealthPoints, MagicPoints, ExperiencePoints, ExperienceDebt;
+private int HealthPoints, PPE, ExperiencePoints, ExperienceDebt;
 private int melee, godmode;
 private int Alcohol, Caffeine, Food, Drink, Poison, Sleeping;
 private float StaminaPoints;
@@ -66,7 +66,7 @@ static void create(){
     Limbs = ([]);
     Food = Drink = 100;
     Alcohol = Caffeine = 0;
-    HealthPoints = MagicPoints = 50;
+    HealthPoints = PPE = 50;
     StaminaPoints = 50.0;
     ExperiencePoints = 50;
     ExperienceDebt = 0;
@@ -484,7 +484,7 @@ void eventCheckHealing(){
 
 void eventCompleteHeal(int x){
     eventHealDamage(x, 1, GetLimbs());
-    AddMagicPoints(x + 1);
+    AddPPE(x + 1);
     AddStaminaPoints(x);
 }
 
@@ -1741,7 +1741,7 @@ int SetHealthPoints(int x){
     return GetHealthPoints();
 }
 
-/* int AddMagicPoints(int x)
+/* int AddPPE(int x)
  * int x - the number of magic points being added, may be negative
  *
  * description
@@ -1750,17 +1750,17 @@ int SetHealthPoints(int x){
  * returns the remaining magic points
  */
 
-int AddMagicPoints(int x){
+int AddPPE(int x){
     int y;
 
-    if((MagicPoints += x) < 1) MagicPoints = 0;
-    else if(MagicPoints > (y = GetMaxMagicPoints())) MagicPoints = y;
-    return MagicPoints;
+    if((PPE += x) < 1) PPE = 0;
+    else if(PPE > (y = GetMaxPPE())) PPE = y;
+    return PPE;
 }
 
-int GetMagicPoints(){ return MagicPoints; }
+int GetPPE(){ return PPE; }
 
-int GetMaxMagicPoints(){ return 0; }
+int GetMaxPPE(){ return 0; }
 
 /* int AddStaminaPoints(int x)
  * int x - number of stamina points being added

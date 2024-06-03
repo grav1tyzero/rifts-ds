@@ -54,8 +54,8 @@ mixed cmd(string args) {
     lines += ({ center(tmp1, cols), "" });
     lines += ({ center("Health: " +ob->GetHealthPoints() + "/"+
                 ob->GetMaxHealthPoints() + "   Magic: " +
-                ob->GetMagicPoints() + "/" +
-                ob->GetMaxMagicPoints() + "   Stamina: " +
+                ob->GetPPE() + "/" +
+                ob->GetMaxPPE() + "   Stamina: " +
                 ob->GetStaminaPoints() + "/" +
                 to_int(ob->GetMaxStaminaPoints()) + "   Carry: " +
                 ob->GetCarriedMass() + "/" +

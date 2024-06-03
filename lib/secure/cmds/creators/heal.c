@@ -36,7 +36,7 @@ mixed cmd(string args) {
     }
     mhp = who->GetMaxHealthPoints();
     msp = who->GetMaxStaminaPoints();
-    mmp = who->GetMaxMagicPoints();
+    mmp = who->GetMaxPPE();
 
     if(who->GetLead()){
         int shots = who->GetLead("gunshot_wounds");
@@ -66,7 +66,7 @@ mixed cmd(string args) {
 
     who->AddHP(mhp);
     who->AddStaminaPoints(msp);
-    who->AddMagicPoints(mmp);
+    who->AddPPE(mmp);
 
     return 1;
 }

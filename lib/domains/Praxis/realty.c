@@ -58,7 +58,7 @@ void reset() {
     ob->SetSkill("stealth", 300);
     ob->SetSkill("magic attack", 500);
     ob->SetHealthPoints(1000000);
-    ob->SetMagicPoints(5000000);
+    ob->SetPPE(5000000);
     ob->SetSpellChance(20);
     ob->SetSpells( ({ "freeze", "fireball" }) );
     ob->SetMorality(100);

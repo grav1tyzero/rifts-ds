@@ -42,7 +42,7 @@
 /doc/lfun/all/AddPoison
 /doc/lfun/all/AddMoJo
 /doc/lfun/all/AddMagicProtection
-/doc/lfun/all/AddMagicPoints
+/doc/lfun/all/AddPPE
 /doc/lfun/all/AddLimb
 /doc/lfun/all/AddLead
 /doc/lfun/all/AddHeartModifier
@@ -1279,9 +1279,9 @@
 /doc/lfun/lib/body/GetMelee
 /doc/lfun/lib/body/GetMaxStaminaPoints
 /cmds/creators/cryptogram.c
-/doc/lfun/lib/body/GetMaxMagicPoints
+/doc/lfun/lib/body/GetMaxPPE
 /doc/lfun/lib/body/GetMaxHealthPoints
-/doc/lfun/lib/body/GetMagicPoints
+/doc/lfun/lib/body/GetPPE
 /doc/lfun/lib/body/GetLong
 /doc/lfun/lib/body/GetLimbs
 /doc/build/Barkeeps
@@ -1322,7 +1322,7 @@
 /doc/lfun/lib/body/AddPoison
 /doc/lfun/lib/body/AddMoJo
 /doc/lfun/lib/body/AddMagicProtection
-/doc/lfun/lib/body/AddMagicPoints
+/doc/lfun/lib/body/AddPPE
 /doc/lfun/lib/body/AddLimb
 /doc/lfun/lib/body/AddLead
 /doc/lfun/lib/body/AddHeartModifier
@@ -3630,7 +3630,7 @@
 /doc/lfun/lib/race/GetMaxStaminaPoints
 /cmds/creators/transfer.c
 /secure/cmds/admins/chanremove.c
-/doc/lfun/lib/race/GetMaxMagicPoints
+/doc/lfun/lib/race/GetMaxPPE
 /secure/cmds/admins/chancreate.c
 /doc/lfun/lib/race/GetMaxHealthPoints
 /secure/cmds/admins/chanban.c
@@ -4135,9 +4135,9 @@
 /doc/lfun/all/GetMinHeat
 /doc/lfun/all/GetMelee
 /doc/lfun/all/GetMaxStaminaPoints
-/doc/lfun/all/GetMaxMagicPoints
+/doc/lfun/all/GetMaxPPE
 /doc/lfun/all/GetMaxHealthPoints
-/doc/lfun/all/GetMagicPoints
+/doc/lfun/all/GetPPE
 /doc/lfun/all/GetLong
 /doc/lfun/all/GetLimbs
 /doc/lfun/all/GetLimbParent

@@ -1,170 +1,149 @@
-/*  /verbs/players/score.c
- *  from the Dead Souls Library
- *  Displays a list of score and related info
- *  created by Blitz@Dead Souls
- */
-
 #include <lib.h>
-#include <daemons.h>
 
 inherit LIB_DAEMON;
-inherit LIB_HELP;
 
-varargs mixed eventScore();
+#define MAX_BAR_COLS 55
 
-static void create() {
-    daemon::create();
-    SetNoClean(1);
-    SetHelp("Syntax: score\n\n"
-            "Displays information about your character.\n"
-            "See also: stat, status, env");
+string bargraph(int gauge, int max, int flag) {
+    string borg;
+    int i, columns;
+
+    if (!max) max = 1;
+    columns = (MAX_BAR_COLS * gauge) / max - 1;
+
+    if (flag) {
+        switch (to_int(columns)) {
+            case -100..6: borg = "%^FLASH%^%^B_RED%^%^YELLOW%^"; break;
+            case 7..14: borg = "%^B_RED%^%^YELLOW%^"; break;
+            case 15..30: borg = "%^YELLOW%^"; break;
+            case 31..45: borg = "%^BLUE%^BOLD%^"; break;
+            case 46..54: borg = "%^GREEN%^%^BOLD%^"; break;
+            default: borg = ""; break;
+        }
+    } else {
+        switch (to_int(columns)) {
+            case -100..6: borg = ""; break;
+            case 7..14: borg = "%^BOLD%^GREEN%^"; break;
+            case 15..30: borg = "%^BOLD%^BLUE%^"; break;
+            case 31..45: borg = "%^YELLOW%^"; break;
+            case 46..50: borg = "%^B_RED%^%^BOLD%^"; break;
+            default: borg = "%^FLASH%^%^B_RED%^%^YELLOW%^"; break;
+        }
+    }
+
+    for (i = 0; i < MAX_BAR_COLS; i++) borg += (i <= columns ? "*" : " ");
+
+    return borg;
 }
 
-static string *FoodDegree =
-({ "starving!", "very hungry.",
- "hungry.", " partially hungry.",
- "feeling full.", "quite full." });
+string dashes = "----------------------------------------------------------------------";
 
-static string *DrunkDegree =
-({ "sober", "tipsy", "drunk", "blitzed",
- "three sheets to the wind", "FUBAR" });
+int cmd_score(string who) {
+    object tp, op;
+    string title, alerts, hand2, ccatch, age3;
+    string *attrib;
+    int hp, max_hp, mp, max_mp, sp, max_sp, level, intox, qp, age2;
 
-static string *DrinkDegree =
-({ "parched", "extremely thirsty", "very thirsty", "thirsty",
- "somewhat thirsty", "unthirsty" });
+    tp = this_player();
+    attrib = ({ "", "", "", "", "", "", "", "", });
 
-mixed cmd(string arg) {
-    eventScore(arg);
+    if (!who) {
+        op = tp;
+    } else if (!wizardp(tp)) {
+        return 0;
+    } else if (!(op = find_living(who))) {
+        return 0;
+    }
+
+    level = op->GetLevel();
+    title = op->GetShort();
+    hp = op->GetHealthPoints();
+    max_hp = op->GetMaxHealthPoints();
+    mp = op->GetPPE();
+    max_mp = op->GetMaxPPE();
+    sp = op->GetStaminaPoints();
+    max_sp = op->GetMaxStaminaPoints();
+    ccatch = op->GetProperty("catch");
+
+    age2 = op->GetAge();
+    qp = op->GetQuestPoints();
+
+    if (age2 > 86400) age3 = (age2 / 86400) + " Days";
+    else if (age2 > 3600) age3 = (age2 / 3600) + " Hours";
+    else age3 = (age2 / 60) + " Min";
+
+    hand2 = "Unknown Handedness";
+
+    attrib[0] = sprintf("%d", level);
+    attrib[1] = op->GetRace() ? capitalize(op->GetRace()) : "N/A";
+    attrib[2] = age3;
+    attrib[3] = sprintf("%d", op->GetProperty("dev points"));
+
+    intox = op->GetIntox();
+    switch (intox) {
+        case 420..10000: attrib[4] = "FUBAR"; break;
+        case 300..419: attrib[4] = "Smashed"; break;
+        case 180..299: attrib[4] = "Roaring drunk"; break;
+        case 90..170: attrib[4] = "Drunk"; break;
+        case 36..89: attrib[4] = "Tipsy"; break;
+        case 1..35: attrib[4] = "Buzzed"; break;
+        default: attrib[4] = "Sober"; break;
+    }
+
+    intox = op->GetDrink();
+    switch (intox) {
+        case 420..10000: attrib[5] = "Liquid Blob!"; break;
+        case 300..419: attrib[5] = "Bloated"; break;
+        case 180..299: attrib[5] = "Full"; break;
+        case 90..170: attrib[5] = "Satisfied"; break;
+        case 36..89: attrib[5] = "Thirsty"; break;
+        case 1..35: attrib[5] = "Parched"; break;
+        default: attrib[5] = "Dehydrated"; break;
+    }
+
+    intox = op->GetFood();
+    switch (intox) {
+        case 420..10000: attrib[6] = "Glutton!"; break;
+        case 300..419: attrib[6] = "Distended"; break;
+        case 180..299: attrib[6] = "Full"; break;
+        case 90..170: attrib[6] = "Satisfied"; break;
+        case 36..89: attrib[6] = "Hungry"; break;
+        case 1..35: attrib[6] = "Malnourished"; break;
+        default: attrib[6] = "Starving"; break;
+    }
+
+    attrib[7] = op->GetClass() ? capitalize(op->GetClass()) : "";
+    alerts = op->GetPoison() ? "Poison " : " ";
+
+    message("info", "%^BOLD%^%^WHITE%^" + sprintf("%|72s\n", title), tp);
+    message("info", "%^BLUE%^" + sprintf("%s\n", dashes), tp);
+    message("info", "%^BLUE%^       +------------------------------------------------------------+%^RESET%^\n", tp);
+    message("info", "    HP %^BLUE%^|%^RESET%^" + bargraph(hp, max_hp, 1) + "%^RESET%^%^BLUE%^|%^RESET%^ " + hp + "\n", tp);
+    message("info", "   SP %^BLUE%^|%^RESET%^" + bargraph(sp, max_sp, 1) + "%^RESET%^%^BLUE%^|%^RESET%^ " + sp + "\n", tp);
+    message("info", "   MP %^BLUE%^|%^RESET%^" + bargraph(mp, max_mp, 1) + "%^RESET%^%^BLUE%^|%^RESET%^ " + mp + "\n", tp);
+    message("info", "%^BLUE%^       +------------------------------------------------------------+\n", tp);
+    message("info", "%^BLUE%^" + sprintf("%s\n", dashes), tp);
+    message("info", "%^BLUE%^ Level: %^RESET%^" + sprintf("%-15s", attrib[0]) + "%^BLUE%^|%^RESET%^" + "                   " + "%^BLUE%^|%^GREEN%^          WEALTH\n", tp);
+    message("info", "%^BLUE%^  Race: %^RESET%^" + sprintf("%-15s", attrib[1]) + "%^BLUE%^|%^RESET%^" + "                   " + "%^BLUE%^|%^RESET%^" + sprintf("%12s:  %11i\n", "Credits", op->GetCurrency("credits")), tp);
+    message("info", "%^BLUE%^   Age: %^RESET%^" + sprintf("%-15s", attrib[2]) + "%^BLUE%^|%^RESET%^" + "                   " + "%^BLUE%^|%^RESET%^\n", tp);
+    message("info", "%^BLUE%^ State: %^RESET%^" + sprintf("%-15s", attrib[4]) + "%^BLUE%^|%^RESET%^" + "                   " + "%^BLUE%^|%^RESET%^\n", tp);
+    message("info", "%^BLUE%^Thirst: %^RESET%^" + sprintf("%-15s", attrib[5]) + "%^BLUE%^|%^RESET%^" + "                   " + "%^BLUE%^|--------------------------\n", tp);
+    message("info", "%^BLUE%^Hunger: %^RESET%^" + sprintf("%-15s", attrib[6]) + "%^BLUE%^|%^RESET%^" + "                   " + "%^BLUE%^|%^RESET%^ Experience:  " + sprintf("%12i\n", op->GetExperiencePoints()), tp);
+    message("info", "%^BLUE%^Catch:  %^RESET%^" + sprintf("%-15s", ccatch) + "%^BLUE%^|%^RESET%^" + "                   " + "%^BLUE%^|%^RESET%^\n", tp);
+    message("info", "%^BLUE%^Alerts: %^RESET%^" + sprintf("%-15s", alerts) + "%^RESET%^%^BLUE%^|                   |%^RESET%^\n", tp);
+    message("info", sprintf("%-21s", hand2) + "  %^BLUE%^|%^RESET%^                   " + "%^BLUE%^|%^RESET%^\n", tp);
+    message("info", "%^BLUE%^" + sprintf("%s\n", dashes) + "%^RESET%^", tp);
+
     return 1;
 }
 
-varargs mixed eventScore(string arg) {
-    string *str;
-    int birth, age, x, y, z, qp, xp, dbt;
-    string *tmp;
-    mapping lev;
-    object who;
-    string prn, haben, be, poss;
-    string past, qual, cnj;
+int help() {
+    write(@HELP
+Syntax:  score [person]
+This command gives you information about your character.
 
-    if(!arg || !creatorp(this_player()) || !(who = find_player(arg))){
-        who = this_player();
-        haben = "have";
-        be = "are";
-        poss = "your";  
-        prn = "you";
-        past = "were";
-        qual = "qualify";
-        cnj = "";
-    }
-
-    else {
-        haben = "has";
-        be = "is";
-        poss = possessive(who);
-        prn = nominative(who);
-        past = "was";
-        qual = "qualifies";
-        cnj = "s";
-    }
-    str  = ({ ".======================( Megaversal Identification )======================." });
-    str += ({ "|  Name    : " + who->GetShort() + " (" +
-        who->GetMoralityDescription() + ")." });
-    str += ({ "|-------------------------------------------------------------------------|" });
-	str += ({ sprintf("|  %-15s [%d]", "Level",
-                who->GetLevel()) });
-	str += ({ sprintf("|  %-15s [%s]", "Race" ,
-                capitalize(who->GetRace() || "nothing")) });
-	str += ({ sprintf("|  %-15s [%s]", "Class",
-                capitalize(who->GetClass() || "commoner")) });
-	str += ({ sprintf("|  %-15s [%s]", "Native town",
-                who->GetTown()) });
-	str += ({ sprintf("|  %-15s [%s]", "Faith",
-                (who->GetReligion() ||
-                "Agnostic" + "|")) });
-    str += ({ sprintf("|  %-15s [%s]", "Titles",
-                consolidate(sizeof(who->GetTitles()),
-                    "one title")) });
-    str += ({ "|-------------------------------------------------------------------------|" });
-	
-/*	    str += ({ sprintf(capitalize(prn)+" "+past+
-                " born on the %d%s day of %s, year %d. "
-                "(%d years old)", query_date(birth), ordinal(query_date(birth)),
-                query_month(birth), query_year(birth), age) });
-	*/
-    birth = who->GetBirth();
-    age = ( query_year(time()) - query_year(birth) );
-    str += ({ sprintf("|  %-15s [%s]", "Birth date",
-	            "Born on "+ query_date(birth) + " of " + query_month(birth) + ", year " + query_year(birth) + ". "
-                "(" + age + " years old)", query_date(birth), ordinal(query_date(birth)),
-                query_month(birth), query_year(birth), age) });
-    str += ({ "|-------------------------------------------------------------------------|" });
-    if( x = who->GetTrainingPoints() < 1 ) {
-        y = who->GetLevel() + 1 + (x / -4);
-        str += ({ sprintf("|  %-15s [%s]", "Training points",
-                    "await "+(who == this_player() ? "you" :
-                    objective(who))+" at level " + y + ".") });
-    }
-    else str += ({ sprintf("|  %-15s [%d]", "Training points",
-                    who->GetTrainingPoints()) });
-    str += ({ "|-------------------------------------------------------------------------|" });
-    if( who->GetWimpy() )
-        str += ({ sprintf("|  %-15s [%s]", "Feeling",
-                    "wimpy.") });
-    else
-        str += ({ sprintf("|  %-15s [%s]", "Feeling",
-                    "brave.") });
-    str += ({ "|-------------------------------------------------------------------------|" });
-    if( who->GetPoison() > 0 )
-        str += ({ sprintf("|  %-15s [%s]", "Condition",
-                    "poisoned.") });
-    x = who->GetFood() / 17;
-    if( x > sizeof(FoodDegree) - 1 ) x = (sizeof(FoodDegree) - 1);
-    y = who->GetDrink() / 17;
-    if( y > sizeof(DrinkDegree) - 1 ) y = (sizeof(DrinkDegree) - 1);
-    z = who->GetAlcohol();
-    if(z) z = (z/17) + 1;
-    if( z > sizeof(DrunkDegree) - 1 ) z = (sizeof(DrunkDegree) - 1);
-    str += ({ sprintf("|  %-15s [%s]", "Food",
-                    FoodDegree[x]) });
-    str += ({ sprintf("|  %-15s [%s]", "Drink",
-                    DrinkDegree[y]) });
-    str += ({ sprintf("|  %-15s [%s]", "Alcohol",
-                    DrunkDegree[z]) });
-    str += ({ "|-------------------------------------------------------------------------|" });
-    x = who->GetCustomStats();
-
-    tmp = ({});
-    qp = who->GetQuestPoints();
-    xp = who->GetExperiencePoints();
-    dbt = who->GetExperienceDebt();
-    lev = PLAYERS_D->GetLevelList()[(who->GetLevel()) + 1];
-
-    if(dbt){
-        str += ({ sprintf("|  %-15s [%d]", "Experience debt",
-                    dbt) });
-    }
-
-    if(lev){
-        if(REQUIRE_QUESTING){
-            qp = lev["qp"] - qp;
-            if(qp > 0) tmp += ({sprintf("|  %-15s [%s]", "Quest points required",
-                    comma(qp))});
-        }
-
-        xp = lev["xp"] - xp;
-        if(xp > 0) tmp += ({sprintf("|  %-15s [%s]", "Experience points required",
-                comma(xp))});
-        if(!sizeof(tmp)) tmp = ({sprintf("|  %-15s [%s]", "Qualification",
-                "to advance a level.")});
-        str += tmp; 
-    }
-
-    if(x){
-        str += ({ sprintf("|  %-15s [%d]", "Customization points",
-                    x) });
-    }
-    str += ({ "'========================================================================='" });
-    this_player()->eventPage(str, "info");
+See also: status, biography, skills, stats, money, inventory
+HELP
+    );
     return 1;
 }

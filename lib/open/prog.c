@@ -77,6 +77,7 @@
 #include <size_types.h>
 #include <soul.h>
 #include <stargate.h>
+#include <std.h>
 #include <talk_type.h>
 #include <terrain_types.h>
 #include <vendor_types.h>

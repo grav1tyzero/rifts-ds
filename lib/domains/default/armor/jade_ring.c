@@ -67,10 +67,10 @@ int PerformHeal(){
 
     mhp = who->GetMaxHealthPoints();
     msp = who->GetMaxStaminaPoints();
-    mmp = who->GetMaxMagicPoints();
+    mmp = who->GetMaxPPE();
     who->AddHP(mhp);
     who->AddStaminaPoints(msp);
-    who->AddMagicPoints(mmp);
+    who->AddPPE(mmp);
     if(who->GetPoison() > 0) who->AddPoison(0 - who->GetPoison());
     eventRegenerate(who);
     limb_arr = who->GetLimbs();

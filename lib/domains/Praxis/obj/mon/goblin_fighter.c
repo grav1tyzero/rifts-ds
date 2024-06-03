@@ -13,5 +13,5 @@ create() {
     SetMorality(-200);
     SetRace( "goblin");
     SetHealthPoints(300);
-    SetMagicPoints(200);
+    SetPPE(200);
 }

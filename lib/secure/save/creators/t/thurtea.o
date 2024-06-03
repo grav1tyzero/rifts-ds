@@ -1,0 +1,131 @@
+#/secure/save/creators/t/thurtea.c
+InternalDesc 0
+Opacity 0
+PersistentInventory 0
+PersistentInventoryEnabled 0
+ProperNoun 1
+Modify 1
+Short "$N the %^B_RED%^%^BLACK%^Sunaj Assassin%^RESET%^%^RESET%^%^RESET%^"
+CapName "Thurtea"
+ExternalDesc "$N is nondescript."
+Invisible 0
+Items ([])
+Properties (["EdWarned":1,"wizmapping":1,"reprompt":1,"minimapping":0,"screenlock":0,"brand_spanking_new":0,"LastLocation":"/domains/default/room/start",])
+Inventory ({"([\"Value\":0,\"Mass\":500,\"Worn\":0,\"#base_name#\":\"/realms/thurtea/area/armor/chainmail\",\"Deterioration\":0,\"Broken\":0,\"Cost\":1000,\"Properties\":([]),\"Poison\":0,])","([\"Wielded\":0,\"Value\":0,\"Class\":20,\"Worn\":0,\"Deterioration\":0,\"Broken\":0,\"Poison\":0,\"Mass\":300,\"#base_name#\":\"/realms/thurtea/area/weap/sword\",\"Cost\":50,\"Properties\":([]),])","([\"Value\":0,\"Mass\":50,\"Worn\":0,\"#base_name#\":\"/realms/thurtea/area/armor/leather_boot_r\",\"Deterioration\":0,\"Broken\":0,\"Cost\":50,\"Properties\":([]),\"Poison\":0,])","([\"Value\":0,\"Mass\":50,\"Worn\":0,\"#base_name#\":\"/realms/thurtea/area/armor/leather_boot_l\",\"Deterioration\":0,\"Broken\":0,\"Cost\":50,\"Properties\":([]),\"Poison\":0,])","([\"Wielded\":0,\"Value\":0,\"Class\":1,\"Worn\":0,\"Deterioration\":0,\"Broken\":0,\"Poison\":0,\"Mass\":20,\"#base_name#\":\"/domains/default/obj/manual\",\"Cost\":1000,\"Properties\":([\"no steal\":1,]),])","([\"Wielded\":0,\"Value\":0,\"Class\":100,\"Worn\":0,\"Deterioration\":0,\"Broken\":0,\"Poison\":0,\"Mass\":100,\"#base_name#\":\"/secure/obj/staff\",\"Cost\":0,\"Properties\":([\"no steal\":1,]),])","([\"Value\":0,\"Mass\":50,\"Worn\":0,\"#base_name#\":\"/domains/default/armor/wizard_hat\",\"Deterioration\":0,\"Broken\":0,\"Cost\":50000,\"Properties\":([\"beta\":2,]),\"Poison\":0,])","([\"Value\":0,\"Keys\":({}),\"Worn\":0,\"Broken\":0,\"Deterioration\":0,\"Poison\":0,\"LockStrength\":0,\"Persist\":1,\"Mass\":200,\"Locked\":0,\"#base_name#\":\"/domains/default/armor/robe\",\"Cost\":10000,\"Properties\":([\"gamma\":3,\"no steal\":1,]),\"#inventory#\":({}),])","([\"Wielded\":0,\"Value\":0,\"Class\":1,\"Worn\":0,\"Deterioration\":0,\"Broken\":0,\"Poison\":0,\"Mass\":3,\"#base_name#\":\"/domains/default/obj/handbook\",\"Cost\":1000,\"Properties\":([\"no steal\":1,]),])","([\"Wielded\":0,\"Value\":0,\"MaxRecurseDepth\":3,\"CanLock\":0,\"RecurseDepth\":1,\"Class\":1,\"Worn\":0,\"Broken\":0,\"Deterioration\":0,\"Poison\":0,\"Persist\":1,\"Closed\":0,\"Mass\":1000,\"#base_name#\":\"/realms/thurtea/area/obj/table\",\"Cost\":1200,\"Properties\":([]),\"#inventory#\":({\"([\\\"Wielded\\\":0,\\\"FlaskUses\\\":2,\\\"Value\\\":0,\\\"Class\\\":1,\\\"Worn\\\":0,\\\"Deterioration\\\":0,\\\"Broken\\\":0,\\\"Poison\\\":0,\\\"Mass\\\":20,\\\"FlaskContents\\\":\\\"water\\\",\\\"#base_name#\\\":\\\"/realms/thurtea/area/obj/pitcher\\\",\\\"MealType\\\":4,\\\"Cost\\\":1000,\\\"Properties\\\":([]),\\\"FlaskStrength\\\":5,])\",\"([\\\"Wielded\\\":0,\\\"Value\\\":0,\\\"Class\\\":1,\\\"Worn\\\":0,\\\"Deterioration\\\":0,\\\"Broken\\\":0,\\\"Poison\\\":0,\\\"Mass\\\":50,\\\"#base_name#\\\":\\\"/realms/thurtea/area/obj/key\\\",\\\"Cost\\\":1,\\\"Properties\\\":([]),])\",\"([\\\"Wielded\\\":0,\\\"FlaskUses\\\":0,\\\"Value\\\":0,\\\"Class\\\":1,\\\"Worn\\\":0,\\\"Deterioration\\\":0,\\\"Broken\\\":0,\\\"Poison\\\":0,\\\"Mass\\\":5,\\\"FlaskContents\\\":\\\"empty\\\",\\\"#base_name#\\\":\\\"/realms/thurtea/area/obj/cup\\\",\\\"MealType\\\":4,\\\"Cost\\\":100,\\\"Properties\\\":([]),\\\"FlaskStrength\\\":5,])\",}),\"CanClose\":0,])",})
+anchored 0
+Messages (["telin":"$N teleports in.","telout":"$N teleports away.","leave":"$N leaves $D.","vis":"$N appears.","invis":"$N disappears.","home":"$N goes home.","dest":"$N dests $O.","come":"$N enters.","clone":"$N clones $O.",])
+RestrictedChannels ({})
+NoChanColors 0
+GagMutes (["remote_gag":0,"remote_mute":0,"local_mute":0,"local_gag":0,])
+Paused 0
+localcmds ({"priv","privacy","parserefresh","quit","work","pwd","cwd","popd","pushd","nmsh","cd","nickname","unalias","alias","",})
+parsed_command ""
+HistorySize 50
+History ([50:"admintool",49:"mudconfig",48:"look",47:"l",46:"help admin commands",45:"help admin",44:"help creator commands",43:"help",42:"who",41:"cre is yours like that",40:"cre the score sheet shouldnt be cut off in this version?",39:"score",38:"boards",37:"uptime",36:"people",35:"source /realms/thurtea/.profile",34:"save",33:"screen 90 30",32:"screen 80 20",31:"help screen",30:"cre fixed it with the ingame screen command",29:"screen 100 30",28:"screen 90",27:"help display",26:"exp",25:"cre doesnt it cost?",24:"home",23:"cre cause I hate this score being cut off.. wasit like this yesterday",22:"cre what one do you use I forget",21:"cre gmud sucks XD",20:"surname",19:"cre the score menu cuts off for me at 94%, is that a mud client setting I think?",18:"reprompt on",17:"ls",16:"cre alright hopefully didnt break it XD",15:"color",14:"more chainmail.c",13:"cd armor",12:"cd area/",11:"cd adm/",10:"more robe.c",9:"look at robe",8:"l at robe",7:"lobj",6:"lookup",5:"objlookup",4:"clone armor.c",3:"more",2:"cre what do you thinkabout it?",1:"cre keeping limbs in the game and to have them be rendered unusable is gonna be weird",0:"cre need to get a list of languages so i can add them in",])
+Nicknames ([])
+Aliases (["east":"go east","mwhere":"findobj $*","southeast":"go southeast","northeast":"go northeast","prac":"skills","sco":"score","x":"look at $*","w":"go west","u":"go up","t":"tell $*","out":"go out","practice":"skills","s":"go south","vnum":"help find","p":"people","south":"go south","north":"go north","n":"go north","bio":"biography","l":"look $*","k":"kill $*","west":"go west","zlist":"domains","southwest":"go southwest","northwest":"go northwest","i":"inventory","owhere":"findobj $*","e":"go east","d":"go down","c":"cre $*","alist":"ls /domains","inv":"inventory","nw":"go northwest","examine":"look at $*","trophy":"kills","up":"go up","chat":"newbie $*","dc":"dchat $*","exa":"look at $*","sw":"go southwest","ig":"intergossip $*","loot":"get all from $*","ic":"intercre $*","peace":"quell","inf":"score","lp":"lpuni $*","down":"go down","ne":"go northeast","exit":"go out","eq":"equipment","se":"go southeast","sc":"status",])
+Xverbs (["'":"say $*","]":"] $*","\"":"say $*",":":"emote $*",])
+Directories (["current":"/realms/thurtea","home":0,"previous":"/realms/thurtea/area/armor",])
+Prompt "cwd"
+Terminal "ansi"
+Blocked (["all":0,])
+Screen ({89,30,})
+MessageQueue 0
+PauseMessages 0
+annoyblock 0
+MessageExceptions 0
+BlockAnnoying 0
+Age 4505
+WhereBlock 0
+Brief 0
+LoginTime 1717398892
+BirthTime 1716796730
+RescueBit 0
+Password "nbknmenb!gboccclnaikjhcfhafohnfgdkcgmnlhe"
+Email "itsthurtea@gmail.com"
+RealName "Unknown"
+Rank "citizen"
+LoginSite "/realms/thurtea/workroom"
+HostSite "134.41.123.239"
+WebPage 0
+News (["admin":1248012406,"general":1233535350,"creator":1233535350,])
+Marriages ({})
+Paranoia (["homeroom":"/tmp/workroom",])
+MaxCarry 0
+PreventDrop 0
+DestructOnDrop 0
+PreventGet 0
+Position 2
+Undead 0
+UndeadType 0
+Mount 1
+Riders ({})
+BodyMass 0
+SaveRecurse 0
+Saved ({"Properties",})
+HealthPoints 260
+PPE 256
+ExperiencePoints 50
+ExperienceDebt 20
+melee 0
+godmode 1
+Alcohol 0
+Caffeine 0
+Food 0
+Drink 0
+Poison 0
+Sleeping 0
+StaminaPoints 341.000000
+Torso "torso"
+Biter 0
+keepalive 0
+Fingers (["right hand":5,"left hand":5,])
+Limbs (["head":(["children":({}),"armors":262913,"parent":"neck","class":1,"health":220,]),"right leg":(["children":({"right foot",}),"armors":1049761,"parent":"torso","class":2,"health":110,]),"right foot":(["children":({}),"armors":241,"parent":"right leg","class":4,"health":60,]),"neck":(["children":({"head",}),"armors":786433,"parent":"torso","class":1,"health":220,]),"left foot":(["children":({}),"armors":241,"parent":"left leg","class":4,"health":60,]),"left arm":(["children":({"left hand",}),"armors":1253385,"parent":"torso","class":2,"health":110,]),"torso":(["children":({"neck","right leg","left leg","right arm","left arm",}),"armors":1538049,"parent":0,"class":1,"health":220,]),"left leg":(["children":({"left foot",}),"armors":1049761,"parent":"torso","class":2,"health":110,]),"right hand":(["children":({}),"armors":98319,"parent":"right arm","class":4,"health":60,]),"right arm":(["children":({"right hand",}),"armors":1253385,"parent":"torso","class":2,"health":110,]),"left hand":(["children":({}),"armors":98319,"parent":"left arm","class":4,"health":60,]),])
+MissingLimbs ([])
+firearms_wounds 0
+Falling 0
+FallCount 1
+ExtraChannels ({"explorer","gossip","newbie","builder","cre","ds","ds_test","lpuni","death","connections","intercre","dchat","intermud","admin","error",})
+Agent 0
+Blind 0
+Custom (["stats":15,"deviations":4,"deviating":0,])
+LightSensitivity ({7,7300,})
+Resistance (["low":0,"high":0,"immune":0,"medium":0,"none":134217726,])
+Stats (["wisdom":(["class":1,"points":0,"level":55,]),"agility":(["class":3,"points":0,"level":48,]),"speed":(["class":3,"points":0,"level":50,]),"strength":(["class":5,"points":0,"level":15,]),"intelligence":(["class":1,"points":0,"level":67,]),"durability":(["class":4,"points":0,"level":21,]),"charisma":(["class":1,"points":0,"level":65,]),"coordination":(["class":2,"points":0,"level":22,]),"luck":(["class":1,"points":0,"level":79,]),])
+Polyglot 1
+Languages (["common":(["native":0,"name":"Common","points":0,"level":100,]),"edhellen":(["native":1,"name":"Edhellen","points":0,"level":100,]),])
+DefaultLanguage "Common"
+TalkHist (["say":({"2024.06.01-12.17,01 You ask in Common, \"%^BOLD%^CYAN%^Hilt worked?%^RESET%^\"","2024.06.01-12.17,20 Gravity says in Common, \"%^BOLD%^CYAN%^I put a copy in your area files.%^RESET%^\"","2024.06.01-12.17,40 You say in Common, \"%^BOLD%^CYAN%^I hate that is says looks around when you type l.%^RESET%^\"","2024.06.01-12.19,13 You say in Common, \"%^BOLD%^CYAN%^Yeah those prompts suck XD every time I type I or L it tells the room.%^RESET%^\"","2024.06.01-12.19,22 Gravity says in Common, \"%^BOLD%^CYAN%^Gonna fix those so they don't spam everyone after i get back from dinner.%^RESET%^\"","2024.06.01-12.19,38 You say in Common, \"%^BOLD%^CYAN%^Cool alright well back to work I go.%^RESET%^\"","2024.06.01-20.46,21 You say in Common, \"%^BOLD%^CYAN%^Hey.%^RESET%^\"",}),"tell":({"2024.06.01-19.11,46 You tried to tell thurtea: %^BLUE%^%^BOLD%^est%^RESET%^","2024.06.01-19.11,52 %^BOLD%^RED%^You tell Gravity,%^RESET%^ \"Testing.%^RESET%^\"","2024.06.01-19.13,29 You tried to tell teck: %^BLUE%^%^BOLD%^hello%^RESET%^",}),])
+SpeakColor "CYAN%^"
+Town "Town"
+Race "elf"
+Gender "neuter"
+Level 1
+Skills (["magic defense":(["class":2,"points":0,"level":3,]),"melee defense":(["class":2,"points":0,"level":2,]),"projectile attack":(["class":1,"points":0,"level":1,]),"blunt defense":(["class":1,"points":0,"level":2,]),"knife defense":(["class":1,"points":0,"level":2,]),"melee attack":(["class":2,"points":586,"level":2,]),"projectile defense":(["class":2,"points":0,"level":1,]),"blade defense":(["class":2,"points":538,"level":2,]),"bargaining":(["class":2,"points":0,"level":4,]),"magic attack":(["class":2,"points":125,"level":3,]),"blunt attack":(["class":1,"points":0,"level":2,]),"knife attack":(["class":1,"points":0,"level":3,]),"blade attack":(["class":2,"points":0,"level":1,]),])
+Morality -10
+Class "explorer"
+Clan 0
+SkillModifiers ([])
+Religion ({0,0,})
+Wimpy 0
+Dead 0
+WimpyCommand "go out"
+Currency (["silver":86,])
+Bank ([])
+SpellBook ([])
+QuestPoints 0
+QuestBook ([])
+isPK 0
+Attackable 1
+NoCondition 0
+Titles ({})
+Muffed ({})
+Deaths ({(["date":"Sun Jun 02 00:38:18 2024","enemy":"Fighter",]),(["date":"Sun Jun 02 00:45:28 2024","enemy":"Fighter",]),(["date":"Sun Jun 02 00:45:28 2024","enemy":"Fighter",]),})
+TrainingPoints 0
+TitleLength 1
+telopt_ip 0
+showgrid 0
+wizvision 0
+CreatorAge 3704
+CreatorBirth 1716797181
+LivingShort "$N the %^B_RED%^%^BLACK%^Sunaj Assassin%^RESET%^%^RESET%^%^RESET%^"

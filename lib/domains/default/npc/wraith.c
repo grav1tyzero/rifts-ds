@@ -59,9 +59,9 @@ int eventDrain(mixed args...){
                 break;
             case 5 :
                 what = "stamina";
-                if(enemy) level = enemy->GetMagicPoints();
+                if(enemy) level = enemy->GetPPE();
                 level = level/2;
-                if(level) enemy->AddMagicPoints(-level);
+                if(level) enemy->AddPPE(-level);
                 break;
             case 6 :
                 what = "experience";

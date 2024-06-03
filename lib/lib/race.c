@@ -225,7 +225,7 @@ varargs void SetStat(string stat, int level, int classes){
         eventHealDamage(healthPoints);
         break;
         case "intelligence":
-            AddMagicPoints(GetMaxMagicPoints());
+            AddPPE(GetMaxPPE());
         break;
         case "agility":
             AddStaminaPoints(GetMaxStaminaPoints());
@@ -256,7 +256,7 @@ int SetMaxHealthPoints(int x){
     return GetMaxHealthPoints();
 }
 
-int GetMaxMagicPoints(){
+int GetMaxPPE(){
     return ( 50 + (GetStatLevel("intelligence") * 10) );
 }
 

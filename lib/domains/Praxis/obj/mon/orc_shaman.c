@@ -13,7 +13,7 @@ create() {
     SetClass("mage");
     SetRace( "orc");
     SetHealthPoints(220);
-    SetMagicPoints(350);
+    SetPPE(350);
     SetRace("human");
     SetSkill("magic attack", 60);
     SetProperty("no bump", 1);

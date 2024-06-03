@@ -1,10 +1,10 @@
-GETMAGICPOINTS
+GETPPE
 
 NAME
-        GetMagicPoints()
+        GetPPE()
 
 SYNOPSIS
-        int GetMagicPoints()
+        int GetPPE()
 
 DESCRIPTION
         Returns a creature's current magic point level.
@@ -17,7 +17,7 @@ LOCATION
 
 
 SEE ALSO
-        SetMagicPoints, GetMaxMagicPoints, AddMagicPoints
+        SetPPE, GetMaxPPE, AddPPE
 
 Author
         Cratylus

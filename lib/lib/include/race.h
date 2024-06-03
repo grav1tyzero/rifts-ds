@@ -16,7 +16,7 @@ string SetGender(string gender);
 string GetGender();
 varargs void SetStat(string stat, int level, int classes);
 varargs int GetMaxHealthPoints(string limb);
-int GetMaxMagicPoints();
+int GetMaxPPE();
 float GetMaxStaminaPoints();
 void NewBody(string race);
 string SetTown(string str);

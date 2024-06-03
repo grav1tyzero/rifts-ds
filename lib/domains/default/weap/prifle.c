@@ -48,7 +48,7 @@ varargs mixed eventShoot(object who, mixed target, string dir, string whom){
     object bolt, killer, env, room = room_environment();
     int fuel, dam;
     killer = (who || this_player());
-    fuel = killer->GetMagicPoints();
+    fuel = killer->GetPPE();
     name = killer->GetName();
     env = environment(killer);
     if(target) patsy = target->GetName();
@@ -56,7 +56,7 @@ varargs mixed eventShoot(object who, mixed target, string dir, string whom){
     if(creatorp(who)){
         cache = 50;
         fuel = 800;
-        who->AddMagicPoints(800);
+        who->AddPPE(800);
     }
 
     dam = cache + random(50);
@@ -107,7 +107,7 @@ varargs mixed eventShoot(object who, mixed target, string dir, string whom){
         bolt->eventMove(env);
         bolt->SetArmed(1);
         bolt->eventDeploy(dir);
-        killer->AddMagicPoints(-50);
+        killer->AddPPE(-50);
         cache = 0;
         return 1;
     }
@@ -123,7 +123,7 @@ varargs mixed eventShoot(object who, mixed target, string dir, string whom){
     Prey = ([ "ob" : target, "name" : patsy, "player" : (userp(target)) ]);
 
     target->eventReceiveDamage(killer, HEAT, dam);
-    killer->AddMagicPoints(-50);
+    killer->AddPPE(-50);
     target->AddEnemy(killer);
 
     Prey = ([ "ob" : target, "name" : patsy, "room" : environment(target),
@@ -146,7 +146,7 @@ void heart_beat(){
         active = 0;
     }
     else if(active){
-        int fuel = env->GetMagicPoints();
+        int fuel = env->GetPPE();
         if(!fuel){
             active = 0;
             if(environment(env)){
@@ -156,7 +156,7 @@ void heart_beat(){
             }
         }
         else if(cache < 50){
-            env->AddMagicPoints(-1);
+            env->AddPPE(-1);
             cache++;
         }
     }

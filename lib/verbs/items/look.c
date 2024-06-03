@@ -89,10 +89,12 @@ mixed can_look_at_str_on_obj(string targ, string verb, string id1, string id2){
 
 
 mixed do_look() {
-    if(environment(this_player()) && !this_player()->GetInvis() &&  
-            !environment(this_player())->GetProperty("meeting room"))
-        environment(this_player())->eventPrint(this_player()->GetName() +
-                " looks around.", this_player(), (MSG_ENV|MSG_ANNOYING));
+    if (environment(this_player()) && !this_player()->GetInvis() &&
+            !environment(this_player())->GetProperty("meeting room")) {
+        // Remove or comment out the following line to prevent broadcasting the message:
+        // environment(this_player())->eventPrint(this_player()->GetName() +
+        //        " looks around.", this_player(), (MSG_ENV | MSG_ANNOYING));
+    }
     this_player()->eventDescribeEnvironment(0);
     return 1;
 }

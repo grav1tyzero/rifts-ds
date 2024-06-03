@@ -43,7 +43,7 @@ string Password, Email, RealName, Rank, LoginSite, HostSite, Torso, DefaultLangu
 string Gender, Class, WimpyCommand, InternalDesc, WebPage, Clan;
 int ProperNoun, Opacity, Modify, Invisible, NoChanColors, Paused, MaxCommandHistSize, HistorySize;
 int Age, WhereBlock, Brief, LoginTime, BirthTime, RescueBit, CarriedMass, MaxCarry, Position;
-int  Undead, UndeadType, Mount, BodyMass, SaveRecurse, Retain, HealthPoints, MagicPoints, ExperiencePoints;
+int  Undead, UndeadType, Mount, BodyMass, SaveRecurse, Retain, HealthPoints, PPE, ExperiencePoints;
 int QuestPoints, melee, Alcohol, Caffeine, Food, Drink, Poison, Sleeping, DeathEvents, Biter;
 int Blind, CustomStats, Wimpy, Polyglot, Level, Morality, Dead, isPK, Deaths, TrainingPoints;
 int TitleLength, CreatorAge, CreatorBirth;

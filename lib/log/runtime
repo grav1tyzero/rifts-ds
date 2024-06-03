@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------
-Dead_Souls_gravity (FluffOS v2.23-ds03w) starting up on Microsoft Windows NT - Sun May 19 20:47:48 2024
+Dead_Souls_gravity (FluffOS v2.23-ds03w) starting up on Microsoft Windows NT - Sun Jun 02 23:07:35 2024
 
 
 
@@ -12,3 +12,59 @@ Running autoexec, please wait...
 Autoexec daemon run complete.
 
 
+
+--- Dead_Souls_gravity
+2024.06.02-18.07,53
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/save/creators/g/gravity (/lib/command.c) at line 231
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+
+--- Dead_Souls_gravity
+2024.06.02-18.08,03
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/save/creators/g/gravity (/lib/command.c) at line 231
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+
+--- Dead_Souls_gravity
+2024.06.02-18.17,07
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/save/creators/g/gravity (/lib/command.c) at line 231
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+
+--- Dead_Souls_gravity
+2024.06.02-18.24,20
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/save/creators/g/gravity (/lib/command.c) at line 231
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+
+--- Dead_Souls_gravity
+2024.06.02-18.25,21
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/save/creators/g/gravity (/lib/command.c) at line 231
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+
+--- Dead_Souls_gravity
+2024.06.02-18.50,41
+*Bad argument 1 to find_living()
+Expected: string Got: 0.
+Object: /realms/gravity/area/obj/crystalball#173 at line 30
+
+'scry' at /realms/gravity/area/obj/crystalball#173 at line 30
+
+--- Dead_Souls_gravity
+2024.06.02-19.00,17
+*Bad argument 1 to find_living()
+Expected: string Got: 0.
+Object: /realms/gravity/area/obj/crystalball#173 at line 30
+
+'scry' at /realms/gravity/area/obj/crystalball#173 at line 30

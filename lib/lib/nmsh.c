@@ -329,9 +329,9 @@ varargs nomask string GetPrompt(int withbuff){
         return ret + ret2;
     }
     if(grepp(ret,"$g")) 
-        ret = replace_string(ret,"$g",itoa(this_object()->GetMagicPoints()));
+        ret = replace_string(ret,"$g",itoa(this_object()->GetPPE()));
     if(grepp(ret,"$G")) 
-        ret = replace_string(ret,"$G",itoa(this_object()->GetMaxMagicPoints()));
+        ret = replace_string(ret,"$G",itoa(this_object()->GetMaxPPE()));
     if(grepp(ret,"$M"))
         ret = replace_string(ret, "$M", mud_name());
     if(grepp(ret,"$m"))

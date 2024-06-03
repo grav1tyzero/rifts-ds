@@ -1,251 +1,8 @@
-NEW_LOG 2023.12.09-10.51,31
+NEW_LOG 2024.06.02-18.25,35
 
 --- Dead_Souls_gravity
-2023.12.12-19.17,08
-*Error in loading object '/cmds/players/score'
-Object: /secure/cmds/creators/update at line 170
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 170
-'CATCH' at /secure/cmds/creators/update at line 170
-
---- Dead_Souls_gravity
-2024.05.07-20.23,45
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 208
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.09-05.34,08
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 156
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.09-06.03,20
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 156
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.09-06.03,21
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 208
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.09-07.55,17
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 208
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.10-19.07,24
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 156
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.11-05.11,37
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 156
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.11-05.11,37
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 208
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.11-16.52,25
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 156
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.11-16.52,26
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 208
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.11-16.52,26
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 208
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.12-04.38,05
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 156
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.12-16.28,37
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 208
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.13-04.19,10
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 208
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.13-04.19,10
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 208
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.14-03.50,29
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 208
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.14-13.44,58
-*Could not open /save/intermud.o.tmp for a save.
-Object: /daemon/intermud (/<driver>) at line 0
-
-'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
-'eventRead' at /daemon/intermud at line 208
-'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /daemon/intermud (/<driver>) at line 0
-
---- Dead_Souls_gravity
-2024.05.18-18.10,37
-*Error in loading object '/realms/gravity/area/armor/juicerplate'
-Object: /secure/sefun/sefun at line 120
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /cmds/creators/clone at line 26
-'CATCH' at /cmds/creators/clone at line 26
-'clone_object' at /secure/sefun/sefun at line 120
-
---- Dead_Souls_gravity
-2024.05.18-18.12,30
-*Error in loading object '/realms/gravity/area/armor/juicerplate'
+2024.06.02-18.26,30
+*Error in loading object '/cmds/players/inventory'
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 '<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
@@ -256,8 +13,8 @@ Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 --- Dead_Souls_gravity
-2024.05.18-18.12,30
-*Error in loading object '/realms/gravity/area/armor/juicerplate'
+2024.06.02-18.26,30
+*Error in loading object '/cmds/players/inventory'
 Object: /secure/cmds/creators/update at line 170
 
 '<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
@@ -267,8 +24,8 @@ Object: /secure/cmds/creators/update at line 170
 'CATCH' at /secure/cmds/creators/update at line 170
 
 --- Dead_Souls_gravity
-2024.05.18-18.13,28
-*Error in loading object '/realms/gravity/area/armor/juicerplate'
+2024.06.02-18.26,45
+*Error in loading object '/cmds/players/inventory'
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 '<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
@@ -279,8 +36,8 @@ Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 --- Dead_Souls_gravity
-2024.05.18-18.13,28
-*Error in loading object '/realms/gravity/area/armor/juicerplate'
+2024.06.02-18.26,45
+*Error in loading object '/cmds/players/inventory'
 Object: /secure/cmds/creators/update at line 170
 
 '<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
@@ -290,8 +47,8 @@ Object: /secure/cmds/creators/update at line 170
 'CATCH' at /secure/cmds/creators/update at line 170
 
 --- Dead_Souls_gravity
-2024.05.18-18.15,41
-*Error in loading object '/realms/gravity/area/armor/juicerplate'
+2024.06.02-18.27,18
+*Error in loading object '/cmds/players/inventory'
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 '<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
@@ -302,8 +59,8 @@ Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 --- Dead_Souls_gravity
-2024.05.18-18.15,41
-*Error in loading object '/realms/gravity/area/armor/juicerplate'
+2024.06.02-18.27,18
+*Error in loading object '/cmds/players/inventory'
 Object: /secure/cmds/creators/update at line 170
 
 '<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
@@ -313,8 +70,8 @@ Object: /secure/cmds/creators/update at line 170
 'CATCH' at /secure/cmds/creators/update at line 170
 
 --- Dead_Souls_gravity
-2024.05.18-18.16,12
-*Error in loading object '/realms/gravity/area/armor/juicerplate'
+2024.06.02-18.28,25
+*Error in loading object '/cmds/players/inventory'
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 '<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
@@ -325,8 +82,53 @@ Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 --- Dead_Souls_gravity
-2024.05.18-18.16,12
-*Error in loading object '/realms/gravity/area/armor/juicerplate'
+2024.06.02-18.28,25
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.02-18.42,10
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.02-18.42,28
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.02-18.42,28
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.02-18.43,21
+*Error in loading object '/cmds/players/inventory'
 Object: /secure/cmds/creators/update at line 170
 
 '<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0

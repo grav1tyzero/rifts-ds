@@ -11,7 +11,7 @@ static void create() {
     SetSpellType(SPELL_OTHER);
     SetRequiredMagic(5);
     SetSkills(([ "conjuring" : 0 ]));
-    SetMagicCost(50, 50);
+    SetPPECost (50, 50);
     SetStaminaCost(10, 10);
     SetDifficulty(0);
     SetHelp("Syntax: <cast whip>\n\n"

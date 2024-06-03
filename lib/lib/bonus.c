@@ -107,7 +107,7 @@ int SetBonuses(){
                 case "HP" : whom->AddHP(val);break;
                 case "XP" : whom->AddExperiencePoints(val);break;
                 case "SP" : whom->AddStaminaPoints(val);break;
-                case "MP" : whom->AddMagicPoints(val);break;
+                case "MP" : whom->AddPPE(val);break;
                 case "poison" : whom->AddPoison(val);break;
                 case "caffeine" : whom->AddCaffeine(val);break;
                 case "food" : whom->AddFood(val);break;

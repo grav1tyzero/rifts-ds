@@ -24,7 +24,7 @@ static void create() {
     SetSpellType(SPELL_DEFENSE);
     SetRequiredMagic(50);
     SetSkills(([ "magic defense" : 24, "conjuring" : 24 ]));
-    SetMagicCost(80, 80);
+    SetPPECost (80, 80);
     SetDifficulty(2);
     SetMorality(10);
     SetHelp("Syntax: <cast greater buffer>\n"

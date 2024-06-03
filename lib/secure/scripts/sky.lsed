@@ -58,7 +58,7 @@ g/set_item_types/s/set_item_types/SetVendorType
 g/set_storage_room/s/set_storage_room/SetStorageRoom
 g/inherit BARKEEP/s/inherit BARKEEP/inherit LIB_BARKEEP
 g/set_menu/s/set_menu/SetMenu
-g/set_max_mp/s/set_max_mp/SetMaxMagicPoints
+g/set_max_mp/s/set_max_mp/SetMaxPPE
 g/set_stats/s/set_stats/SetStat
 g/set_chats/s/set_chats/SetAction
 g/set_speech/s/set_speech/SetAction
@@ -68,7 +68,7 @@ g/set_languages/s/set_languages/SetLanguage
 g/set_lang_prof/s/set_lang_prof/SetLanguage
 g/set_speed/s/set_speed/SetWanderSpeed
 g/set_stats/s/set_stats/SetStats
-g/set_mp/s/set_mp/SetMagicPoints
+g/set_mp/s/set_mp/SetPPE
 g/set_spell_chance/s/set_spell_chance/SetSpellChance
 g/set_spells/s/set_spells/SetSpells
 g/set_poisoning/s/set_poisoning/SetPoisonStrength

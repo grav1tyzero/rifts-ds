@@ -20,8 +20,8 @@ void create() {
     SetHealthPoints(950);
     SetLanguage( "nibelungen",100  );
     SetMaxHealthPoints(950);
-    SetMagicPoints(900);
-    SetMaxMagicPoints(900);
+    SetPPE(900);
+    SetMaxPPE(900);
     SetLevel(17);
     SetStat("wisdom", 40);
     SetSkill("magic attack", 100);

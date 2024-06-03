@@ -477,16 +477,16 @@ int GetCustomXP(){
     return CustomXP;
 }
 
-    int SetMagicPoints(int x){
-        if( x > GetMaxMagicPoints() )
+    int SetPPE(int x){
+        if( x > GetMaxPPE() )
             SetStat("intelligence", (x-50)/10, GetStatClass("intelligence"));
-        AddMagicPoints( x - GetMagicPoints() );
-        return GetMagicPoints();
+        AddPPE( x - GetPPE() );
+        return GetPPE();
     }
 
-int SetMaxMagicPoints(int x){
+int SetMaxPPE(int x){
     SetStat("intelligence", (x-50)/10, GetStatClass("intelligence"));
-    return GetMaxMagicPoints();
+    return GetMaxPPE();
 }
 
     float SetStaminaPoints(float x){

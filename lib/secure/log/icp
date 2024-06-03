@@ -9,3 +9,15 @@ icp setup ended
 icp setup ended
 icp setup ended
 icp setup ended
+icp setup ended
+icp setup ended
+icp setup ended
+icp setup ended
+icp setup ended
+icp setup ended
+2024.06.02-00.41,45 socket_accepted: 6, ({ 800, "DATA_XFER", "MUD", "10.0.0.226.6672", "162.216.149.75.60070", OBJ(/secure/daemon/instances) })
+
+2024.06.02-00.41,45 close_callback: fd=6
+
+icp setup ended
+icp setup ended

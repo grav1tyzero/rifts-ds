@@ -84,9 +84,9 @@ int eventBring(string str){
         return notify_fail("A magic force blocks your powers.\n");
     if(present(who, environment(this_player())))
         return notify_fail(capitalize(str) + " is here.\n");
-    if(this_player()->GetMagicPoints() < 70)
+    if(this_player()->GetPPE() < 70)
         return notify_fail("Too low on magic power.\n");
-    this_player()->AddMagicPoints(-70);
+    this_player()->AddPPE(-70);
     who->eventPrint("%^CYAN%^Your clan leader summons you.%^RESET%^");
     who->eventMoveLiving(environment(this_player()));
     if(!present(who, environment(this_player())))
@@ -106,7 +106,7 @@ int eventInitiate(string str){
         return notify_fail("No one of that nature here.\n");
     if(stringp(ret = CanJoin(initiate))) return notify_fail(ret);
     else if(!ret) return ret;
-    if(this_player()->GetMagicPoints() < 300)
+    if(this_player()->GetPPE() < 300)
         return notify_fail("Too low on magic power.\n");
     if(initiate->GetClan())
         return notify_fail("You may only initiate people without clan "
@@ -115,7 +115,7 @@ int eventInitiate(string str){
     initiate->SetSkill(GetClanSkill(), 1, 1);
     if(clanObject = new(GetClanObject()))
         clanObject->eventMove(initiate);
-    this_player()->AddMagicPoints(-300);
+    this_player()->AddPPE(-300);
     eventJoin(initiate);
     return 1;
 }

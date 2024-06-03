@@ -22,7 +22,7 @@
 #define MIN_HISTORY_SIZE         50
 #define MAX_HISTORY_SIZE         100
 #define LOGON_TIMEOUT            360
-#define IDLE_TIMEOUT             180000
+#define IDLE_TIMEOUT             0
 #define LINK_WAIT_PERIOD         1800
 #define MAX_PASSWORD_TRIES       3
 #define MIN_USER_NAME_LENGTH     2
@@ -84,12 +84,11 @@
 #define MEMUSE_HARD_LIMIT        0
 #define MAX_USERS                0
 #define MIN_PERF                 400
-#define MINIMAP                  1
-#define WIZMAP                   1
+#define MINIMAP                  0
+#define WIZMAP                   0
 #define GRID                     1
 #define ENABLE_INSTANCES         0
 #define CED_DISABLED             1
 #define PLAYER_INTERTELL_ALLOWED 0
 #define GUEST_ALLOWED            1
-
 #endif /* s_config_h */

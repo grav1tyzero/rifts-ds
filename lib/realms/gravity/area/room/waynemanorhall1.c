@@ -8,8 +8,8 @@ inherit LIB_ROOM;
 void create() {
     room::create();
     SetAmbientLight(30);
-    SetShort("copy of waynemanorhall2.c");
-    SetLong("Before you stands an annoyingly long and very ornate hallway, the burgundy colored carpet comes to a halt at the end of the hallway. wayyyy further down the hall, you see a large grandfather clock and a vertical sliding windows, on either side of the hallway, are framed in rich mahogany. Looks like a long hallway looms before you, may be worth checking out.");
+    SetShort("Wayne Manor Hallway");
+    SetLong("The hallway in Wayne Manor is adorned with rich mahogany paneling and luxurious Persian rugs. Dim, antique sconces cast a warm glow on the walls, lined with portraits of the Wayne ancestors. The air is thick with the scent of polished wood and old money. A sense of history and opulence permeates the space, making it both inviting and imposing.");
     SetExits(([
         "south" : "/realms/gravity/area/room/waynemanorhall2",
       ]));

@@ -12,7 +12,7 @@ static void create() {
     SetSpellType(SPELL_OTHER);
     SetRequiredMagic(20);
     SetSkills(([ "conjuring" : 5 ]));
-    SetMagicCost(20, 0);
+    SetPPECost (20, 0);
     SetDifficulty(1);
     SetMorality(10);
     SetHelp("Syntax: cast light\n"

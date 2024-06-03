@@ -67,7 +67,7 @@ varargs mixed eventScore(string arg) {
         qual = "qualifies";
         cnj = "s";
     }
-    str  = ({ ".======================( Megaversal Identification )======================." });
+    str  = ({ ".======================( " + "%^GREEN%^Megaversal Identification%^RESET%^" + " )======================." });
     str += ({ "|  Name    : " + who->GetShort() + " (" +
         who->GetMoralityDescription() + ")." });
     str += ({ "|-------------------------------------------------------------------------|" });

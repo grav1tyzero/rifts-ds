@@ -21,7 +21,7 @@ private mixed array  Messages        = ({});          // damage/heal messages
 private int          DamageType      = MAGIC;         // damage type done
 private int          Difficulty      = 0;             // 1-100 scale
 private int array    Healing         = ({ 0, 0 });    // base, random
-private int array    MagicCost       = ({ 0, 0 });    // base, random
+private int array    PPECost        = ({ 0, 0 });    // base, random
 private int          Morality        = 0;             // bad? good?
 private string array Religions       = 0;             // limit who can cast
 private int          RemoteTargets   = 0;             // can targets be remote
@@ -171,16 +171,16 @@ static varargs int array SetHealing(mixed args...){
     return Healing;
 }
 
-int GetMagicCost(){
-    return MagicCost[0] + random(MagicCost[1]);
+int GetPPECost (){
+    return PPECost [0] + random(PPECost [1]);
 }
 
-static varargs int array SetMagicCost(mixed args...){
-    MagicCost[0] = args[0];
+static varargs int array SetPPECost (mixed args...){
+    PPECost [0] = args[0];
     if( sizeof(args) == 2 ){
-        MagicCost[1] = args[1];
+        PPECost [1] = args[1];
     }
-    return MagicCost;
+    return PPECost ;
 }
 
 varargs string array GetMessage(int damage, int healing){
@@ -513,7 +513,7 @@ static int CanSpellAttack(object who, object array enemies, int power){
 varargs int CanCast(object who, int level, string limb, object array targets){
     string array skills = GetSkills();
     int count = sizeof(skills);
-    int cost = GetMagicCost();
+    int cost = GetPPECost ();
     int x;
 
     if( Religions ){
@@ -523,7 +523,7 @@ varargs int CanCast(object who, int level, string limb, object array targets){
         }
     }
     if( cost > 0 ){
-        who->AddMagicPoints(-cost);
+        who->AddPPE(-cost);
     }
     cost = GetStaminaCost();
     if( cost > 0 ){

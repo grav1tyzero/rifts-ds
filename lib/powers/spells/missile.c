@@ -18,7 +18,7 @@ static void create() {
     SetSpellType(SPELL_COMBAT);
     SetRequiredMagic(5);
     SetSkills(([ "conjuring" : 0, "magic attack" : 0 ]));
-    SetMagicCost(10, 3);
+    SetPPECost (10, 3);
     SetStaminaCost(5, 3);
     SetDifficulty(0);
     SetMorality(-1);

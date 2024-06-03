@@ -14,7 +14,7 @@ private mapping SpellBook = ([]);
 
 // abstract methods
 int GetInCombat();
-int GetMagicPoints();
+int GetPPE();
 string GetName();
 int GetParalyzed();
 varargs mixed eventPrint(string msg, mixed args...);
@@ -61,7 +61,7 @@ varargs mixed CanCast(object spell){
     if( !this_object()->GetSpellBook()[spell->GetSpell()] ){
         return "You have never heard of that " + tmp + " before.";
     }
-    if( GetMagicPoints() < spell->GetRequiredMagic() ){
+    if( GetPPE() < spell->GetRequiredMagic() ){
         return "You do not have the power required.";
     }
     if( GetStaminaPoints() < spell->GetRequiredStamina() ){

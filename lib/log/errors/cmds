@@ -262,3 +262,50 @@
 2023.12.12-19.17,08 /cmds/players/score.c line 76: Illegal LHS
 2023.12.12-19.17,08 /cmds/players/score.c line 76: syntax error
 2023.12.12-19.17,08 /cmds/players/score.c line 78: Illegal LHS
+2024.06.02-18.02,36 /cmds/players/inventory.c line 66: Reserved type name unexpected.
+2024.06.02-18.02,36 /cmds/players/inventory.c line 66: syntax error
+2024.06.02-18.02,52 /cmds/players/inventory.c line 66: Reserved type name unexpected.
+2024.06.02-18.02,52 /cmds/players/inventory.c line 66: syntax error
+2024.06.02-18.07,53 /cmds/players/inventory.c line 66: Reserved type name unexpected.
+2024.06.02-18.07,53 /cmds/players/inventory.c line 66: syntax error
+2024.06.02-18.08,03 /cmds/players/inventory.c line 66: Reserved type name unexpected.
+2024.06.02-18.08,03 /cmds/players/inventory.c line 66: syntax error
+2024.06.02-18.09,01 /cmds/players/inventory.c line 66: Reserved type name unexpected.
+2024.06.02-18.09,01 /cmds/players/inventory.c line 66: syntax error
+2024.06.02-18.09,01 /cmds/players/inventory.c line 66: Reserved type name unexpected.
+2024.06.02-18.09,01 /cmds/players/inventory.c line 66: syntax error
+2024.06.02-18.17,07 /cmds/players/inventory.c line 66: Reserved type name unexpected.
+2024.06.02-18.17,07 /cmds/players/inventory.c line 66: syntax error
+2024.06.02-18.19,20 /cmds/players/inventory.c line 66: Reserved type name unexpected.
+2024.06.02-18.19,20 /cmds/players/inventory.c line 66: syntax error
+2024.06.02-18.19,20 /cmds/players/inventory.c line 66: Reserved type name unexpected.
+2024.06.02-18.19,20 /cmds/players/inventory.c line 66: syntax error
+2024.06.02-18.20,03 /cmds/players/inventory.c line 58: Reserved type name unexpected.
+2024.06.02-18.20,03 /cmds/players/inventory.c line 58: syntax error
+2024.06.02-18.20,03 /cmds/players/inventory.c line 58: Reserved type name unexpected.
+2024.06.02-18.20,03 /cmds/players/inventory.c line 58: syntax error
+2024.06.02-18.22,13 /cmds/players/inventory.c line 58: Reserved type name unexpected.
+2024.06.02-18.22,13 /cmds/players/inventory.c line 58: syntax error
+2024.06.02-18.22,13 /cmds/players/inventory.c line 58: Reserved type name unexpected.
+2024.06.02-18.22,13 /cmds/players/inventory.c line 58: syntax error
+2024.06.02-18.24,20 /cmds/players/inventory.c line 58: Reserved type name unexpected.
+2024.06.02-18.24,20 /cmds/players/inventory.c line 58: syntax error
+2024.06.02-18.25,21 /cmds/players/inventory.c line 58: Reserved type name unexpected.
+2024.06.02-18.25,21 /cmds/players/inventory.c line 58: syntax error
+2024.06.02-18.26,30 /cmds/players/inventory.c line 58: Reserved type name unexpected.
+2024.06.02-18.26,30 /cmds/players/inventory.c line 58: syntax error
+2024.06.02-18.26,30 /cmds/players/inventory.c line 58: Reserved type name unexpected.
+2024.06.02-18.26,30 /cmds/players/inventory.c line 58: syntax error
+2024.06.02-18.26,45 /cmds/players/inventory.c line 56: syntax error
+2024.06.02-18.26,45 /cmds/players/inventory.c line 56: syntax error
+2024.06.02-18.27,18 /cmds/players/inventory.c line 58: Reserved type name unexpected.
+2024.06.02-18.27,18 /cmds/players/inventory.c line 58: syntax error
+2024.06.02-18.27,18 /cmds/players/inventory.c line 58: Reserved type name unexpected.
+2024.06.02-18.27,18 /cmds/players/inventory.c line 58: syntax error
+2024.06.02-18.28,25 /cmds/players/inventory.c line 61: syntax error
+2024.06.02-18.28,25 /cmds/players/inventory.c line 61: syntax error
+2024.06.02-18.42,10 /cmds/players/inventory.c line 61: syntax error
+2024.06.02-18.42,28 /cmds/players/inventory.c line 62: syntax error
+2024.06.02-18.42,28 /cmds/players/inventory.c line 62: syntax error
+2024.06.02-18.43,21 /cmds/players/inventory.c line 58: Reserved type name unexpected.
+2024.06.02-18.43,21 /cmds/players/inventory.c line 58: syntax error

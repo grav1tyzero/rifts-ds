@@ -20,7 +20,7 @@ static void create() {
     SetSpellType(SPELL_HEALING);
     SetRequiredMagic(300);
     SetSkills(([ "healing" : 1 ]));
-    SetMagicCost( 20, 10);
+    SetPPECost ( 20, 10);
     SetDifficulty(1);
     SetVerb("pray");
     SetHelp("Syntax: <pray for healing for LIV>\n\n"
@@ -50,12 +50,12 @@ int eventCast(object who, int level, mixed limbs, object array targets) {
         tot = hp+stam;
         if(tot) 
             who->eventTrainSkill("healing",0,0,1,tot);
-        magic = who->GetMagicPoints();
+        magic = who->GetPPE();
         magic = magic - tot;
         if(magic < 0) feedback = tot - magic;
-        who->AddMagicPoints(-tot);
+        who->AddPPE(-tot);
         if(feedback){
-            write("Your spell overreached your mana reserves! You suffer "+
+            write("Your spell overreached your ppe reserves! You suffer "+
                     "from a feedback overload!");
             who->eventReceiveDamage(who, KARMA, tot, 1);
         }

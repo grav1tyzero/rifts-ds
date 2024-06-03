@@ -1,12 +1,12 @@
-GETMAXMAGICPOINTS
+GETMAXPPE
 
 NAME
-        GetMaxMagicPoints()
+        GetMaxPPE()
 
 
 
 SYNOPSIS
-        int GetMaxMagicPoints()
+        int GetMaxPPE()
 
 
 
@@ -26,7 +26,7 @@ LOCATION
 
 
 SEE ALSO
-        SetMagicPoints, GetMagicPoints, AddMagicPoints
+        SetPPE, GetPPE, AddPPE
 
 
 

@@ -231,7 +231,7 @@ void heart_beat(){
     }
     else if(GetWorn() && charge < maxcharge){
         int fuel;
-        fuel = env->GetMagicPoints();
+        fuel = env->GetPPE();
         if(fuel < 5){
             if(!charge && active){
                 active = 0;
@@ -244,7 +244,7 @@ void heart_beat(){
         }
         else {
             int dmg = GetDamagePoints();
-            env->AddMagicPoints(-5);
+            env->AddPPE(-5);
             charge += 5;
             if(dmg < 100){
                 SetDamagePoints(dmg+1);

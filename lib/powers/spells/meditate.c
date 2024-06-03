@@ -12,7 +12,7 @@ static void create() {
     SetSpellType(SPELL_DEFENSE);
     SetRequiredMagic(50);
     SetSkills(([ "magic defense" : 0 ]));
-    SetMagicCost(150, 100);
+    SetPPECost (150, 100);
     SetDifficulty(1);
     SetMorality(10);
     SetHelp("Syntax: <cast meditate>\n"

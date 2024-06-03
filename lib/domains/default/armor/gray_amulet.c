@@ -32,7 +32,7 @@ void init(){
 void heart_beat(){
     object env = environment();
     if(env && living(env) && GetWorn()){
-        env->AddMagicPoints(1);
+        env->AddPPE(1);
     }
 }
 

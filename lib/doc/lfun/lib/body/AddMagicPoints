@@ -1,10 +1,10 @@
-ADDMAGICPOINTS
+ADDPPE
 
 NAME
-        AddMagicPoints()
+        AddPPE()
 
 SYNOPSIS
-        int AddMagicPoints(int x)
+        int AddPPE(int x)
 
 DESCRIPTION
         Arbitrarily adds magic points to a creature.
@@ -17,7 +17,7 @@ LOCATION
 
 
 SEE ALSO
-        SetMagicPoints, GetMagicPoints, GetMaxMagicPoints
+        SetPPE, GetPPE, GetMaxPPE
 
 Author
         Cratylus

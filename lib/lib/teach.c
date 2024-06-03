@@ -12,10 +12,10 @@ varargs int CanTeach(object whom, string what){
         return 0;
     }
     if(member_array(what, keys(this_object()->GetSpellBook())) != -1){
-        int magpoint = this_object()->GetMagicPoints();
-        int maxmagpoint = this_object()->GetMaxMagicPoints();
+        int magpoint = this_object()->GetPPE();
+        int maxmagpoint = this_object()->GetMaxPPE();
         if(magpoint < maxmagpoint){
-            write("You must have your full mana to teach magic.");
+            write("You must have your full ppe to teach magic.");
             return 0;
         }
         return 1;
@@ -39,7 +39,7 @@ int eventOfferTeaching(object who, string what){
 }
 
 int eventTeach(object who, string what){
-    int magpoint = this_object()->GetMagicPoints();
+    int magpoint = this_object()->GetPPE();
     if(!CanTeach(who, what)){
         write("They can't teach that.");
         return 0;
@@ -69,7 +69,7 @@ int eventTeach(object who, string what){
             " forehead and give " + objective(who) + " knowledge of " +
             what + ".");
     if(!creatorp(this_object())){
-        this_object()->AddMagicPoints(-magpoint);
+        this_object()->AddPPE(-magpoint);
     }
     map_delete(Teaching,who);
     return 1;

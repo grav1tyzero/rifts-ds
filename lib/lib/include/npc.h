@@ -40,7 +40,7 @@ int SetLevel(int x);
 int GetLevel();
 int SetHealthPoints(int x);
 int SetMaxHealthPoints(int x);
-int SetMagicPoints(int x);
+int SetPPE(int x);
 float SetStaminaPoints(mixed x);
 float SetMaxStaminaPoints(float x);
 varargs void SetCurrency(mixed val, int amount);

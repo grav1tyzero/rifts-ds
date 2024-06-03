@@ -136,3 +136,148 @@
 2024.05.18-18.15,41 /realms/gravity/area/armor/juicerplate.c line 22: End of file in string
 2024.05.18-18.16,12 /realms/gravity/area/armor/juicerplate.c line 20: Undefined function SetArmourType
 2024.05.18-18.16,12 /realms/gravity/area/armor/juicerplate.c line 20: Undefined function SetArmourType
+2024.06.01-18.40,59 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-18.40,59 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-18.52,19 /realms/gravity/area/room/batcave.c line 31: syntax error
+2024.06.01-18.56,48 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-18.56,48 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-18.56,51 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-18.56,51 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-19.01,29 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-19.01,29 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-19.01,29 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-19.01,29 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-19.01,51 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-19.01,51 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-19.05,39 /realms/gravity/area/room/vault.c line 28: Type of returned value doesn't match function return type ( string vs int )
+2024.06.01-19.05,39 /realms/gravity/area/room/vault.c line 28: Type of returned value doesn't match function return type ( string vs int )
+2024.06.01-19.09,21 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-19.09,21 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-19.09,21 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-19.09,21 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-19.21,44 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-19.21,44 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-19.21,44 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-19.21,44 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 2: No such inherited function room::create
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 3: Undefined function SetShort
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 4: Undefined function SetLong
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 10: Undefined function SetItems
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 14: Undefined function SetExits
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 17: Undefined variable 'CheckCode'
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 2: No such inherited function room::create
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 3: Undefined function SetShort
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 4: Undefined function SetLong
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 10: Undefined function SetItems
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 14: Undefined function SetExits
+2024.06.01-19.23,45 /realms/gravity/area/room/vault.c line 17: Undefined variable 'CheckCode'
+2024.06.01-19.24,57 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-19.24,57 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-19.24,57 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-19.24,57 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-19.25,04 /realms/gravity/area/room/vault.c line 21: Undefined variable 'CheckCode'
+2024.06.01-19.25,04 /realms/gravity/area/room/vault.c line 21: syntax error
+2024.06.01-19.32,23 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.32,23 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.32,23 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.32,23 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.32,23 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.32,23 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.36,05 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.36,05 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.36,05 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.36,05 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.36,05 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.36,05 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.36,13 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.36,20 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.36,20 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.36,20 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.36,20 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.36,20 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.36,20 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.36,57 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.37,02 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.37,02 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.37,02 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.37,02 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.37,02 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.37,02 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.41,09 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.41,09 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.41,09 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.41,09 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.41,09 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.41,09 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.41,22 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.41,35 /realms/gravity/area/room/crimealley.c line 27: Undefined variable 'SpawnVillain'
+2024.06.01-19.41,35 /realms/gravity/area/room/crimealley.c line 27: syntax error
+2024.06.01-19.41,35 /realms/gravity/area/room/crimealley.c line 34: Illegal LHS
+2024.06.01-19.41,35 /realms/gravity/area/room/crimealley.c line 34: syntax error
+2024.06.01-19.41,35 /realms/gravity/area/room/crimealley.c line 35: Illegal LHS
+2024.06.01-19.41,35 /realms/gravity/area/room/crimealley.c line 35: syntax error
+2024.06.01-19.48,52 /realms/gravity/area/room/crimealley.c line 30: Undefined variable 'SpawnVillain'
+2024.06.01-19.48,52 /realms/gravity/area/room/crimealley.c line 30: syntax error
+2024.06.01-19.48,52 /realms/gravity/area/room/crimealley.c line 31: Illegal LHS
+2024.06.01-19.48,52 /realms/gravity/area/room/crimealley.c line 39: Illegal LHS
+2024.06.01-19.48,52 /realms/gravity/area/room/crimealley.c line 39: syntax error
+2024.06.01-19.48,52 /realms/gravity/area/room/crimealley.c line 40: Illegal LHS
+2024.06.01-19.50,55 /realms/gravity/area/room/crimealley.c line 71: Redeclaration of function SpawnVillain.
+2024.06.01-19.50,55 /realms/gravity/area/room/crimealley.c line 71: Redeclaration of function SpawnVillain.
+2024.06.01-19.51,11 /realms/gravity/area/room/crimealley.c line 71: Redeclaration of function SpawnVillain.
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 29: Undefined variable 'SpawnVillain'
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 29: syntax error
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 30: Illegal LHS
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 38: Illegal LHS
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 38: syntax error
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 39: Illegal LHS
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 29: Undefined variable 'SpawnVillain'
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 29: syntax error
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 30: Illegal LHS
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 38: Illegal LHS
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 38: syntax error
+2024.06.01-19.51,49 /realms/gravity/area/room/crimealley.c line 39: Illegal LHS
+2024.06.01-19.52,06 /realms/gravity/area/room/crimealley.c line 71: Redeclaration of function SpawnVillain.
+2024.06.01-19.52,06 /realms/gravity/area/room/crimealley.c line 71: Redeclaration of function SpawnVillain.
+2024.06.02-15.15,25 /realms/gravity/area/obj/crystalball.c line 12: Undefined function set_weight
+2024.06.02-15.15,25 /realms/gravity/area/obj/crystalball.c line 14: Undefined function SetPPECost 
+2024.06.02-15.15,25 /realms/gravity/area/obj/crystalball.c line 16: Undefined function set_destroy
+2024.06.02-15.15,25 /realms/gravity/area/obj/crystalball.c line 12: Undefined function set_weight
+2024.06.02-15.15,25 /realms/gravity/area/obj/crystalball.c line 14: Undefined function SetPPECost 
+2024.06.02-15.15,25 /realms/gravity/area/obj/crystalball.c line 16: Undefined function set_destroy
+2024.06.02-15.15,29 /realms/gravity/area/obj/crystalball.c line 12: Undefined function set_weight
+2024.06.02-15.15,29 /realms/gravity/area/obj/crystalball.c line 14: Undefined function SetPPECost 
+2024.06.02-15.15,29 /realms/gravity/area/obj/crystalball.c line 16: Undefined function set_destroy

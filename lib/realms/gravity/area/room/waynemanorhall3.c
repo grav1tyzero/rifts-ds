@@ -9,11 +9,7 @@ void create() {
     room::create();
     SetAmbientLight(30);
     SetShort("The end of the hallway");
-    SetLong("The long and very ornate hallway is finally coming to and end, the
-burgundy colored carpet comes to a halt at the end of the hallway.  a large
-grandfather clock stands tall to the right side of the hall, and a vertical
-sliding window, framed in mahogany is in the center at the end of the hall.
-Heading the other way, the long hallway looms before your journey.");
+    SetLong("In a secluded corridor of Wayne Manor, the hallway is lined with dark wood paneling and illuminated by flickering candle sconces. Portraits of Wayne ancestors gaze down, their eyes following your every step. At the far end stands an imposing grandfather clock, its pendulum swinging with a steady, rhythmic tick. The clock, an intricately carved masterpiece, features brass accents and a rich, walnut finish, a testament to the craftsmanship of a bygone era.  This clock, a family heirloom, conceals more than just time; it is rumored to be the gateway to Bruce Wayne's clandestine operations, hidden in plain sight amidst the manor's timeless luxury. The air is thick with a sense of history and mystery, the soft ticking of the clock echoing through the hall, a constant reminder of the secrets that Wayne Manor holds within its walls.");
     SetExits( ([
         "north" : "/realms/gravity/area/room/waynemanorhall2.c",
       ]) );

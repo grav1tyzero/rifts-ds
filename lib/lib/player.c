@@ -121,8 +121,8 @@ varargs mixed eventDisplayStatus(int simple){
 
     hp = GetHealthPoints();
     max_hp = GetMaxHealthPoints();
-    mp = GetMagicPoints();
-    max_mp = GetMaxMagicPoints();
+    mp = GetPPE();
+    max_mp = GetMaxPPE();
     sp = GetStaminaPoints();
     max_sp = GetMaxStaminaPoints();
     xp = GetExperiencePoints();
@@ -132,8 +132,8 @@ varargs mixed eventDisplayStatus(int simple){
         str = "%^YELLOW%^hp: %^RED%^" + hp + "%^RESET%^/" + max_hp;
     else str = "%^YELLOW%^hp: %^RESET%^" + hp + "/" + max_hp;
     if( percent(mp, max_mp) < 20.0 )
-        str += "  %^BLUE%^mp: %^RED%^" + mp + "%^RESET%^/" + max_mp;
-    else str += "  %^BLUE%^mp: %^RESET%^" + mp + "/" + max_mp;
+        str += "  %^BLUE%^ppe: %^RED%^" + mp + "%^RESET%^/" + max_mp;
+    else str += "  %^BLUE%^ppe: %^RESET%^" + mp + "/" + max_mp;
     if( percent(sp, max_sp) < 20.0 )
         str += "  %^GREEN%^sp: %^RED%^" + sp + "%^RESET%^/" + max_sp;
     else str += "  %^GREEN%^sp: %^RESET%^" + sp + "/" + max_sp;
@@ -190,7 +190,7 @@ varargs int eventDie(mixed agent){
         NewBody(GetRace());
 
         eventCompleteHeal(GetMaxHealthPoints()/2);
-        AddMagicPoints(-(random(GetMagicPoints())));
+        AddPPE(-(random(GetPPE())));
         this_object()->eventMove(ROOM_DEATH);
         this_object()->save_player(this_object()->GetKeyName());
         this_object()->eventDescribeEnvironment();
@@ -256,7 +256,7 @@ varargs void eventRevive(int nopenalty){
     NewBody(GetRace());
     eventCompleteHeal(GetMaxHealthPoints());
     SetSpecialTarget( ({}) );
-    AddMagicPoints(-(GetMaxMagicPoints() * PERCENT_MP));
+    AddPPE(-(GetMaxPPE() * PERCENT_MP));
     AddStaminaPoints(-(GetMaxStaminaPoints() * PERCENT_SP));
     AddHealthPoints(-(GetMaxHealthPoints() * PERCENT_HP));
     if(this_object()->GetLead()){

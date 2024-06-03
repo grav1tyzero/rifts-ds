@@ -12,5 +12,5 @@ create() {
     SetMorality(-200);
     SetRace( "balrog");
     SetHealthPoints(360);
-    SetMagicPoints(200);
+    SetPPE(200);
 }

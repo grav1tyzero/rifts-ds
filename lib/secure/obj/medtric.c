@@ -780,12 +780,12 @@ int modmag(string str, int magic){
         write("Builders can only do this to NPC's that belong to them.");
         return 1;
     }
-    magiclevel=person->GetMagicPoints();
+    magiclevel=person->GetPPE();
     tempint = magiclevel + magic;
     if(tempint < 0) {
         magic = magic + absolute_value(tempint);
     }
-    person->AddMagicPoints(magic);
+    person->AddPPE(magic);
     if(magic > 0){
         say(scanner->GetName()+" points a medical tricorder at "+capitalize(whom)+", "+
                 "and "+nominative(person)+" glows briefly.", ({person,scanner}) );
@@ -1285,8 +1285,8 @@ mixed assess(string args) {
         lines += ({ center(tmp1, cols), "" });
         lines += ({ center("Health: " +ob->GetHealthPoints() + "/"+
                     ob->GetMaxHealthPoints() + "   Magic: " +
-                    ob->GetMagicPoints() + "/" +
-                    ob->GetMaxMagicPoints() + "   Stamina: " +
+                    ob->GetPPE() + "/" +
+                    ob->GetMaxPPE() + "   Stamina: " +
                     ob->GetStaminaPoints() + "/" +
                     to_int((float)ob->GetMaxStaminaPoints()) + "   Carry: " +
                     ob->GetCarriedMass() + "/" +

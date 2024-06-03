@@ -38,7 +38,7 @@ mixed cmd(string str) {
         print_long_string(this_player(), ret);
         return 1;
     }
-    if(!creatorp(this_player()) && this_player()->GetMagicPoints() < 15) {
+    if(!creatorp(this_player()) && this_player()->GetPPE() < 15) {
         write("You lack sufficient magic to tell to anyone right now.");
         return 1;
     }
@@ -125,7 +125,7 @@ mixed cmd(string str) {
     }
     else {
         if(CheckMud(mud) == 3){
-            if(!creatorp(this_player())) this_player()->AddMagicPoints(-15);
+            if(!creatorp(this_player())) this_player()->AddPPE(-15);
             SERVICES_D->eventSendTell(who, mud, msg);
         }
         else {
@@ -142,7 +142,7 @@ mixed cmd(string str) {
         else me = this_player()->GetName(); 
 
         machine=present("answering machine",ob);
-        if(ob && !creatorp(ob)) this_player()->AddMagicPoints(-15);
+        if(ob && !creatorp(ob)) this_player()->AddPPE(-15);
         if(machine && base_name(machine) == "/secure/obj/machine"){
             int parse_it;
             parse_it=machine->query_answer();
@@ -152,7 +152,7 @@ mixed cmd(string str) {
             }
         }
         if( (err = this_player()->CanSpeak(ob, "tell", msg)) != 1){
-            if(ob && !creatorp(ob)) this_player()->AddMagicPoints(15);
+            if(ob && !creatorp(ob)) this_player()->AddPPE(15);
             this_player()->eventTellHist("You tried to tell "+retname+": "+
                     "%^BLUE%^%^BOLD%^"+ msg + "%^RESET%^");
             return err || "Tell whom what?";

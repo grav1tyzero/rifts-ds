@@ -36,7 +36,7 @@ string GetHelp() {
             "$N shows the player's name\n"
             +cre+
             "\nFor tactical info as a player:\n" 
-            "prompt hp:$h/$H mp:$g/$G sp:$i/$I > \n"
+            "prompt hp:$h/$H ppe:$g/$G sp:$i/$I > \n"
             "or: prompt status\n\n"
             "You can colorize elements of the prompt with the "
             "appropriate color tags, for example:\n"

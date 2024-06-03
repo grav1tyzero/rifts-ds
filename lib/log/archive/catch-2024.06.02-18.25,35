@@ -1,0 +1,1154 @@
+NEW_LOG 2023.12.09-10.51,31
+
+--- Dead_Souls_gravity
+2023.12.12-19.17,08
+*Error in loading object '/cmds/players/score'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.05.07-20.23,45
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.09-05.34,08
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 156
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.09-06.03,20
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 156
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.09-06.03,21
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.09-07.55,17
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.10-19.07,24
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 156
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.11-05.11,37
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 156
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.11-05.11,37
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.11-16.52,25
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 156
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.11-16.52,26
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.11-16.52,26
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.12-04.38,05
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 156
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.12-16.28,37
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.13-04.19,10
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.13-04.19,10
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.14-03.50,29
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.14-13.44,58
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.05.18-18.10,37
+*Error in loading object '/realms/gravity/area/armor/juicerplate'
+Object: /secure/sefun/sefun at line 120
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /cmds/creators/clone at line 26
+'CATCH' at /cmds/creators/clone at line 26
+'clone_object' at /secure/sefun/sefun at line 120
+
+--- Dead_Souls_gravity
+2024.05.18-18.12,30
+*Error in loading object '/realms/gravity/area/armor/juicerplate'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.05.18-18.12,30
+*Error in loading object '/realms/gravity/area/armor/juicerplate'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.05.18-18.13,28
+*Error in loading object '/realms/gravity/area/armor/juicerplate'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.05.18-18.13,28
+*Error in loading object '/realms/gravity/area/armor/juicerplate'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.05.18-18.15,41
+*Error in loading object '/realms/gravity/area/armor/juicerplate'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.05.18-18.15,41
+*Error in loading object '/realms/gravity/area/armor/juicerplate'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.05.18-18.16,12
+*Error in loading object '/realms/gravity/area/armor/juicerplate'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.05.18-18.16,12
+*Error in loading object '/realms/gravity/area/armor/juicerplate'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.05.30-09.45,45
+*Could not open /save/intermud.o.tmp for a save.
+Object: /daemon/intermud (/<driver>) at line 0
+
+'eventReadCallback' at /daemon/intermud (/secure/lib/net/client.c) at line 73
+'eventRead' at /daemon/intermud at line 208
+'SaveObject' at /daemon/intermud (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /daemon/intermud (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.06.01-11.27,42
+*Error in loading object '/realms/thurtea/tmp/twsword'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/t/thurtea (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/t/thurtea (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-11.27,42
+*Error in loading object '/realms/thurtea/tmp/twsword'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/t/thurtea (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/t/thurtea (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-11.27,43
+*Error in loading object '/realms/thurtea/tmp/twsword'
+Object: /secure/sefun/sefun at line 120
+
+'<fake>' at /secure/save/creators/t/thurtea (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/t/thurtea (/lib/command.c) at line 231
+'cmd' at /cmds/creators/clone at line 26
+'CATCH' at /cmds/creators/clone at line 26
+'clone_object' at /secure/sefun/sefun at line 120
+
+--- Dead_Souls_gravity
+2024.06.01-11.36,40
+*Error in loading object '/realms/thurtea/tmp/twsword'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/t/thurtea (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/t/thurtea (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-11.36,40
+*Error in loading object '/realms/thurtea/tmp/twsword'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/t/thurtea (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/t/thurtea (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-11.43,12
+*Error in loading object '/realms/thurtea/tmp/twsword'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/t/thurtea (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/t/thurtea (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-11.43,12
+*Error in loading object '/realms/thurtea/tmp/twsword'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/t/thurtea (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/t/thurtea (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-11.51,58
+*Error in loading object '/realms/thurtea/tmp/twsword'
+Object: /secure/sefun/sefun at line 120
+
+'<fake>' at /secure/save/creators/t/thurtea (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/t/thurtea (/lib/command.c) at line 231
+'cmd' at /cmds/creators/clone at line 26
+'CATCH' at /cmds/creators/clone at line 26
+'clone_object' at /secure/sefun/sefun at line 120
+
+--- Dead_Souls_gravity
+2024.06.01-11.57,14
+*Error in loading object '/realms/thurtea/tmp/twsword'
+Object: /secure/sefun/sefun at line 120
+
+'<fake>' at /secure/save/creators/t/thurtea (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/t/thurtea (/lib/command.c) at line 231
+'cmd' at /cmds/creators/clone at line 26
+'CATCH' at /cmds/creators/clone at line 26
+'clone_object' at /secure/sefun/sefun at line 120
+
+--- Dead_Souls_gravity
+2024.06.01-18.40,59
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 210
+'do_go_str' at /verbs/rooms/go at line 45
+'eventGo' at /realms/gravity/area/room/batcave (/lib/exits.c) at line 107
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-18.52,19
+*Error in loading object '/realms/gravity/area/room/batcave'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-18.56,48
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 210
+'do_go_str' at /verbs/rooms/go at line 45
+'eventGo' at /realms/gravity/area/room/batcave (/lib/exits.c) at line 107
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-18.56,51
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 210
+'do_go_str' at /verbs/rooms/go at line 45
+'eventGo' at /realms/gravity/area/room/batcave (/lib/exits.c) at line 107
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.01,29
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.01,29
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.01,51
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 210
+'do_go_str' at /verbs/rooms/go at line 45
+'eventGo' at /realms/gravity/area/room/batcave (/lib/exits.c) at line 107
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.05,39
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.05,39
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.09,21
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.09,21
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.21,44
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.21,44
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.23,45
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.23,45
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.24,57
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.24,57
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.25,04
+*Error in loading object '/realms/gravity/area/room/vault'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 210
+'do_go_str' at /verbs/rooms/go at line 45
+'eventGo' at /realms/gravity/area/room/batcave (/lib/exits.c) at line 107
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.32,23
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'enter_code' at /realms/gravity/area/room/vault at line 52
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.36,05
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'enter_code' at /realms/gravity/area/room/vault at line 52
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.36,13
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.36,13
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.36,20
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'enter_code' at /realms/gravity/area/room/vault at line 52
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.36,57
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.36,57
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.37,02
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'enter_code' at /realms/gravity/area/room/vault at line 52
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.41,09
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'enter_code' at /realms/gravity/area/room/vault at line 52
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.41,22
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.41,22
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.41,35
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'enter_code' at /realms/gravity/area/room/vault at line 52
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.48,52
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.50,55
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.50,55
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.51,11
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'enter_code' at /realms/gravity/area/room/vault at line 52
+'eventMoveLiving' at /secure/save/creators/g/gravity (/lib/living.c) at line 725
+'CheckMove' at /daemon/guard at line 95
+'CATCH' at /daemon/guard at line 95
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.51,49
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.51,49
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.01-19.52,06
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.01-19.52,06
+*Error in loading object '/realms/gravity/area/room/crimealley'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.02-15.10,34
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /cmds/creators/clone at line 21
+'get_object' at /secure/sefun/sefun at /secure/sefun/get_object.c:114
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.02-15.11,08
+*Inherited file '/std/Object' does not exist!
+Object: /secure/sefun/sefun at line 120
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /cmds/creators/clone at line 26
+'CATCH' at /cmds/creators/clone at line 26
+'clone_object' at /secure/sefun/sefun at line 120
+
+--- Dead_Souls_gravity
+2024.06.02-15.11,24
+*Inherited file '/std/Object' does not exist!
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.02-15.11,24
+*Inherited file '/std/Object' does not exist!
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.02-15.11,49
+*Inherited file '/std/Object' does not exist!
+Object: /secure/sefun/sefun at line 120
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /cmds/creators/clone at line 26
+'CATCH' at /cmds/creators/clone at line 26
+'clone_object' at /secure/sefun/sefun at line 120
+
+--- Dead_Souls_gravity
+2024.06.02-15.12,40
+*Inherited file '/std/Object' does not exist!
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.02-15.12,40
+*Inherited file '/std/Object' does not exist!
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.02-15.12,55
+*Inherited file '/std/Object' does not exist!
+Object: /secure/sefun/sefun at line 120
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /cmds/creators/clone at line 26
+'CATCH' at /cmds/creators/clone at line 26
+'clone_object' at /secure/sefun/sefun at line 120
+
+--- Dead_Souls_gravity
+2024.06.02-15.15,25
+*Error in loading object '/realms/gravity/area/obj/crystalball'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.02-15.15,25
+*Error in loading object '/realms/gravity/area/obj/crystalball'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.02-15.15,29
+*Error in loading object '/realms/gravity/area/obj/crystalball'
+Object: /secure/sefun/sefun at line 120
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /cmds/creators/clone at line 26
+'CATCH' at /cmds/creators/clone at line 26
+'clone_object' at /secure/sefun/sefun at line 120
+
+--- Dead_Souls_gravity
+2024.06.02-17.52,18
+*restore_object(): Illegal file format - 1 (",])).
+Object: /secure/daemon/function (/<driver>) at line 0
+
+'preload' at /secure/daemon/master at line 252
+'CATCH' at /secure/daemon/master at line 252
+'create' at /secure/daemon/function at line 125
+'RestoreObject' at /secure/daemon/function (/lib/props/save.c) at line 72
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /secure/daemon/function (/<driver>) at line 0
+
+--- Dead_Souls_gravity
+2024.06.02-17.52,18
+**restore_object(): Illegal file format - 1 (",])).
+Object: /secure/daemon/master at line 608
+
+'preload' at /secure/daemon/master at line 252
+'CATCH' at /secure/daemon/master at line 252
+'create' at /secure/daemon/function at line 125
+'RestoreObject' at /secure/daemon/function (/lib/props/save.c) at line 72
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 608
+
+--- Dead_Souls_gravity
+2024.06.02-18.09,01
+*Error in loading object '/cmds/players/inventory'
+Object: /daemon/help at line 286
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /cmds/common/help at line 45
+'GetHelp' at /daemon/help at line 194
+'GetHelpByIndex' at /daemon/help at line 286
+'CATCH' at /daemon/help at line 286
+
+--- Dead_Souls_gravity
+2024.06.02-18.09,01
+*Error in loading object '/cmds/players/inventory'
+Object: /daemon/help at line 286
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /cmds/common/help at line 48
+'GetHelp' at /daemon/help at line 194
+'GetHelpByIndex' at /daemon/help at line 286
+'CATCH' at /daemon/help at line 286
+
+--- Dead_Souls_gravity
+2024.06.02-18.19,20
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.02-18.19,20
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.02-18.20,03
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.02-18.20,03
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.02-18.22,13
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Dead_Souls_gravity
+2024.06.02-18.22,13
+*Error in loading object '/cmds/players/inventory'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+END-OF-LOG

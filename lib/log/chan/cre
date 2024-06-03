@@ -1,0 +1,52 @@
+[2024.05.31-16.30,24] Thurtea <cre> I wont break anything
+[2024.05.31-16.35,21] Thurtea <cre> I give up lmao
+[2024.05.31-16.37,06] Thurtea <cre> got it XD
+[2024.06.01-11.38,45] Thurtea <cre> I had command stacking on
+[2024.06.01-11.38,50] Thurtea <cre> oof
+[2024.06.01-11.44,22] Thurtea <cre> holy fucking shit
+[2024.06.01-11.44,25] Thurtea <cre> I hate ed
+[2024.06.01-11.48,37] Gravity <cre> trick to get back to your home directory is cd
+[2024.06.01-11.55,38] Thurtea <cre> how do I make myself the Admin in the version of the mud you send me?
+[2024.06.01-18.54,09] Thurtea <cre> actually by turning reprompt on it makes all things line up
+[2024.06.01-18.54,43] Gravity <cre> oh yeah?
+[2024.06.01-19.27,29] Thurtea <cre> again i dont understand that commands XD
+[2024.06.01-19.32,03] Gravity <cre> am having fun just coding random rooms and such lol
+[2024.06.01-19.33,13] Thurtea <cre> im on the skills page
+[2024.06.01-19.33,58] Thurtea <cre> rifts/lib/daemon/include/services/skills.c specifcally
+[2024.06.01-19.34,39] Thurtea <cre> what is this reboot interval set to 9999 hours thing i do accidentally?
+[2024.06.01-19.45,03] Gravity <cre> oops my little batman training room code to make mobs doesn't stop after 1 lol
+[2024.06.01-19.45,17] Thurtea <cre> oh no lol
+[2024.06.01-19.55,52] Gravity <cre> yay fixed it
+[2024.06.01-20.03,05] Thurtea <cre> nice
+[2024.06.01-20.03,15] Thurtea <cre> wish modify worked for spells
+[2024.06.01-20.11,13] Thurtea <cre> changing out armour for armor sue me lol
+[2024.06.01-20.14,41] Thurtea <cre> i hope i can enter and exit ed some day
+[2024.06.01-20.14,53] Thurtea <cre> but if i have to make things in vsc and update thats fine
+[2024.06.01-20.15,22] Gravity <cre> http://dead-souls.net/editor.html
+[2024.06.01-20.15,35] Thurtea <cre> ive tried i cant understand it or something
+[2024.06.01-20.24,15] Gravity <cre> added credits as a currency
+[2024.06.01-20.28,08] Thurtea <cre> ingame or in vsc?
+[2024.06.01-20.29,36] Thurtea <cre> i cant remember how the bank worked in rifts
+[2024.06.01-20.30,03] Thurtea <cre> did you have to go and check it ? i know i stole all my irl buddies money and it made him quit the game so i gave it back XD
+[2024.06.01-20.30,33] Thurtea <cre> stargates will now be rifts in my copy so far easy change well defined
+[2024.06.01-20.31,03] Thurtea <cre> prayers and spells seem to be the same thing define wise so we can just add psionics as spells and make them psionics i think
+[2024.06.01-20.34,38] Thurtea <cre> i am at the point of the library where nobody has edited before and there is no credits XD
+[2024.06.01-20.37,44] Gravity <cre> in game, added credits and removed everything else. will have to make sure mobs drop credits and such, but it's just a find/replace for 1 word for the most part
+[2024.06.01-20.38,19] Gravity <cre> it was basically an atm machine, you put your card in and withdrew or deposited money
+[2024.06.01-20.38,55] Gravity <cre> there's banks and such here, and probably an atm too, will see about making one if not
+[2024.06.01-20.39,23] Gravity <cre> afk a bit
+[2024.06.01-20.59,26] Thurtea <cre> need to get a list of languages so i can add them in
+[2024.06.01-21.06,59] Thurtea <cre> keeping limbs in the game and to have them be rendered unusable is gonna be weird
+[2024.06.01-21.07,07] Thurtea <cre> what do you thinkabout it?
+[2024.06.01-23.12,03] Thurtea <cre> alright hopefully didnt break it XD
+[2024.06.02-18.54,17] Thurtea <cre> the score menu cuts off for me at 94%, is that a mud client setting I think?
+[2024.06.02-18.54,31] Gravity <cre> yeah
+[2024.06.02-18.55,20] Thurtea <cre> gmud sucks XD
+[2024.06.02-18.55,25] Thurtea <cre> what one do you use I forget
+[2024.06.02-18.55,43] Thurtea <cre> cause I hate this score being cut off.. wasit like this yesterday
+[2024.06.02-19.00,06] Gravity <cre> mushclient, kinda does everything, can even code scripts for it and such heh
+[2024.06.02-19.03,32] Gravity <cre> greater fireball
+[2024.06.02-19.03,59] Thurtea <cre> doesnt it cost?
+[2024.06.02-19.09,39] Thurtea <cre> fixed it with the ingame screen command
+[2024.06.02-19.15,15] Thurtea <cre> the score sheet shouldnt be cut off in this version?
+[2024.06.02-19.15,20] Thurtea <cre> is yours like that
