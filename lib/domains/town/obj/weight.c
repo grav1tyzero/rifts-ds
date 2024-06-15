@@ -10,7 +10,7 @@ void create(){
     SetShort("an iron weight");
     SetLong("This is an item made of iron whose only purpose is being heavy.");
     SetMass(1800);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
 }
 

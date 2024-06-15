@@ -36,7 +36,7 @@ static void create() {
     SetClass("fighter");
     SetGender("male");
     SetEncounter(  (: CheckOrc :) );
-    AddCurrency("gold", random(100));
+    AddCurrency("universal credits", random(100));
 }
 
 void init(){

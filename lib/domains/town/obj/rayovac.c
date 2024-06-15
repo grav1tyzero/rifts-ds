@@ -10,7 +10,7 @@ void create(){
     SetShort("a small plastic flashlight");
     SetLong("This is a cheap Rayovac brand flashlight.");
     SetMass(10);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetLightLevel(16);
     SetMinCells(2);
     SetMaxCells(2);

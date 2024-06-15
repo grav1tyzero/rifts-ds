@@ -14,7 +14,7 @@ static void create() {
     SetMealType(MEAL_FOOD);
     SetMass(10); 
     SetStrength(2); 
-    SetBaseCost("silver", 1);
+    SetBaseCost("universal credits", 1);
     SetFight(4);
     SetFood("/domains/town/meals/herring");
 }

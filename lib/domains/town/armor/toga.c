@@ -12,7 +12,7 @@ static void create(){
     SetLong("This is a comfortable, full-length toga. It is the sort of "
             "elegant garment that ancient politicians and healers once wore.");
     SetMass(75);
-    SetBaseCost("silver",100);
+    SetBaseCost("universal credits",100);
     SetProtection(BLUNT,1);
     SetProtection(BLADE,10);
     SetProtection(KNIFE,10);

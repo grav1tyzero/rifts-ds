@@ -15,9 +15,9 @@ create() {
     SetMorality(122);
     SetRace( "human");
     SetHealthPoints(300);
-    AddCurrency("gold", random(200));
+    AddCurrency("universal credits", random(200));
     SetRace("human");
-    SetLocalCurrency("gold");
+    SetLocalCurrency("universal credits");
     //SetMenu(
     //	({
     //	"firebreather", "special", "ale"

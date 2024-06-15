@@ -16,7 +16,7 @@ void create() {
                 "/domains/cave/obj/letter3" : 1,
                 ]));
     SetMass(2000);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetMaxCarry(500);
     SetCanClose(1);
     SetClosed(1);

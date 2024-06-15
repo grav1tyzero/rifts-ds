@@ -12,7 +12,7 @@ static void create() {
     SetLong("This is a simple cot designed for "
             "sleepers that do not require a comfortable bed.");
     SetMass(500);
-    SetBaseCost("silver",15);
+    SetBaseCost("universal credits",15);
     SetMaxSitters(2);
     SetMaxLiers(1);
 }

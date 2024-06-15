@@ -14,7 +14,7 @@ static void create() {
     SetLong("A small white stimulant.");
     SetMass(1);
     SetStrength(1);
-    SetBaseCost("gold",2);
+    SetBaseCost("universal credits",2);
     SetStrength(1);
     SetMealType(MEAL_FOOD);
     SetMealMessages("You swallow a pill.",

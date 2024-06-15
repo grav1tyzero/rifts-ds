@@ -15,7 +15,7 @@ void create(){
     SetMaxAmmo(15);
     SetAmmoType("acp");
     SetVendorType(VT_TREASURE);
-    SetBaseCost("silver", 35);
+    SetBaseCost("universal credits", 35);
     SetInventory(([
                 "/domains/town/obj/9mmround" : 15
                 ]));

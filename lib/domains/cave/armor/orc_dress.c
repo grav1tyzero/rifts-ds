@@ -12,7 +12,7 @@ static void create(){
     SetLong("This is a simple little dress "+
             "made apparently from scrap materials and of improvised design.");
     SetMass(10);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetArmorType(A_BODY_ARMOR);
 }
 

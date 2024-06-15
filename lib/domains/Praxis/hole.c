@@ -28,9 +28,7 @@ void reset() {
         new("/domains/Praxis/obj/misc/match")->move(this_object());
     if(!present("money")) {
         money = new("/lib/pile");
-        money->SetCurrency("platinum", random(5));
-        money->SetCurrency("silver", random(100));
-        money->SetCurrency("copper", random(1000));
+        money->SetCurrency("universal credits", random(5000));
         money->move(this_object());
     }
 }

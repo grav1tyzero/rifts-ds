@@ -14,7 +14,7 @@ static void create(){
     SetShort("a heavy metal ring");
     SetLong("This ring seems to almost pulse with power.");
     SetMass(10);
-    SetBaseCost("silver",5000);
+    SetBaseCost("universal credits",5000);
     SetArmorType(A_RING);
     SetWear((: DoWear :));
     SetUnique(1);

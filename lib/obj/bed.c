@@ -12,7 +12,7 @@ static void create() {
     SetShort("a generic bed");
     SetLong("A nondescript bed.");
     SetMass(400);
-    SetBaseCost("silver",150);
+    SetBaseCost("universal credits",150);
     SetMaxSitters(2);
     SetMaxLiers(1);
 }

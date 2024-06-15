@@ -52,7 +52,7 @@ void create() {
                 "west":"/"+__DIR__+"court_room" ]) );
     x = POLITICS_D->query_personnel("police");
     y = POLITICS_D->query_spending("police");
-    //if(!(tot = (y/x)/currency_rate("gold"))) return;
+    //if(!(tot = (y/x)/currency_rate("universal credits"))) return;
     for(i=0, obs = allocate(x); i<x; i++)
         obs[i] = new("/"+__DIR__+"obj/mon/police");
     obs->SetKeyName("deputy");
@@ -134,7 +134,7 @@ object *clone_guards(int num) {
     x = POLITICS_D->query_personnel("police");
     for(i=0, obs = allocate(num); i<num; i++)
         obs[i] = new("/"+__DIR__+"obj/mon/guard");
-    tot = (y/x)/currency_rate("gold");
+    tot = (y/x)/currency_rate("universal credits");
     tell_object(find_player("manny"), "tot = "+tot);
     obs->SetKeyName("guard");
     obs->SetId( ({ "guard", "city guard", "officer", "praxis guard" }) );

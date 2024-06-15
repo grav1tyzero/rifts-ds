@@ -13,7 +13,7 @@ void setup()
    set_long("Biff looks like a shrewd haggler.\n");
 
    /* Determines what type of currency we'll use */
-   set_currency_type("gold");
+   set_currency_type("universal credits");
 
    /* Tells vendor we will sell things */
    set_for_sale(1);

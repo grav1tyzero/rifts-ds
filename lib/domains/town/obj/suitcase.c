@@ -11,7 +11,7 @@ void create() {
     SetLong("This piece of furniture is designed to hold "+
             "clothing and related accessories.");
     SetMass(2000);
-    SetBaseCost("silver",150);
+    SetBaseCost("universal credits",150);
     SetMaxCarry(2000);
     SetInventory(([
                 "/domains/town/armor/long_boot_l": 1,

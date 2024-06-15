@@ -12,7 +12,7 @@ void create(){
             "foot drying, and avoid a big wet mess on "
             "the bathroom floor. It is slightly damp.");
     SetMass(10);
-    SetBaseCost("silver",5);
+    SetBaseCost("universal credits",5);
     SetVendorType(VT_TREASURE);
 }
 

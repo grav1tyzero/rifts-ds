@@ -12,7 +12,7 @@ static void create() {
     SetShort("a bottle of bourbon");
     SetLong("A dark green bottle of cheap bourbon.");
     SetMass(100);
-    SetBaseCost("silver",20);
+    SetBaseCost("universal credits",20);
     SetMealType(MEAL_DRINK | MEAL_ALCOHOL);
     SetStrength(30);
     SetMealMessages("You finish off the bourbon and gasp! WHEW!! Mean stuff!",

@@ -22,7 +22,7 @@ static void create(){
             "the arbiter variety.");
     SetMass(7000);
     SetMatching(0);
-    SetBaseCost("silver",50000);
+    SetBaseCost("universal credits",50000);
     SetArmorType(A_CUSTOM);
     SetRestrictLimbs( ({ 
                 "torso", "head", "neck",

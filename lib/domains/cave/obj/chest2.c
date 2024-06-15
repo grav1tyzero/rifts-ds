@@ -17,14 +17,11 @@ void create() {
                 ]));
     SetMoney( ([
                 //"dollars" : random(50)+50,
-                "gold" : random(50)+50,
-                "silver" : random(500)+500,
-                "copper" : random(9000)+9000,
-                "electrum" : random(100)+100,
-                "platinum" : random(20)+20,
+
+                "universal credits" : random(200000)+200000,
                 ]) );
     SetMass(2000);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetCanClose(1);
     SetClosed(1);
     SetPreventGet("The chest does not budge.");

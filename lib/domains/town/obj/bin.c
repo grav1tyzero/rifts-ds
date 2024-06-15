@@ -23,7 +23,7 @@ void create() {
     SetNoCondition(1);
     SetCanClose(0);
     SetMass(100);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetNoClean(1);
 }
 

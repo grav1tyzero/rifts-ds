@@ -41,7 +41,7 @@ void create(){
             "the other side of the sphere is a little clear window. It would "+
             "appear that one shakes this ball, then consults it, to get advice.");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     answer = answers[random(sizeof(answers))];
     SetRead( (: eventConsult :) );

@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------
-Dead_Souls_gravity (FluffOS v2.23-ds03w) starting up on Microsoft Windows NT - Sun Jun 02 23:07:35 2024
+Dead_Souls_gravity (FluffOS v2.23-ds03w) starting up on Microsoft Windows NT - Thu Jun 13 18:12:00 2024
 
 
 
@@ -14,57 +14,244 @@ Autoexec daemon run complete.
 
 
 --- Dead_Souls_gravity
-2024.06.02-18.07,53
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/save/creators/g/gravity (/lib/command.c) at line 231
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-
---- Dead_Souls_gravity
-2024.06.02-18.08,03
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/save/creators/g/gravity (/lib/command.c) at line 231
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-
---- Dead_Souls_gravity
-2024.06.02-18.17,07
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/save/creators/g/gravity (/lib/command.c) at line 231
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-
---- Dead_Souls_gravity
-2024.06.02-18.24,20
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/save/creators/g/gravity (/lib/command.c) at line 231
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-
---- Dead_Souls_gravity
-2024.06.02-18.25,21
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/save/creators/g/gravity (/lib/command.c) at line 231
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-
---- Dead_Souls_gravity
-2024.06.02-18.50,41
-*Bad argument 1 to find_living()
+2024.06.13-14.22,03
+*Bad argument 1 to lower_case()
 Expected: string Got: 0.
-Object: /realms/gravity/area/obj/crystalball#173 at line 30
+Object: /secure/lib/net/http#135 at line 356
 
-'scry' at /realms/gravity/area/obj/crystalball#173 at line 30
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#135 at line 356
 
 --- Dead_Souls_gravity
-2024.06.02-19.00,17
-*Bad argument 1 to find_living()
+2024.06.13-16.32,32
+*Bad argument 1 to lower_case()
 Expected: string Got: 0.
-Object: /realms/gravity/area/obj/crystalball#173 at line 30
+Object: /secure/lib/net/http#148 at line 356
 
-'scry' at /realms/gravity/area/obj/crystalball#173 at line 30
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#148 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.47,26
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#158 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#158 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.47,31
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#159 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#159 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.47,38
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#162 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#162 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.47,44
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#164 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#164 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.47,50
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#172 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#172 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.47,55
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#176 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#176 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.48,00
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#178 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#178 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.48,06
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#183 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#183 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.48,12
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#186 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#186 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.48,12
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#188 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#188 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.48,19
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#200 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#200 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.48,22
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#201 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#201 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.48,22
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#202 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#202 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-16.48,30
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#203 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#203 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-19.03,57
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#208 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#208 at line 356
+
+--- Dead_Souls_gravity
+2024.06.13-19.04,08
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#209 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#209 at line 356
+
+--- Dead_Souls_gravity
+2024.06.14-08.10,18
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#227 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#227 at line 356
+
+--- Dead_Souls_gravity
+2024.06.14-09.32,18
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#238 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#238 at line 356
+
+--- Dead_Souls_gravity
+2024.06.14-14.31,11
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#249 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#249 at line 356
+
+--- Dead_Souls_gravity
+2024.06.14-14.31,15
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#250 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#250 at line 356
+
+--- Dead_Souls_gravity
+2024.06.14-14.31,18
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#251 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#251 at line 356
+
+--- Dead_Souls_gravity
+2024.06.14-14.31,21
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#252 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#252 at line 356
+
+--- Dead_Souls_gravity
+2024.06.15-02.52,01
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#272 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#272 at line 356
+
+--- Dead_Souls_gravity
+2024.06.15-02.52,13
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#275 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#275 at line 356
+
+--- Dead_Souls_gravity
+2024.06.15-07.44,58
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#298 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#298 at line 356

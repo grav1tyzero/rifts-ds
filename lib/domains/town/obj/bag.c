@@ -10,7 +10,7 @@ void create() {
     SetShort("a small cloth bag");
     SetLong("It is a simple cloth bag used to hold things. ");
     SetMass(5);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetMaxCarry(50);
 }
 void init(){

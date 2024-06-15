@@ -10,7 +10,7 @@ void create() {
     SetAdjectives( ({ "generic"}) );
     SetShort("a generic table");
     SetLong("It is a surface that can hold things.");
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetMaxCarry(500);
 
 }

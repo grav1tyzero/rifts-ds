@@ -19,7 +19,7 @@ void create() {
     SetCanClose(1);
     SetClosed(1);
     SetMass(274);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetMaxCarry(1500);
 }
 void init(){

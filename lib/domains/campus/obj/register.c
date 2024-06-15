@@ -10,7 +10,7 @@ void create() {
     SetShort("a cash register");
     SetLong("This is a metal machine used for cash transactions.");
     SetMass(200);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetMaxCarry(10);
     SetPreventPut("You cannot put this in there!");
     SetMoney( ([

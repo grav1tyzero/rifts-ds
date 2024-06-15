@@ -17,7 +17,7 @@ create() {
     SetHealthPoints(480);
     AddCurrency("electrum", random(200));
     SetRace("human");
-    SetLocalCurrency("electrum");
+    SetLocalCurrency("universal credits");
     SetVendorType(VT_TREASURE);
     SetStorageRoom("/domains/Praxis/storage");
     SetSkill("melee",100);

@@ -12,7 +12,7 @@ static void create(){
     SetLong("A braided chain, made of finest silver. A locket is on it.");  
     SetMass(50);
     SetMaxCarry(300);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetProtection(BLUNT,1);
     SetProtection(BLADE,1);
     SetProtection(KNIFE,1);

@@ -11,7 +11,7 @@ void create() {
     SetLong("A small can that is designed to hold small things. There is a label "+
             "on it you can read.");
     SetMass(5);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetMaxCarry(20);
     SetInventory( ([
                 "/domains/town/meals/worm" : 15,

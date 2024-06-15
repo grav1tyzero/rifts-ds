@@ -15,7 +15,7 @@ static void create(){
     SetLong("This thin ring seems designed to be "+
             "as light and unobtrusive as possible.");
     SetMass(10);
-    SetBaseCost("silver",5000);
+    SetBaseCost("universal credits",5000);
     SetArmorType(A_RING);
     SetWear((: DoWear :));
     SetUnique(1);

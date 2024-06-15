@@ -12,7 +12,7 @@ static void create(){
     SetLong("This is a soft, felt cap one wears when hunting. "+
             "It has a single feather jauntily stuck to the side.");
     SetMass(10);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetDamagePoints(10);
     SetArmorType(A_HELMET);
     SetProtection(BLUNT, 1);

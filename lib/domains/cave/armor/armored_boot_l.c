@@ -11,7 +11,7 @@ static void create(){
     SetShort("an armored boot");
     SetLong("An armored boot of orcish design. It is designed to cover the left foot and leg, and looks extremely durable and protective.");
     SetMass(60);
-    SetBaseCost("silver", 300);
+    SetBaseCost("universal credits", 300);
     SetProtection(BLUNT,15);
     SetProtection(BLADE,15);
     SetProtection(KNIFE,15);

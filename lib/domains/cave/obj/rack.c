@@ -12,7 +12,7 @@ void create() {
     SetShort("a mug rack");
     SetLong("This is a rack with pegs for cups and mugs.");
     SetMass(274);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetMaxCarry(100);
     SetInventory(([
                 "/domains/cave/obj/mug" : 4,

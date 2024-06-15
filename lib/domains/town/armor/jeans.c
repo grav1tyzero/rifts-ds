@@ -11,7 +11,7 @@ static void create(){
     SetShort("a pair of blue jeans");
     SetLong("A comfortable pair of denim blue jeans.");
     SetMass(20);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetArmorType(A_PANTS);
 }
 

@@ -110,7 +110,7 @@ void create(){
             "blue buttons. It has a printed label you can read, and it looks "+
             "like someone has scribbled some markings on it as well.");
     SetMass(100);
-    SetBaseCost("silver",5000);
+    SetBaseCost("universal credits",5000);
     SetVendorType(VT_TREASURE);
     SetItems( ([
                 ({"label","printed label"}) : "A printed label you can read.",

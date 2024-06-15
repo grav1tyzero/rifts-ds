@@ -17,6 +17,6 @@ static void create() {
     SetFuelAmount(10);
     SetRefuelable(0);
     SetMass(5);
-    SetBaseCost("silver",2);
+    SetBaseCost("universal credits",2);
     SetBurntValue(1);
 }

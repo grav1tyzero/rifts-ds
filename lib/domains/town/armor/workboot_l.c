@@ -11,7 +11,7 @@ static void create(){
     SetShort("a brown leather workboot");
     SetLong("A heavy, brown leather workboot with strong ankle and sole support. It is designed for wear on the left foot.");
     SetMass(40);
-    SetBaseCost("silver",25);
+    SetBaseCost("universal credits",25);
     SetProtection(BLUNT,5);
     SetProtection(BLADE,5);
     SetProtection(KNIFE,5);

@@ -168,7 +168,7 @@ values in a header file as #define statements so that any need to make a
 future change will cause you to need to change just the #define directive. 
 A very good example of where this would be useful would be a header
 file called money.h  which includes the directive:
-#define HARD_CURRENCIES ({ "gold", "platinum", "silver",
+#define HARD_CURRENCIES ({ "gold", "universal credits", "silver",
 "electrum", "copper" })
 so that if ever you wanted to add a new hard currency, you only need
 change this directive in order to update all files needing to know what the

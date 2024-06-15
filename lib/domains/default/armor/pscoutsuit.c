@@ -34,7 +34,7 @@ static void create(){
     SetLong((:LongDesc:));
     SetMass(500);
     SetMatching(0);
-    SetBaseCost("silver",5000);
+    SetBaseCost("universal credits",5000);
     SetArmorType(A_EXO);
     SetRestrictLimbs( ({ 
                 "torso", "head", "neck",

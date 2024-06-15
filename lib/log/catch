@@ -136,3 +136,14 @@ Object: /secure/cmds/creators/update at line 170
 'cmd' at /secure/cmds/creators/update at line 116
 'eventUpdate' at /secure/cmds/creators/update at line 170
 'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Dead_Souls_gravity
+2024.06.06-20.27,42
+*Error in loading object '/realms/thurtea/area/obj/wiztool'
+Object: /secure/sefun/sefun at line 120
+
+'<fake>' at /secure/save/creators/t/thurtea (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/t/thurtea (/lib/command.c) at line 231
+'cmd' at /cmds/creators/clone at line 26
+'CATCH' at /cmds/creators/clone at line 26
+'clone_object' at /secure/sefun/sefun at line 120

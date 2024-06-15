@@ -15,7 +15,7 @@ void create(){
     SetLong( (: SpamSpam :) );
     SetNoCondition(1);
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetRetain(1);
 }

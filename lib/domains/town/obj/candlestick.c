@@ -9,7 +9,7 @@ void create(){
     SetShort("a silver candlestick");
     SetLong("This is an small, ornate silver candlestick.");
     SetMass(20);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetVendorType(VT_TREASURE);
 }
 

@@ -15,7 +15,7 @@ static void create() {
     SetStrength(5);
     SetMealMessages("You drink a bottle of ale.",
             "$N drinks a bottle of ale.");
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
 }
 void init(){
     ::init();

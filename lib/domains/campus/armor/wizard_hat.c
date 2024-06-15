@@ -16,7 +16,7 @@ static void create(){
                 "beta" : 2,
                 ]));
     SetMass(50);
-    SetBaseCost("silver",500);
+    SetBaseCost("universal credits",500);
     SetDamagePoints(100);
     SetArmorType(A_HELMET);
     SetProtection(BLUNT, 20);

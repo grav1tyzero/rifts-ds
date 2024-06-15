@@ -12,7 +12,7 @@ void create() {
     SetMorality(200);
     SetRace( "wraith");
     SetGender("female");
-    SetCurrency("gold",random(50));
+    SetCurrency("universal credits",random(50));
     SetMaxHealthPoints(25);
     SetHealthPoints(25);
     SetRace("human");

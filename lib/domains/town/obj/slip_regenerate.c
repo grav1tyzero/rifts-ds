@@ -12,7 +12,7 @@ void create(){
     SetLong("This is a small, fragile piece of paper, possibly even a leaf. "
             "It has some script scribbled on it.");
     SetMass(1);
-    SetBaseCost("silver",1200);
+    SetBaseCost("universal credits",1200);
     SetVendorType(VT_HERB);
     SetItems( ([
                 ({"script","writing","scribbling"}) : "There is writing on the slip."

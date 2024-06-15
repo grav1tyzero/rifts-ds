@@ -52,7 +52,7 @@ void create() {
                 "/domains/town/armor/jacket" : 1,
                 "/domains/town/armor/overcoat" : 1,
                 ]));
-    SetBaseCost("silver",150);
+    SetBaseCost("universal credits",150);
     SetCanClose(1);
     SetClosed(1);
     AddMoney("silver",100);

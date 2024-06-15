@@ -11,7 +11,7 @@ static void create(){
     SetShort("leather pants");
     SetLong("These are trousers made of strong, tough leather. ");
     SetMass(150);
-    SetBaseCost("silver",110);
+    SetBaseCost("universal credits",110);
     SetDamagePoints(10);
     SetProtection(BLUNT,1);
     SetProtection(BLADE,5);

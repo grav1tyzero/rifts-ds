@@ -15,7 +15,7 @@ static void create(){
             "yet the joints are so finely articulated as to "+
             "permit great freedom of movement.");
     SetMass(900);
-    SetBaseCost("silver",10000);
+    SetBaseCost("universal credits",10000);
     SetDamagePoints(100);
     SetProtection(BLUNT,40);
     SetProtection(BLADE,60);

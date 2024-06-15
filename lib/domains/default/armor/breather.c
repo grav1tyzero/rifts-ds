@@ -23,7 +23,7 @@ static void create(){
     SetShort("an A99 breathing device");
     SetLong( (: LongD :) );
     SetMass(50);
-    SetBaseCost("silver",1000);
+    SetBaseCost("universal credits",1000);
     SetArmorType(A_CUSTOM);
     SetRestrictLimbs( ({ "head"}) );
     AddSave( ({ "charge" }) );

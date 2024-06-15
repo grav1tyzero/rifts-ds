@@ -12,7 +12,7 @@ void create(){
     SetLong("A typical implement of games of chance. Orange in color, and "
             "marked with numbers rather than dots along its six surfaces.");
     SetMass(2);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetVendorType(VT_TREASURE);
 }
 

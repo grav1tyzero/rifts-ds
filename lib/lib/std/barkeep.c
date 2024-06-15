@@ -11,7 +11,7 @@
 inherit LIB_SENTIENT;
 inherit LIB_BUY;
 
-private string  LocalCurrency = "gold";
+private string  LocalCurrency = "universal credits";
 private mapping MenuItems     = ([]);
 private mapping SpecialMenuItems     = ([]);
 

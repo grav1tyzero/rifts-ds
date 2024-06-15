@@ -11,7 +11,7 @@ void create() {
     SetLong("It is a simple cloth bag used to hold things. Printed on it is: "
             "\"Property of A.S. Clepius\"");
     SetMass(30);
-    SetBaseCost("silver",5);
+    SetBaseCost("universal credits",5);
     SetMaxCarry(300);
 }
 

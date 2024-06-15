@@ -9,7 +9,7 @@ Start with the simple shopkeeper as specified in the previous room
 
 Within the setup, there are many options available.
 // Determine what type of currency we'll use
-    set_currency_type("gold");
+    set_currency_type("universal credits");
 
 // Sets shopkeeper to sell things (0 for nothing)
     set_for_sale(1);

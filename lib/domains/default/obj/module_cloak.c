@@ -27,7 +27,7 @@ void create(){
                 "writing": "Stealth module: provides cloaking and decloaking.",
                 ]) );
     SetLanguage("Yautja");
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
 }
 

@@ -14,7 +14,7 @@ static void create() {
     SetMass(1);
     SetStrength(1);
     SetBaitStrength(200);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetMealType(MEAL_FOOD);
     SetMealMessages("You eat a small wriggling worm. Yuck!",
             "$N eats $P little worm. Yuck!");

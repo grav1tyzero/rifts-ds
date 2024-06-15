@@ -26,7 +26,7 @@ static void create(){
     SetCanClose(1);
     SetMaxCarry(2000);
     SetMass(200);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetDamagePoints(100);
     SetArmorType(A_CLOAK);
     SetProtection(COLD, 1);

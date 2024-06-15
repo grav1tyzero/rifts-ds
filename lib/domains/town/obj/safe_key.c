@@ -10,7 +10,7 @@ static void create() {
     SetShort("a complex key");
     SetLong("It is a complicated-looking key.");
     SetMass(1);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetDisableChance(100);
 }
 

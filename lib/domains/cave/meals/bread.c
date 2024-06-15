@@ -11,7 +11,7 @@ static void create() {
     SetNoCondition(1);
     SetMass(50);
     SetStrength(10);
-    SetBaseCost("silver", 1);
+    SetBaseCost("universal credits", 1);
     SetMealType(MEAL_FOOD);
     SetMealMessages("You eat your black bread.",
             "$N eats $P loaf of black bread.");

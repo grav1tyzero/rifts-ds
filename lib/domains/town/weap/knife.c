@@ -12,7 +12,7 @@ static void create() {
     SetShort("a small knife");
     SetLong("A knife.");
     SetMass(50);
-    SetBaseCost("silver",5);
+    SetBaseCost("universal credits",5);
     SetVendorType(VT_WEAPON);
     SetClass(5);
     SetDamageType(KNIFE);

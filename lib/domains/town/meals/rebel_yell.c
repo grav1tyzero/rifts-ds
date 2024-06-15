@@ -11,7 +11,7 @@ void create(){
     SetShort("a bottle of whiskey");
     SetLong("A bottle of whiskey.");
     SetMass(40);
-    SetBaseCost("gold",3);
+    SetBaseCost("universal credits",3);
     SetVendorType(VT_DRINK);
     SetFlaskContents("whiskey");
     SetFlaskUses(10);

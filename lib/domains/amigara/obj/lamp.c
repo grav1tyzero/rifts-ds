@@ -11,7 +11,7 @@ void create(){
     SetLong("This is a lamp embedded into the floor, designed to provide light.");
     SetPreventGet("The lamp is embedded into the floor.");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetRadiantLight(25);
     SetFuelAmount(5000);

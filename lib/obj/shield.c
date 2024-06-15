@@ -15,7 +15,7 @@ static void create() {
     SetDamagePoints(75);
     SetVendorType(VT_ARMOR);
     SetMass(200);
-    SetBaseCost("silver",150);
+    SetBaseCost("universal credits",150);
     SetArmorType(A_SHIELD);
     SetProtection(BLUNT, 10);
     SetProtection(BLADE, 10);

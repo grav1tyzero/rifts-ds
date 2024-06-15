@@ -22,7 +22,7 @@ static void create() {
     AddSave( ({ "Spouse" }) );
     SetKeyName("wedding ring");
     SetId( ({ "ring", "official wedding ring" }) );
-    SetAdjectives( ({ "golden", "gold" }) );
+    SetAdjectives( ({ "golden", "universal credits" }) );
     SetShort("a wedding ring of gold");
     SetLong( (:RealLong:) );
     SetVendorType(VT_ARMOR | VT_MAGIC);

@@ -11,7 +11,7 @@ static void create(){
     SetShort("a Def Leppard shirt");
     SetLong("A stupid-looking black shirt with a ridiculous band logo on it.");
     SetMass(5);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetProtection(BLUNT,1);
     SetProtection(BLADE,1);
     SetProtection(KNIFE,1);

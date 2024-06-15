@@ -12,7 +12,7 @@ static void create() {
     SetLong("This is a generic drink.");
     SetMass(10);
     SetStrength(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetMealType(MEAL_DRINK);
     SetMealMessages("You quaff your drink. Mmm!",
             "$N quaffs $P drink.");

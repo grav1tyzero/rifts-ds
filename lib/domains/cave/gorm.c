@@ -34,7 +34,7 @@ static void create() {
     SetAttackable(0);
     SetSkill("bargaining", 1);
     SetProperty("no bump", 1);
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetStorageRoom("/domains/cave/room/shop2");
 }
 

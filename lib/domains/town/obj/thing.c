@@ -10,7 +10,7 @@ void create(){
     SetShort("a generic thing");
     SetLong("This is an object of indeterminate nature and proportions.");
     SetMass(1);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetVendorType(VT_TREASURE);
 }
 

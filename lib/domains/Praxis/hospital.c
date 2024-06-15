@@ -79,15 +79,15 @@ int read(string str) {
             "<regenerate [limb]>: This service is for the experienced adventurer\n"
             "	who has lost limbs.  The limb is replaced and acts like new.\n"
             "	Tithe schedule for regeneration:\n"
-            "            from "+currency_value(320, "gold")+" gold for minor limbs (non-clerics)\n"
-            "            to "+currency_value(800, "gold")+" gold for major limbs (non-clerics)\n"
-            "            "+currency_value(240, "gold")+" to "+currency_value(600, "gold")+" gold for clerics\n"
+            "            from "+currency_value(320, "universal credits")+" gold for minor limbs (non-clerics)\n"
+            "            to "+currency_value(800, "universal credits")+" gold for major limbs (non-clerics)\n"
+            "            "+currency_value(240, "universal credits")+" to "+currency_value(600, "universal credits")+" universal credits for clerics\n"
             "<clean poison>: Helps remove some of the poison from your body.\n"
-            "\ttithe: "+currency_value(50, "gold")+" gold\n"
+            "\ttithe: "+currency_value(50, "universal credits")+" universal credits\n"
             "<donate # (hp or mp) of blood>: Donates some of your blood in\n"
             "\texchange for gold.\n"
             "<transfuse # (hp or mp)>: Transfuse some blood int hp or mp into your body\n"
-            "\ttithe: amount times "+currency_value(3, "gold")+" gold.\n"
+            "\ttithe: amount times "+currency_value(3, "universal credits")+" universal credits.\n"
             "Currently: "+blood["hp"]+" hp blood and "+blood["mp"]+" mp blood free.\n"
             "------------------------------------------------------------------\n"
             "Half off all regenerations with the severed limb!\n"
@@ -105,11 +105,11 @@ int clean_poison(string str) {
         notify_fail("A cleric whispers to you: But you are not poisoned!\n");
         return 0;
     }
-    if(tp->query_money("gold") < currency_value(50, "gold")) {
+    if(tp->query_money("universal credits") < currency_value(50, "universal credits")) {
         notify_fail("You do not have enough gold for the tithe.\n");
         return 0;
     }
-    tp->AddCurrency("gold", -currency_value(50, "gold"));
+    tp->AddCurrency("universal credits", -currency_value(50, "universal credits"));
     tp->add_poisoning(-10);
     write("A cleric casts a spell of healing upon you.");
     say("A cleric casts a spell of healing on "+tp->query_cap_name()+".", tp);
@@ -158,18 +158,18 @@ int regenerate(string limb) {
     if(strsrch(limb, "hand") != -1 || strsrch(limb, "foot") != -1 || 
             strsrch(limb, "hoof") != -1) {
         money = (this_player()->query_class() == "cleric" ? 
-                currency_value(240, "gold") : currency_value(320, "gold"));
+                currency_value(240, "universal credits") : currency_value(320, "universal credits"));
     }
     else money = (this_player()->query_class() == "cleric" ? 
-            currency_value(600, "gold") : currency_value(800, "gold"));
-    if(tp->query_money("gold") < COST) {
+            currency_value(600, "universal credits") : currency_value(800, "universal credits"));
+    if(tp->query_money("universal credits") < COST) {
         notify_fail("The cleric tells you:  You do not have enough gold.\n");
         return 0;
     }
     tp->AddLimb(limb, limb_info["ref"], tp->query_max_hp()/limb_info["max"], 0, 0);
     if(member_array(limb, RACES_D->query_wielding_limbs(tp->query_race())) != -1) 
         tp->add_wielding_limb(limb);
-    this_player()->AddCurrency("gold", -COST);
+    this_player()->AddCurrency("universal credits", -COST);
     say(sprintf("%s asks the clerics for some help with %s missing %s.",
                 this_player()->query_cap_name(), possessive(this_player()), limb));
     write("The clerics restore your "+limb+"!");
@@ -202,10 +202,10 @@ int donate(string str) {
         return 0;
     }
     call_other(this_player(), "add_"+what, -amount);
-    this_player()->AddCurrency("gold", currency_value(amount/5, "gold"));
+    this_player()->AddCurrency("universal credits", currency_value(amount/5, "universal credits"));
     blood[what] += amount;
     blood["who"][this_player()->query_name()] += amount;
-    write("You donate some blood for "+(currency_value(amount/5, "gold"))+" gold coins.");
+    write("You donate some blood for "+(currency_value(amount/5, "universal credits"))+" gold coins.");
     say(this_player()->query_cap_name()+" donates some blood for some gold.", this_player());
     call_out("reduce_donation", 900, ({ this_player(), amount }));
     return 1;
@@ -235,11 +235,11 @@ int transfuse(string str) {
         notify_fail("We do not have that much blood in right now.\n");
         return 0;
     }
-    if(this_player()->query_money("gold") < currency_value(amount*3, "gold")) {
+    if(this_player()->query_money("universal credits") < currency_value(amount*3, "universal credits")) {
         notify_fail("You do not have enough gold for the tithe.\n");
         return 0;
     }
-    this_player()->AddCurrency("gold", -currency_value(amount*3, "gold"));
+    this_player()->AddCurrency("universal credits", -currency_value(amount*3, "universal credits"));
     call_other(this_player(), "add_"+what, amount);
     write("You receive a blood transfusion");
     say(this_player()->query_cap_name()+" receives a blood transfusion.", this_player());

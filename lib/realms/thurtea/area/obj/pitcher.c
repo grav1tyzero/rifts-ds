@@ -12,7 +12,7 @@ void create(){
     SetLong("A small, clay vessel for containing fluids. You may "+
             "want to \"pour from pitcher into cup\".");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetFlaskContents("water");
     SetFlaskUses(2);

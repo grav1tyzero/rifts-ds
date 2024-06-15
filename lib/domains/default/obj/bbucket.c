@@ -12,7 +12,7 @@ void create() {
     SetLong("This is a blue trash can, marked with "+
             "the letters \"/dev/null\".");
     SetMass(200);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetMaxCarry(999999);
 }
 

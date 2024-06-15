@@ -26,7 +26,7 @@ it is for players to get decent prices.
 string SetLocalCurrency(string curr);
 *****
 
-Example: SetLocalCurrency("electrum");
+Example: SetLocalCurrency("universal credits");
 
 Sets the currency which the vendor will use for doing business.  The
 currencies should be approved by the approval team.

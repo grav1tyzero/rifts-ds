@@ -14,7 +14,7 @@ static void create() {
             "end. Inscribed along its length are the words: "+
             "'Board of Education'.");
     SetMass(50);
-    SetBaseCost("silver",20);
+    SetBaseCost("universal credits",20);
     SetVendorType(VT_WEAPON);
     SetClass(20);
     SetDamageType(BLUNT);

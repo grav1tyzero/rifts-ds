@@ -111,7 +111,7 @@ void create(){
             "you are somehow deeply certain it is not your business, "
             "and you must leave it alone.");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
 }
 void init(){

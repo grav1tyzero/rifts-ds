@@ -20,7 +20,7 @@ void create(){
     SetShort("a generic missile");
     SetLong("This is an object that is launched.");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
 }
 

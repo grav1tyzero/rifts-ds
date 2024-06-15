@@ -18,7 +18,7 @@ void create(){
                 ({ "word", "words", "inscription", "engraving" }) : "3rd Runner Up, Junior Miss Cocoa Butter Pageant, 1963",
                 ]));
     SetMass(10);
-    SetBaseCost("silver",100);
+    SetBaseCost("universal credits",100);
     SetVendorType(VT_TREASURE);
     SetFlaskUses(0);
     SetStrength(5);

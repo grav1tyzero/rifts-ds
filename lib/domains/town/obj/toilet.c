@@ -10,7 +10,7 @@ static void create() {
     SetShort("a toilet");
     SetLong("This is a common piece of internal plumbing.");
     SetMass(2000);
-    SetBaseCost("silver",15);
+    SetBaseCost("universal credits",15);
     SetMaxSitters(1);
 }
 

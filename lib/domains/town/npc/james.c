@@ -22,7 +22,7 @@ static void create() {
     AddCurrency("silver", random(100));
     SetSkill("bargaining", 1);
     SetProperty("no bump", 1);
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetStorageRoom("/domains/town/room/healer2");
     SetMaxItems(10000);
     SetVendorType(VT_HERB);

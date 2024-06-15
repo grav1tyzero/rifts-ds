@@ -14,7 +14,7 @@ static void create() {
             "is designed to be wielded with two hands.");
     SetMass(500);
     SetHands(2);
-    SetBaseCost("silver",2800);
+    SetBaseCost("universal credits",2800);
     SetVendorType(VT_WEAPON);
     SetClass(35);
     SetDamageType(BLADE);

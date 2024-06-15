@@ -11,7 +11,7 @@ static void create(){
     SetShort("a colorful paisley vest");
     SetLong("A goofy-looking hippie vest with psychedelic paisley patterns on it.");
     SetMass(5);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetProtection(BLUNT,1);
     SetProtection(BLADE,1);
     SetProtection(KNIFE,1);

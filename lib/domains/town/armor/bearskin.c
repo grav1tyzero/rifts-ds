@@ -19,7 +19,7 @@ static void create(){
                 ]) );
     SetSmell( ([ "default" : "It reeks of death." ]) );
     SetMass(75);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetProtection(BLADE,5);
     SetProtection(KNIFE,5);
     SetArmorType(A_CLOAK);

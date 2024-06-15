@@ -10,7 +10,7 @@ void create() {
     SetShort("a very long dining table");
     SetLong("This is a very long dining table, suitable for accommodating a few dozen guests. It is made of fine, polished wood.");
     SetMass(2000);
-    SetBaseCost("silver",5000);
+    SetBaseCost("universal credits",5000);
     SetMaxCarry(5000);
     inventory_visible();
     inventory_accessible();

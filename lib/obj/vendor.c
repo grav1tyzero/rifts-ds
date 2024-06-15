@@ -15,7 +15,7 @@ static void create() {
     SetRace("human");
     SetSkill("bargaining", 1);
     SetProperty("no bump", 1);
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetStorageRoom("/obj/room");
     SetMaxItems(100);
     SetVendorType(VT_ALL);

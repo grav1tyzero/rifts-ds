@@ -30,7 +30,7 @@ void create() {
     SetShort("a glowing orange portal");
     SetLong("A strangely glowing and pulsating portal.");
     SetMass(0);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetMaxCarry(0);
     SetPreventGet("You fail.");
     SetNoClean(1);

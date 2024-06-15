@@ -9,7 +9,7 @@ void create(){
     SetShort("a D cell battery");
     SetLong("This is a typical D-cell battery, of a generic brand.");
     SetMass(2);
-    SetBaseCost("silver",2);
+    SetBaseCost("universal credits",2);
     SetVendorType(VT_TREASURE);
     SetPowerType("DC");
     SetCellType("D");

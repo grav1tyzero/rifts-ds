@@ -14,7 +14,7 @@ static void create() {
             "strong, canvas-like material. It appears suitable "+
             "for just about any adventure you'd find yourself in.");
     SetMass(100);
-    SetBaseCost("silver", 40);
+    SetBaseCost("universal credits", 40);
     SetCanClose(1);
     SetClosed(0);
     SetMaxCarry(500);

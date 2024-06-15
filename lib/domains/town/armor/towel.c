@@ -11,7 +11,7 @@ static void create(){
     SetShort("a damp towel");
     SetLong("This is an ordinary bath towel.");
     SetMass(25);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetProtection(BLUNT,1);
     SetProtection(BLADE,1);
     SetProtection(KNIFE,1);

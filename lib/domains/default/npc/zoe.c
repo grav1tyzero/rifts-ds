@@ -20,13 +20,13 @@ static void create() {
     SetRace("human");
     AddCurrency("silver", random(100));
     SetProperty("no bump", 1);
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetBankName("First Village Bank");
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetLocalFee(1);
     SetOpenFee(5);
     SetExchangeFee(2);
-    SetCurrencies( ({ "copper", "silver", "electrum", "gold", "platinum" }) );
+    SetCurrencies( ({ "copper", "silver", "electrum", "gold", "universal credits" }) );
 
 
 }

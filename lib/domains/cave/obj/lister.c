@@ -12,7 +12,7 @@ void create(){
     SetLong("A large canvas bag suspended on a tripod containing "+
             "drinking water.");
     SetMass(2000);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetFlaskContents("water");
     SetFlaskUses(1000);

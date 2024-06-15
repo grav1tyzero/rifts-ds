@@ -12,7 +12,7 @@ static void create(){
     SetLong("This a handsome scarf, very comfortable and "+
             "probably expensive as well.");
     SetMass(3);
-    SetBaseCost("silver", 350);
+    SetBaseCost("universal credits", 350);
     SetArmorType(A_COLLAR);
 }
 

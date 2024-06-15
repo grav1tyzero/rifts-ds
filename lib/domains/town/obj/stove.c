@@ -16,7 +16,7 @@ void create() {
             "stoves that only ridiculously rich people have in "+
             "their homes.");
     SetMass(5000);
-    SetBaseCost("silver",1000);
+    SetBaseCost("universal credits",1000);
     SetMaxCarry(5000);
     SetInventory(([
                 "/domains/town/npc/rat" : 1

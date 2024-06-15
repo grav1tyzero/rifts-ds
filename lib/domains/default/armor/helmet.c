@@ -10,7 +10,7 @@ static void create(){
     SetShort("a steel helmet");
     SetLong("This is a helmet made of tough  metal.");
     SetMass(180);
-    SetBaseCost("silver",500);
+    SetBaseCost("universal credits",500);
     SetDamagePoints(100);
     SetArmorType(A_HELMET);
     SetProtection(BLUNT, 20);

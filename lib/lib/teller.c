@@ -25,7 +25,7 @@ static void create(){
     LocalFee = 1;
     NonLocalFee = 5;
     OpenFee = 5;
-    Currencies = ({ "copper", "silver", "electrum", "gold", "platinum" });
+    Currencies = ({ "universal credits" });
     SetCommandResponses( ([
                 "default" : (: cmdParse :),
                 ]) );

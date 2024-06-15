@@ -11,7 +11,7 @@ void create(){
     SetShort("a water skin");
     SetLong("A pouch made of animal bladder for containing fluids.");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetFlaskContents("water");
     SetFlaskUses(20);

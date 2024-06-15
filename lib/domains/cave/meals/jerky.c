@@ -14,7 +14,7 @@ static void create() {
     SetNoCondition(1);
     SetMass(15);
     SetStrength(1);
-    SetBaseCost("silver", 1);
+    SetBaseCost("universal credits", 1);
     SetMealType(MEAL_FOOD);
     SetMealMessages("You gnaw on the jerky and manage to choke it down.",
             "$N gnaws on and chokes down $P strip of jerky.");

@@ -18,7 +18,7 @@ void create() {
                 "/domains/town/obj/slip_heal" : 4,
                 ]));
     SetMass(1000);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetCanClose(1);
     SetClosed(1);
     SetCanLock(1);

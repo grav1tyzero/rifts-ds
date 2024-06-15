@@ -11,7 +11,7 @@ void create(){
     SetLong("This is a heavy ball, slighly smaller than palm-sized, "
             "used in the game of billiards.");
     SetMass(30);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
 }
 

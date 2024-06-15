@@ -37,7 +37,7 @@ static void create()  {
     SetAdjectives(({"milk1","milk2"}));
     SetShort("a carton of milk");
     SetMass(10);
-    SetBaseCost("silver", 1);
+    SetBaseCost("universal credits", 1);
     SetMealType(MEAL_DRINK);
     SetStrength(25);
     SetMealMessages("You drink your milk, and feel refreshed.", "$N drinks "+

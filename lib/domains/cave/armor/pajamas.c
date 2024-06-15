@@ -19,7 +19,7 @@ static void create(){
                 "injuries.",
                 ]) );
     SetMass(2);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetArmorType(A_BODY_ARMOR);
     SetSize(S_SOMEWHAT_SMALL|S_SMALL);
 }

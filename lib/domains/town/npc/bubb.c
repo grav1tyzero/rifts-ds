@@ -9,7 +9,7 @@ void create(){
     SetRace("orc");
     SetNativeLanguage("english");
     SetTeachingFee(100);
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetShort("Bubb the schoolteacher");
     SetLong("This is a person whose job it is to teach you things. "+
             "For example, 'ask teacher "+

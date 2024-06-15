@@ -13,7 +13,7 @@ static void create() {
             "and similar in appearance to a pocket watch. There is a blinking red light "+
             "next to the tiny metal button at its top.");
     SetMass(10);
-    SetBaseCost("silver",300);
+    SetBaseCost("universal credits",300);
     AddItem("button", "A button on the omni.");
     SetVendorType(VT_MAGIC);
 }

@@ -10,7 +10,7 @@ void create(){
     SetShort("a generic book");
     SetLong("This is a mostly empty book.");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetTitle("The Sample Book");
 }

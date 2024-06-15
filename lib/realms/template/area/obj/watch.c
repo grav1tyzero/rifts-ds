@@ -18,7 +18,7 @@ static void create(){
             "luster. It is quietly ticking the seconds, and it looks like you can get the "+
             "accurate time by reading the watch.");
     SetMass(10);
-    SetBaseCost("silver",40);
+    SetBaseCost("universal credits",40);
     SetProtection(BLUNT,1);
     SetProtection(BLADE,1);
     SetProtection(KNIFE,1);

@@ -14,12 +14,12 @@ void create() {
     SetMorality(-200);
     SetRace( "wraith");
     SetGender("female");
-    SetCurrency("gold",random(50));
+    SetCurrency("universal credits",random(50));
     SetMaxHealthPoints(25);
     SetHealthPoints(25);
     SetRace("human");
     mony = new("/lib/pile");
-    mony->SetCurrency("silver",500);
+    mony->SetCurrency("universal credits",500);
     mony->move(this_object());
 }
 

@@ -19,7 +19,7 @@ static void create() {
     SetStrength(5);
     SetMealMessages("You drink a potion.",
             "$N drinks a potion.");
-    SetBaseCost("gold",50);
+    SetBaseCost("universal credits",50);
     SetPoints( ([ "MP" : 500 ]) );
     SetStats( ([ "intelligence" : 5 ]) );
     SetVendorType(VT_MAGIC);

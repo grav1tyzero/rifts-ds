@@ -16,7 +16,7 @@ static void create() {
     SetStrength(5);
     SetMealMessages("You drink from the vial.",
             "$N drinks from a vial.");
-    SetBaseCost("silver",200);
+    SetBaseCost("universal credits",200);
     SetPoints( ([ "poison" : -20 ]) );
     SetEmptyName("vial");
     SetEmptyShort("an empty vial");

@@ -14,7 +14,7 @@ static void create() {
     SetLong("A slender stick of red spice.");
     SetMass(1);
     SetStrength(1);
-    SetBaseCost("gold",8);
+    SetBaseCost("universal credits",8);
     SetStrength(1);
     SetMealType(MEAL_FOOD);
     SetMealMessages("You eat a stick of red spice.",

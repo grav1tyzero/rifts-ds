@@ -15,7 +15,7 @@ static void create() {
     SetLong("A tiny, 10 milligram dose of a drug that removes cold symptoms.");
     SetMass(10);
     SetStrength(1);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetMealType(MEAL_FOOD);
     SetMealAction((: MealCure :));
     SetMealMessages("You swallow the pill.",

@@ -15,7 +15,7 @@ void create() {
     SetRace( "wraith");
     SetGender("neuter");
     SetMaxHealthPoints(25);
-    SetCurrency("gold",25);
+    SetCurrency("universal credits",25);
     SetHealthPoints(25);
     SetRace("human");
 }

@@ -12,7 +12,7 @@ static void create(){
     SetLong("A greasy, old, dirty baseball cap that was once mostly red, with "
             "the word 'CAT' on the front.");
     SetMass(5);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetArmorType(A_HELMET);
 }
 

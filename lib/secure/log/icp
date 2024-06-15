@@ -21,3 +21,23 @@ icp setup ended
 
 icp setup ended
 icp setup ended
+2024.06.03-07.46,53 socket_accepted: 1, ({ 1008, "DATA_XFER", "MUD", "10.0.0.226.6672", "45.141.87.83.64996", OBJ(/secure/daemon/instances) })
+
+2024.06.03-07.46,54 close_callback: fd=1
+
+icp setup ended
+2024.06.04-20.20,24 socket_accepted: 1, ({ 972, "DATA_XFER", "MUD", "10.0.0.226.6672", "188.119.66.112.64510", OBJ(/secure/daemon/instances) })
+
+2024.06.04-20.20,24 close_callback: fd=1
+
+icp setup ended
+2024.06.09-15.07,05 socket_accepted: 6, ({ 832, "DATA_XFER", "MUD", "10.0.0.226.6672", "38.180.165.233.44562", OBJ(/secure/daemon/instances) })
+
+2024.06.09-15.07,06 close_callback: fd=6
+
+icp setup ended
+icp setup ended
+2024.06.14-08.52,04 socket_accepted: 6, ({ 956, "DATA_XFER", "MUD", "10.0.0.226.6672", "35.203.211.234.60694", OBJ(/secure/daemon/instances) })
+
+2024.06.14-08.52,04 close_callback: fd=6
+

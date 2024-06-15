@@ -14,7 +14,7 @@ void create() {
             "testing convenience.");
     SetNoCondition(1);
     SetMass(274);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetMaxCarry(5000);
     SetInventory(([
                 "/domains/default/weap/sharpsword" : ({ 1800, 5 }),

@@ -11,7 +11,7 @@ void create(){
     SetShort("a large beer stein");
     SetLong("A large vessel for drinking fluids.");
     SetMass(40);
-    SetBaseCost("gold",1);
+    SetBaseCost("universal credits",1);
     SetVendorType(VT_DRINK);
     SetFlaskContents("Guinness");
     SetFlaskUses(10);

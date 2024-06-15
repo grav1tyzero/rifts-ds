@@ -14,7 +14,7 @@ static void create()  {
     SetMass(10);
     SetMealType( MEAL_DRINK | MEAL_CAFFEINE );
     SetStrength(20);
-    SetBaseCost("silver",15);
+    SetBaseCost("universal credits",15);
     SetMealMessages("The wonderful drink is most invigorating." , 
             "$N drinks $P espresso, and looks invigorated and a bit more wired.");
 }

@@ -49,7 +49,7 @@ void reset() {
     ob->SetLevel(66);
     ob->SetRace("artrell");
     ob->SetClass("mage");
-    ob->AddCurrency("gold", currency_value(100, "gold"));
+    ob->AddCurrency("universal credits", currency_value(100, "universal credits"));
     ob->SetStat("constitution", 500);
     ob->SetStat("dexterity",500);
     ob->SetStat("strength", 500);
@@ -102,15 +102,15 @@ static int cmd_buy(string str) {
     if(!present("atmos", this_object())) 
         return notify_fail("Atmos is missing!\n");
     if(str == "deed") {
-        if(this_player()->query_money("gold") <
-                currency_value(DEED_COST, "gold")) {
-            message("my_action", "You do not have enough gold.",this_player());
+        if(this_player()->query_money("universal credits") <
+                currency_value(DEED_COST, "universal credits")) {
+            message("my_action", "You do not have enough universal credits.",this_player());
             return 1;
         }
         message("my_action", "You purchase a deed.", this_player());
         message("other_action", this_player()->query_cap_name()+
                 " purchases a deed.", this_object(), ({ this_player() }));
-        this_player()->AddCurrency("gold", -currency_value(DEED_COST, "gold"));
+        this_player()->AddCurrency("universal credits", -currency_value(DEED_COST, "universal credits"));
         ob = new(OB_DEED);
         if(ob->move(this_player())) {
             message("my_action", "You drop your deed.", this_player());
@@ -122,15 +122,15 @@ static int cmd_buy(string str) {
         return 1;
     }
     else if(str == "order" || str == "work order" ) {
-        if(this_player()->query_money("gold") <
-                currency_value(ORDER_COST, "gold")) {
-            ob->eventForce("speak You are too low on gold!");
+        if(this_player()->query_money("universal credits") <
+                currency_value(ORDER_COST, "universal credits")) {
+            ob->eventForce("speak You are too low on universal credits!");
             return 1;
         }
         message("my_action", "You purchase a work order.", this_player());
         message("other_action", this_player()->query_cap_name()+
                 " purchases a work order.", this_object(), ({ this_player() }));
-        this_player()->AddCurrency("gold", -currency_value(ORDER_COST, "gold"));
+        this_player()->AddCurrency("universal credits", -currency_value(ORDER_COST, "universal credits"));
         ob = new(OB_ORDER);
         if(ob->move(this_player())) {
             message("my_action", "You drop the work order!", this_player());
@@ -159,9 +159,9 @@ static int read_list(string str) {
     tmp = "Welcome to Praxis Realty!\n"
         "You may purchase any of the following items:\n"
         "    deed- an estate deed for creating an estate:  "+
-        currency_value(DEED_COST, "gold")+" gold.\n"
+        currency_value(DEED_COST, "universal credits")+" gold.\n"
         "    order- a work order for adding rooms:         "+
-        currency_value(ORDER_COST, "gold")+" gold.\n";
+        currency_value(ORDER_COST, "universal credits")+" gold.\n";
     message("info", tmp, this_player());
     return 1;
 }

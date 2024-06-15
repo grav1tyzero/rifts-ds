@@ -102,8 +102,8 @@ varargs int GetNetWorth(string benjamins){
             }
         }
     }
-    if(!benjamins || benjamins == ""||!stringp(benjamins)) benjamins = "gold";
-    if(member_array(benjamins,mud_currencies()) == -1) benjamins = "gold";
+    if(!benjamins || benjamins == ""||!stringp(benjamins)) benjamins = "universal credits";
+    if(member_array(benjamins,mud_currencies()) == -1) benjamins = "universal credits";
     if(benjamins && net_worth) return to_int(net_worth / currency_rate(benjamins));
     else return to_int(0);
 }

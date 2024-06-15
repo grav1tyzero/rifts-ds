@@ -25,7 +25,7 @@ static void create(){
     SetShort("a jade ring");
     SetLong( (: LongRet :) );
     SetMass(1);
-    SetBaseCost("silver",5000);
+    SetBaseCost("universal credits",5000);
     SetArmorType(A_RING);
 }
 

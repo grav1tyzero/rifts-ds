@@ -11,7 +11,7 @@ static void create(){
     SetShort("a leather belt");
     SetLong("A belt made of leather.");
     SetMass(5);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetProtection(BLUNT,1);
     SetProtection(BLADE,1);
     SetProtection(KNIFE,1);

@@ -33,7 +33,7 @@ static void create(){
     SetLong("This is a simple but beautiful ring made of "+
             "silver, suitable for wearing on one's finger. The ring bears an inscription.");
     SetMass(1);
-    SetBaseCost("silver",500);
+    SetBaseCost("universal credits",500);
     SetArmorType(A_RING);
     SetItems(([
                 ({"script","words","inscription","writing"}) : "Words engraved on the ring in a highly "+

@@ -23,7 +23,7 @@ static void create(){
             "the scout variety.");
     SetMass(700);
     SetMatching(0);
-    SetBaseCost("silver",5000);
+    SetBaseCost("universal credits",5000);
     SetArmorType(A_CUSTOM);
     SetRestrictLimbs( ({ 
                 "torso", "head", "neck",

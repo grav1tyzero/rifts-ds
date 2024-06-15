@@ -16,7 +16,7 @@ void create() {
                 "/domains/default/armor/chainmail" : 5,
                 ]));
     SetMass(2000);
-    SetBaseCost("silver",150);
+    SetBaseCost("universal credits",150);
     SetMaxCarry(10000);
     SetCanClose(1);
     SetClosed(0);

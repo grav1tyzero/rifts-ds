@@ -11,7 +11,7 @@ void create(){
     SetShort("a wooden cask");
     SetLong("A large wooden cask for containing fluids.");
     SetMass(2000);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetFlaskContents("wine");
     SetFlaskUses(50);

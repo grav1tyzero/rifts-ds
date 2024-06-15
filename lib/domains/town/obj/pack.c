@@ -14,7 +14,7 @@ static void create() {
             "It seems suitable for carrying books around, for the busy college student. "+
             "It features wide, comfortable straps for convenient wear.");
     SetMass(100);
-    SetBaseCost("silver",30);
+    SetBaseCost("universal credits",30);
     SetCanClose(1);
     SetClosed(1);
     SetMaxCarry(500);

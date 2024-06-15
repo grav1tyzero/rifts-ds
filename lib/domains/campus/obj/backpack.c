@@ -26,7 +26,7 @@ static void create() {
                 "/domains/campus/obj/torch" : 1,
                 ]));
     SetMass(100);
-    SetBaseCost("silver", 40);
+    SetBaseCost("universal credits", 40);
     SetCanClose(1);
     SetClosed(0);
     SetMaxCarry(500);

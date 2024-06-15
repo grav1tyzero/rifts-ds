@@ -12,8 +12,8 @@ void create() {
     SetInventory(([
                 ]));
     SetMass(274);
-    SetBaseCost("silver",1);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
+    SetBaseCost("universal credits",1);
     SetMaxCarry(500);
 }
 

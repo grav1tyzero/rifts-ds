@@ -15,7 +15,7 @@ void create(){
     SetLong("This is a beautiful, intricately patterned Persian "
             "rug, covering the center of the floor. ");
     SetMass(100);
-    SetBaseCost("silver",500);
+    SetBaseCost("universal credits",500);
     SetManipulate( ([ "default" : (: MoveRug :) ]) );
     SetPress( ([ "default" : (: PushRug :) ]) );
     SetVendorType(VT_TREASURE);

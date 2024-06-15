@@ -18,7 +18,7 @@ static void create(){
             "and there is little doubt that this great structure is the "+
             "pride of this little town.");
     SetMass(1000000);
-    SetBaseCost("silver",40);
+    SetBaseCost("universal credits",40);
     SetDefaultRead( (: eventReadClock :) );
 }
 

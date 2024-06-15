@@ -10,7 +10,7 @@ void create(){
     SetShort( "a large flashlight" );
     SetLong("This is a powerful, heavy, Maglite brand flashlight.");
     SetMass(250);
-    SetBaseCost("silver",40);
+    SetBaseCost("universal credits",40);
     SetLightLevel(20);
     SetMinCells(4);
     SetMaxCells(4);

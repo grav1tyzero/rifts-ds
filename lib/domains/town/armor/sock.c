@@ -11,7 +11,7 @@ static void create(){
     SetShort("a white cotton sock");
     SetLong("An athletic sock, made of white cotton.");
     SetMass(5);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetArmorType(A_SOCK);
 }
 

@@ -1334,7 +1334,7 @@ mixed assess(string args) {
         x =cols/(x+2);
         lines += explode(format_page(arr, x), "\n");
         lines += ({ "", ob->GetName()+" has amassed a net worth of " +
-                ( ob->GetNetWorth() * currency_rate("gold") ) + " gold."});
+                ( ob->GetNetWorth() * currency_rate("universal credits") ) + " gold."});
         arr = filter( map(ob->GetCurrencies(),
                     (: ($(ob))->GetCurrency($1) &&
                      sprintf("%d %s", ($(ob))->GetCurrency($1), $1) :)),

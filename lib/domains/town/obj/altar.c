@@ -24,7 +24,7 @@ static void create() {
                 "/domains/town/armor/boobytrap_ring" : 1,
                 ]));
     SetMass(3000);
-    SetBaseCost("silver",15);
+    SetBaseCost("universal credits",15);
     SetMaxSitters(2);
     SetMaxLiers(1);
     SetMaxCarry(5000);

@@ -12,7 +12,7 @@ static void create(){
     SetLong("A set of protective goggles for wearing during "+
             "high-speed travel.");
     SetMass(5);
-    SetBaseCost("silver",30);
+    SetBaseCost("universal credits",30);
     SetArmorType(A_VISOR);
 }
 

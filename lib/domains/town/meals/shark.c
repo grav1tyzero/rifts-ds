@@ -21,7 +21,7 @@ static void create() {
     SetMealType(MEAL_FOOD);
     SetMass(100); 
     SetStrength(50);
-    SetBaseCost("silver", 10);
+    SetBaseCost("universal credits", 10);
     SetFight(40);
     SetFood("/domains/town/meals/shark");
 }

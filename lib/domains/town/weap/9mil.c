@@ -14,7 +14,7 @@ void create(){
     SetFirearmType("auto");
     SetAmmoType("acp");
     SetMass(30);
-    SetBaseCost("silver",900);
+    SetBaseCost("universal credits",900);
     SetVendorType(VT_WEAPON);
 }
 void init(){

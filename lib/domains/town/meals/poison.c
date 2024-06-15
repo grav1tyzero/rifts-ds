@@ -20,7 +20,7 @@ static void create() {
     SetEmptyName("vial");
     SetEmptyShort("an empty vial");
     SetEmptyLong("It is an empty brown bottle that once held some liquid.");
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetPoisonStrength(70);
     SetPoisonUses(3);
 }

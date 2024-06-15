@@ -13,7 +13,7 @@ void create() {
     SetLong("This is a fancy stainless steel knife rack, "+
             "for keeping expensive super-sharp knives.");
     SetMass(274);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetMaxCarry(5);
     SetInventory(([
                 //"/domains/town/weap/paring_knife" : 1,

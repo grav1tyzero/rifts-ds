@@ -12,7 +12,7 @@ static void create() {
     SetShort("a wicked-looking dagger");
     SetLong("A sharp, wicked dagger.");
     SetMass(150);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetVendorType(VT_WEAPON);
     SetClass(10);
     SetDamageType(KNIFE);

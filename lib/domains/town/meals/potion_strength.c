@@ -16,7 +16,7 @@ static void create() {
     SetStrength(5);
     SetMealMessages("You drink a potion.",
             "$N drinks a potion.");
-    SetBaseCost("silver",1000);
+    SetBaseCost("universal credits",1000);
     SetDuration(600);
     SetStats( ([ "strength" : 10 ]) );
     SetPoints( ([ "HP" : 50, "SP" : 50 ]) );

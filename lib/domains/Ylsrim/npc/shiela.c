@@ -28,7 +28,7 @@ static void create() {
     // This vendor belongs in a particular shop, don't bump her
     SetProperty("no bump", 1);
     // She takes electrum coins
-    SetLocalCurrency("electrum");
+    SetLocalCurrency("universal credits");
     // She buys weapons
     SetVendorType(VT_WEAPON);
 }

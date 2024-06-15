@@ -11,7 +11,7 @@ void create(){
     SetShort("a bottle of wine");
     SetLong("A bottle of something or other Nouveau. The label is too stained to read.");
     SetMass(40);
-    SetBaseCost("gold",2);
+    SetBaseCost("universal credits",2);
     SetVendorType(VT_DRINK);
     SetFlaskContents("wine");
     SetFlaskUses(10);

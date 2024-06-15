@@ -11,7 +11,7 @@ void create() {
     SetLong("This is a small mailbox standing in front of the white house.");
     SetCanClose(1);
     SetMass(274);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetMaxCarry(100);
     SetPreventGet("You cannot get that!");
 }

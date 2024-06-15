@@ -10,7 +10,7 @@ void create() {
     SetShort("a billiards table");
     SetLong("It is a large table made of dark, heavy wood. Its surface is covered in green felt and there are six holes in the corners and sides, through which balls may fit.");
     SetMass(10000);
-    SetBaseCost("silver",1200);
+    SetBaseCost("universal credits",1200);
     SetMaxCarry(5000);
     inventory_visible();
     inventory_accessible();

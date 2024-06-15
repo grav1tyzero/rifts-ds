@@ -31,7 +31,7 @@ void create() {
                 ]) );
     SetPreventGet("It's bolted down you filthy scum.");
     SetMass(5000);
-    SetBaseCost("silver",500);
+    SetBaseCost("universal credits",500);
     SetMaxCarry(15000);
     SetCanClose(0);
     SetClosed(0);

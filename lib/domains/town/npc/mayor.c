@@ -11,7 +11,7 @@ void create(){
             "man discharges the official duties of this town's "+
             "chief executive office. Mostly, people request "+
             "citizenship from him, for a fee of 5 silver.");
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetTax(5);
 }
 //funs

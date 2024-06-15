@@ -11,7 +11,7 @@ static void create(){
     SetShort("a red bandanna");
     SetLong("This is a red kerchief fashioned into improvised headgear, possibly to prevent getting dirt on one's hair and vice versa.");
     SetMass(1);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetArmorType(A_HELMET);
     SetProtection(BLUNT, 1);
     SetProtection(BLADE, 1);

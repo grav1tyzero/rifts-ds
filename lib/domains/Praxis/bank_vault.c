@@ -20,9 +20,8 @@ void reset() {
     ::reset();
     if(!present("money")) {
         money = new("/std/lib/pile");
-        money->SetCurrency("platinum", random(10));
-        money->SetCurrency("gold", random(100));
-        money->SetCurrency("electrum", random(200));
+        money->SetCurrency("universal credits", random(100000));
+
         money->move(this_object());
     }
 }

@@ -11,7 +11,7 @@ static void create(){
     SetShort("a leather boot");
     SetLong("A thick leather full-leg boot of orcish design. Simple, but quite protective. It is designed for the right foot and leg.");
     SetMass(120);
-    SetBaseCost("silver", 200);
+    SetBaseCost("universal credits", 200);
     SetProtection(BLUNT,5);
     SetProtection(BLADE,10);
     SetProtection(KNIFE,10);

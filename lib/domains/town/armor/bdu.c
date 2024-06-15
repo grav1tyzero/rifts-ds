@@ -12,7 +12,7 @@ static void create(){
             "pants. It is green with mottled brown and black camouflage patterns, "+
             "and probably provides excellent concealment in a wooded environment.");
     SetMass(10);
-    SetBaseCost("silver",100);
+    SetBaseCost("universal credits",100);
     SetDamagePoints(100);
     SetArmorType(A_BODY_ARMOR);
 }

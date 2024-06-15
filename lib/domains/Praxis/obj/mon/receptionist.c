@@ -38,7 +38,7 @@ void create() {
     SetClass( "mage" );
     SetSkill( "magic attack", 60);
     SetSkill( "melee", 70);
-    SetCurrency( "gold", 50);
+    SetCurrency( "universal credits", 50);
 }
 
 void init() {
@@ -51,9 +51,9 @@ int cmd_list(string str) {
     write( "%^GREEN%^   -=       The Nightmare Inn    =-%^RESET%^");
     write( "\n");
     write( "%^GREEN%^     There are 3 types of rooms.%^RESET%^");     
-    write( "%^GREEN%^     Regular: %^RESET%^"+currency_value(ROOMS[101]["cost"], "gold") );
-    write( "%^GREEN%^     Deluxe: %^RESET%^" +currency_value(ROOMS[106]["cost"], "gold") ); 
-    write( "%^GREEN%^     Honeymoon suite: %^RESET%^" +currency_value(ROOMS[109]["cost"], "gold") );
+    write( "%^GREEN%^     Regular: %^RESET%^"+currency_value(ROOMS[101]["cost"], "universal credits") );
+    write( "%^GREEN%^     Deluxe: %^RESET%^" +currency_value(ROOMS[106]["cost"], "universal credits") ); 
+    write( "%^GREEN%^     Honeymoon suite: %^RESET%^" +currency_value(ROOMS[109]["cost"], "universal credits") );
     write( "%^GREEN%^     To rent a room, type <rent 'room(like deluxe)'>%^RESET%^");
     return 1;
 }
@@ -76,13 +76,13 @@ int cmd_rent(string str) {
     }
     if(x == -1)
         return notify_fail("No such room is available right now.\n");
-    cost = currency_value(ROOMS[x]["cost"], "gold");
-    if(cost > this_player()->query_money("gold")) {
+    cost = currency_value(ROOMS[x]["cost"], "universal credits");
+    if(cost > this_player()->query_money("universal credits")) {
         this_object()->eventForce("speak You do not have enough money "
                 "for one of those rooms!");
         return 1;
     }
-    this_player()->AddCurrency(-cost, "gold");
+    this_player()->AddCurrency(-cost, "universal credits");
     environment(this_object())->set_occupied(x);
     message("my_action", sprintf("You rent room %d of the Nightmare Inn.",
                 x), this_player());

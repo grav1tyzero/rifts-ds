@@ -13,7 +13,7 @@ static void create(){
             "around it, and a conical center. It is dark blue in color, "+
             "and is decorated with pictures of yellow moons and stars.");
     SetMass(50);
-    SetBaseCost("silver",500);
+    SetBaseCost("universal credits",500);
     SetArmorType(A_HELMET);
     SetProtection(BLUNT, 20);
     SetProtection(BLADE, 20);

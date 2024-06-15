@@ -11,7 +11,7 @@ void create(){
     SetLong("The Log of Shame is a book containing channel logs people should be ashamed of, and oddly, usually aren't.");
     SetSource("/domains/town/txt/shame");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetTitle("The Sample Book");
 }

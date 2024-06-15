@@ -35,8 +35,8 @@ int make_money(string str){
     }
     if(!str){ write("Get what?\n"); return 1; }
     if(sscanf(str,"%d %s from %s",d1,s1,s2) > 0){
-        if(s1 !="electrum" && s1 != "platinum" &&
-                s1 !="gold" && s1 !="cents" &&
+        if(s1 !="electrum" && s1 != "universal credits" &&
+                s1 !="universal credits" && s1 !="cents" &&
                 s1 !="dollars" && s1 !="copper" &&
                 s1 !="silver"){
             write("That kind of money doesn't grow on trees!\n");

@@ -11,7 +11,7 @@ void create(){
     SetShort("a glowing blue vial");
     SetLong("A small transparent vial filled with a glowing blue fluid.");
     SetMass(10);
-    SetBaseCost("silver",1000);
+    SetBaseCost("universal credits",1000);
     SetMaxClones(3);
     SetNoCondition(1);
     SetVendorType(VT_TREASURE);

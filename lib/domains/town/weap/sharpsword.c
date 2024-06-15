@@ -12,7 +12,7 @@ static void create() {
     SetShort("a sharp sword");
     SetLong("A fine, sharp sword. It is solidly crafted and well balanced.");
     SetMass(300);
-    SetBaseCost("silver", 1100);
+    SetBaseCost("universal credits", 1100);
     SetVendorType(VT_WEAPON);
     SetClass(35);
     SetDamageType(BLADE);

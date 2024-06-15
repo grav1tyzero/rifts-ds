@@ -15,7 +15,7 @@ static void create() {
     SetShort("a bottle of gatorade");
     SetLong("This is a bottle of lemon-lime Gatorade. ");
     SetMass(60);
-    SetBaseCost("silver", 2);
+    SetBaseCost("universal credits", 2);
     SetMealType(MEAL_DRINK);
     SetStrength(40);
     SetMealMessages("You quaff the bottle of gatorade, and feel new "+

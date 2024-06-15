@@ -40,7 +40,7 @@ void reset() {
         rat->SetShort( "A filthy rat");
         rat->SetLong("A disgusting little rodent.");
         rat->SetRace( "rodent");
-        rat->SetCurrency("silver", random(10));
+        rat->SetCurrency("universal credits", random(10));
         rat->SetHealthPoints(60+random(10));
         rat->SetMorality(-1);
         rat->move(this_object());

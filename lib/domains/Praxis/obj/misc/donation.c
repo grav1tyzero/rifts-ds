@@ -50,24 +50,24 @@ int donate(string str) {
         notify_fail("Donate what?\n");
         return 0;
     }
-    if(sscanf(str, "%d gold", amount) !=1) {
-        notify_fail("Correct syntax: <donate [#] gold>\n");
+    if(sscanf(str, "%d credits", amount) !=1) {
+        notify_fail("Correct syntax: <donate [#] credits>\n");
         return 0;
     }
     if(amount < 1) {
         notify_fail("That would be a nifty trick indeed!\n");
         return 0;
     }
-    if(this_player()->query_money("gold") < amount) {
-        notify_fail("You don't have that much gold!\n");
+    if(this_player()->query_money("universal credits") < amount) {
+        notify_fail("You don't have that many universal credits!\n");
         return 0;
     }
     if (!loaded) {
         stored_amount = restore_int("mage_coffers");
         loaded=1;}
-        this_player()->add_money("gold", -1*amount);
-        write("You donate "+amount+" gold coins to the mages.");
-        say(this_player()->query_cap_name()+" donates some gold.", this_player());
+        this_player()->add_money("universal credits", -1*amount);
+        write("You donate "+amount+" universal credits to the mages.");
+        say(this_player()->query_cap_name()+" donates some universal credits.", this_player());
         stored_amount += amount;
         write_file(LOG,""+stored_amount+"\t"+
                 this_player()->query_name()+" donates ."+amount+"\n");
@@ -111,7 +111,7 @@ int withdraw(string str) {
                             write("You withdraw "+amount+" gold coins from the mages.");
                             say(this_player()->query_cap_name()+" withdraws some gold.", this_player());
                             stored_amount -= amount;
-                            this_player()->add_money("gold", amount);
+                            this_player()->add_money("universal credits", amount);
                             write_file(LOG,""+stored_amount+"\t"+
                                     this_player()->query_name()+" withdrew ."+amount+"\n");
                             save_int("mage_coffers", stored_amount);

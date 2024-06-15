@@ -12,7 +12,7 @@ static void create() {
     SetNoCondition(1);
     SetMass(50);
     SetStrength(15);
-    SetBaseCost("silver", 20);
+    SetBaseCost("universal credits", 20);
     SetMealType(MEAL_FOOD);
     SetMealMessages("You eat your meat.",
             "$N eats $P hunk of roast beast.");

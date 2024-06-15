@@ -116,7 +116,7 @@ int exchange(string str) {
     if(!str) return 0;
     if(sscanf(str, "%d %s for %s", amt, from, to) != 3)
       return 0;
-    if(from != "platinum" && from != "gold" && from !=
+    if(from != "universal credits" && from != "gold" && from !=
       "silver" &&
       from != "electrum" && from != "copper") {
         notify_fail("We do not buy soft currencies!\n");
@@ -138,7 +138,7 @@ with each individual value every time you want to perform a group
 operation.
 
 As a constant, an array might look like this:
-    ({ "platinum", "gold", "silver", "electrum", "copper" })
+    ({ "universal credits", "universal credits", "silver", "electrum", "copper" })
 which is an array of type string.  Individual data values in arrays are
 called elements, or sometimes members.  In code, just as constant
 strings are represented by surrounding them with "", constant arrays are
@@ -182,7 +182,7 @@ return 0;
 
 This code assumes hard_currencies is a global variable and is initialized
 in create() as:
-    hard_currencies = ({ "platinum", "gold", "electrum", "silver",
+    hard_currencies = ({ "universal credits", "gold", "electrum", "silver",
    "copper" });
 Ideally, you would have hard currencies as a #define in a header file for
 all objects to use, but #define is a topic for a later chapter.
@@ -210,7 +210,7 @@ and so on.  We can therefore access individual elements of an array by
 their index, which is the number of values beyond the starting point of
 the array we need to look to find the value.  For the array
 hard_currencies array:
-"platinum" has an index of 0.
+"universal credits" has an index of 0.
 "gold" has an index of 1.
 "electrum" has an index of 2.
 "silver" has an index of 3.
@@ -235,7 +235,7 @@ types of the same type as the constant.  Examples:
 
 Whole arrays:
 variable:  arr
-constant: ({ "platinum", "gold", "electrum", "silver", "copper" })
+constant: ({ "universal credits", "gold", "electrum", "silver", "copper" })
 
 Individual members of arrays:
 variable: arr[2]

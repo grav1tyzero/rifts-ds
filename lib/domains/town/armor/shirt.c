@@ -11,7 +11,7 @@ static void create(){
     SetShort("a white t-shirt");
     SetLong("An ordinary white t-shirt.");
     SetMass(2);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetArmorType(A_SHIRT);
 }
 

@@ -13,7 +13,7 @@ static void create(){
             "a golden metal.");
     SetVendorType(VT_WEAPON);
     SetClass(10);
-    SetBaseCost("silver",800);
+    SetBaseCost("universal credits",800);
     SetMass(100);
     SetWeaponType("blunt");
     SetDamageType(BLUNT);

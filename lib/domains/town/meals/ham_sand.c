@@ -12,7 +12,7 @@ static void create() {
     SetLong("This is a large, rather plain ham sandwich.");
     SetMass(10);
     SetStrength(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetMealType(MEAL_FOOD);
     SetMealMessages("You eat a ham sandwich. Mmm!",
             "$N eats $P ham sandwich.");

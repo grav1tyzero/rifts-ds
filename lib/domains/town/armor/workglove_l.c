@@ -14,7 +14,7 @@ static void create() {
     SetLong("A thick, brown leather work glove, designed for wear on the left hand.");
     SetVendorType(VT_ARMOR);
     SetMass(10);
-    SetBaseCost("silver",7);
+    SetBaseCost("universal credits",7);
     SetArmorType(A_GLOVE);
     SetProtection(BLUNT, 1);
     SetProtection(BLADE, 1);

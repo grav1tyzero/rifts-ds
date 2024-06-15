@@ -13,7 +13,7 @@ void create(){
             "marked with numbers rather than dots along its twenty surfaces.");
     SetDenominator(20);
     SetMass(4);
-    SetBaseCost("silver",5);
+    SetBaseCost("universal credits",5);
     SetVendorType(VT_TREASURE);
 }
 

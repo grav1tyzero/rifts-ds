@@ -14,8 +14,8 @@ void create() {
                 "/domains/default/obj/phints" : 1,
                 ]));
     SetMass(274);
-    SetBaseCost("silver",1);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
+    SetBaseCost("universal credits",1);
     SetMaxCarry(5000);
     inventory_visible();
     inventory_accessible();

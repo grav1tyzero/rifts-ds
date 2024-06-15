@@ -12,7 +12,7 @@ void create() {
     SetLong("It is a thing that holds other things.");
     SetCanClose(1);
     SetMass(274);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetMaxCarry(500);
 }
 void init(){

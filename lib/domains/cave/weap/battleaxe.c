@@ -14,7 +14,7 @@ static void create() {
     SetLong("A monstrously large and heavy battle axe.");
     SetMass(1000);
     SetHands(2);
-    SetBaseCost("silver",2500);
+    SetBaseCost("universal credits",2500);
     SetVendorType(VT_WEAPON);
     SetClass(50);
     SetDamageType(BLADE|BLUNT);

@@ -10,7 +10,7 @@ static void create() {
     SetShort("a silver key");
     SetLong("It is a brilliant silver key with no markings.");
     SetMass(1);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetDisableChance(5);
 }
 

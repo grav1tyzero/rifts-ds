@@ -12,7 +12,7 @@ void create(){
     SetLong("A large stein for holding lots of grog. It is quite "+
             "fancy and no doubt worth a great deal of money.");
     SetMass(30);
-    SetBaseCost("silver",300);
+    SetBaseCost("universal credits",300);
     SetVendorType(VT_TREASURE);
     SetFlaskUses(0);
     SetStrength(5);

@@ -11,7 +11,7 @@ void create(){
     SetLong("This is a handsome pipe for smoking, made of ivory. There "
             "is some sort of inscription written on it.");
     SetMass(5);
-    SetBaseCost("silver", 300);
+    SetBaseCost("universal credits", 300);
     SetVendorType(VT_TREASURE);
     SetRadiantLight(1);
     SetMaxFuel(300);
@@ -33,7 +33,7 @@ void init(){
 }
 
 varargs mixed eventLight(object who, object tool){
-    SetBaseCost("silver", 1);
+    SetBaseCost("universal credits", 1);
     return ::eventLight(who, tool);
 }
 

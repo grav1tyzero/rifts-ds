@@ -11,7 +11,7 @@ static void create() {
     SetShort("a guest bed");
     SetLong("This is a comfortable-looking bed for guests to sleep on.");
     SetMass(1000);
-    SetBaseCost("silver",800);
+    SetBaseCost("universal credits",800);
     SetMaxSitters(2);
     SetMaxLiers(1);
 }

@@ -72,7 +72,7 @@ static void create() {
     AddCurrency("electrum", random(200));
     SetSkill("bargaining", 1);
     SetProperty("no bump", 1);
-    SetLocalCurrency("gold");
+    SetLocalCurrency("universal credits");
     SetAttackable( (: NoKill :) );
     SetPolyglot(1);
     SetLanguage("common", 100);

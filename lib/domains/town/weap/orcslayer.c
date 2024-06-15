@@ -13,7 +13,7 @@ static void create() {
     SetShort("a finely crafted short sword");
     SetLong("This is a very fine blade, covered with ancient runes. Engraved on it is a picture of the sword slicing an orc.");
     SetMass(300);
-    SetBaseCost("silver",500);
+    SetBaseCost("universal credits",500);
     SetVendorType(VT_WEAPON);
     SetClass(35);
     SetDamageType(BLADE);

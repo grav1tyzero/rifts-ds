@@ -25,7 +25,7 @@ static void create() {
     SetClimb( (: LadderClimb :) , CLIMB_UP);
     SetCanClimbCarried(0);
     SetMass(100);
-    SetBaseCost("silver", 10);
+    SetBaseCost("universal credits", 10);
 }
 
 void init(){

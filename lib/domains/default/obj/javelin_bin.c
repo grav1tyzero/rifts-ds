@@ -15,7 +15,7 @@ void create() {
     SetNoCondition(1);
     SetCanClose(0);
     SetMass(274);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetMaxCarry(3500);
     SetNoClean(1);
 }

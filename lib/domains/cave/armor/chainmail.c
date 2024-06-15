@@ -11,7 +11,7 @@ static void create(){
     SetShort("a sturdy-looking chainmail shirt");
     SetLong("This is a shirt made of small, thin metal rings fashioned together as armor. ");
     SetMass(600);
-    SetBaseCost("silver",1000);
+    SetBaseCost("universal credits",1000);
     SetDamagePoints(1000);
     SetProtection(BLUNT,4);
     SetProtection(BLADE,25);

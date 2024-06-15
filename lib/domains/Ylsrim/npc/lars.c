@@ -29,7 +29,7 @@ static void create() {
     // Keep him in the pub
     SetProperty("no bump", 1);
     // He takes electrum
-    SetLocalCurrency("electrum");
+    SetLocalCurrency("universal credits");
     // What he sells
     SetMenuItems(([
                 ({ "ale", "beer" }) : "/domains/Ylsrim/meal/ale",

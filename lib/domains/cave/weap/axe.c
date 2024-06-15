@@ -12,7 +12,7 @@ static void create() {
     SetShort("a hand axe");
     SetLong("A small, sharp hand axe, suitable for close combat.");
     SetMass(150);
-    SetBaseCost("silver",50);
+    SetBaseCost("universal credits",50);
     SetVendorType(VT_WEAPON);
     SetClass(20);
     SetDamageType(BLADE|BLUNT);

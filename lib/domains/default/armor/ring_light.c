@@ -13,7 +13,7 @@ static void create(){
             "can illuminate a room.");
     SetRadiantLight(30);
     SetMass(1);
-    SetBaseCost("silver",5000);
+    SetBaseCost("universal credits",5000);
     SetArmorType(A_RING);
 }
 

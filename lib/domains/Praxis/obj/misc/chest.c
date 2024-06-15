@@ -27,9 +27,7 @@ void create() {
     SetProperty("magic hold", 10);
     SetKey("orc_treasure");
     money = new(LIB_PILE);
-    money->SetCurrency("platinum", random(5));
-    money->SetCurrency("gold", random(100));
-    money->SetCurrency("copper", random(10000));
+    money->SetCurrency("universal credits", random(100000));
     money->move(this_object());
     SetClosed(1);
     SetLocked(1);

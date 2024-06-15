@@ -13,5 +13,5 @@ void create(){
     SetAmmoType("acp");
     SetVendorType(VT_TREASURE);
     SetMass(1);
-    SetBaseCost("silver", 1);
+    SetBaseCost("universal credits", 1);
 }

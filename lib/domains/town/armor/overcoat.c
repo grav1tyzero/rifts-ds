@@ -12,7 +12,7 @@ static void create(){
     SetLong("This is a large overcoat, of fine craftsmanship. It's "+
             "likely excellent protection against the cold.");
     SetMass(60);
-    SetBaseCost("silver",300);
+    SetBaseCost("universal credits",300);
     SetProtection(BLUNT,10);
     SetProtection(BLADE,10);
     SetProtection(KNIFE,10);

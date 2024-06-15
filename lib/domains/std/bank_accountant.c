@@ -16,6 +16,6 @@ void setup()
             "course.");
    set_bank_id("Bean");
    set_bank_name("The Imperial Bank of the Bean");
-   set_currency_type("gold");
+   set_currency_type("universal credits");
    set_exchange_fee(5);
 }

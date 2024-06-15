@@ -14,7 +14,7 @@ static void create()  {
     SetMass(10);
     SetMealType(MEAL_DRINK);
     SetStrength(10);
-    SetBaseCost("silver",2);
+    SetBaseCost("universal credits",2);
     SetMealMessages("You drink your water, and feel refreshed.", "$N drinks "+
             "$P water.");
 }

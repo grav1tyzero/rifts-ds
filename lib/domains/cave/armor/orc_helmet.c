@@ -15,7 +15,7 @@ static void create(){
             "treated with some sort of thick resin to "+
             "prevent shattering.");
     SetMass(180);
-    SetBaseCost("silver",100);
+    SetBaseCost("universal credits",100);
     SetDamagePoints(100);
     SetArmorType(A_HELMET);
     SetProtection(BLUNT, 20);

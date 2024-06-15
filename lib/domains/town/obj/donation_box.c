@@ -15,9 +15,9 @@ void create(){
             "to feed the hungry, clothe the naked, et cetera ad "+
             "nauseam. ");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetOwner("The Seventh Day Atheist Congregation");
 }
 

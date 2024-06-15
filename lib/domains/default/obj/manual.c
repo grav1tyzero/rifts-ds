@@ -17,7 +17,7 @@ void create(){
                 "no steal" : 1,
                 ]));
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetTitle("The Coder's Manual");
     SetSource("/doc/manual");

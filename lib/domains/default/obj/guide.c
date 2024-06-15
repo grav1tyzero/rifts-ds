@@ -12,7 +12,7 @@ void create(){
     SetNoCondition(1);
     SetSource("/doc/guide");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetTitle("Administrator's Guidebook");
 }

@@ -14,7 +14,7 @@ static void create(){
     SetVendorType(VT_WEAPON);
     SetDamagePoints(50);
     SetClass(100);
-    SetBaseCost("silver",250);
+    SetBaseCost("universal credits",250);
     SetMass(100);
     SetWeaponType("blunt");
     SetHands(2);

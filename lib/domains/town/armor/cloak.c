@@ -14,7 +14,7 @@ static void create(){
     SetLong("This is a cloak of elven design, green in color, with an attached hood. "
             "One may \"wear hood on cloak\" with it, probably.");
     SetMass(200);
-    SetBaseCost("silver",500);
+    SetBaseCost("universal credits",500);
     SetDamagePoints(100);
     SetProtection(BLADE,10);
     SetProtection(KNIFE,10);

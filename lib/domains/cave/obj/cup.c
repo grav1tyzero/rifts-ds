@@ -11,7 +11,7 @@ void create(){
     SetShort("a wooden cup");
     SetLong("A simple cup made of wood, for containing fluids.");
     SetMass(5);
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
     SetVendorType(VT_TREASURE);
     SetFlaskUses(0);
     SetStrength(5);

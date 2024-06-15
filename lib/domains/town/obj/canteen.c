@@ -11,7 +11,7 @@ void create(){
     SetShort("a green plastic canteen");
     SetLong("A plastic vessel for containing fluids.");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetFlaskContents("water");
     SetFlaskUses(10);

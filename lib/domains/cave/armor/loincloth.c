@@ -21,7 +21,7 @@ static void create() {
                 "default" : "P.U.",
                 ]) );
     SetMoney( ([
-                "platinum" : random(5)+1,
+                "universal credits" : random(500)+1,
                 ]) );
     SetInventory(([
                 "/domains/default/obj/vial_orange" : 1,

@@ -14,7 +14,7 @@ static void create() {
     SetLong("A slender stick of blue spice.");
     SetMass(1);
     SetStrength(1);
-    SetBaseCost("gold",10);
+    SetBaseCost("universal credits",10);
     SetStrength(1);
     SetMealType(MEAL_FOOD);
     SetMealMessages("You eat a stick of blue spice. Your magic powers seem slightly improved.",

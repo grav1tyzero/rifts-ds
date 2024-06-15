@@ -14,7 +14,7 @@ static void create() {
     SetLong("A large, heavy shield made of strong wood banded with iron.");
     SetVendorType(VT_ARMOR);
     SetMass(100);
-    SetBaseCost("silver",250);
+    SetBaseCost("universal credits",250);
     SetArmorType(A_SHIELD);
     SetProtection(BLUNT, 10);
     SetProtection(BLADE, 10);

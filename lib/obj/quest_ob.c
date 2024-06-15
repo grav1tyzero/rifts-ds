@@ -13,7 +13,7 @@ void create(){
     SetLong("This is a relic of an older time, and here for "+
             "compatibility purposes.");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetQuestPoints(1);
 }

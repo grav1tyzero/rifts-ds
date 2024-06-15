@@ -92,12 +92,12 @@ int changing(string str)
         write("Mad Wizard says: what kind of class is that?\n");
         return 1;
     }
-    if( this_player()->query_money("gold") < 5000)
+    if( this_player()->query_money("universal credits") < 5000)
     {
         write("Mad Wizard says: You need more money than that.\n");
         return 1;
     }
-    this_player()->add_money("gold", - 5000);
+    this_player()->add_money("universal credits", - 5000);
     this_player()->add_exp( - (this_player()->query_exp() / 2) );
     this_player()->set_class(str);
     write("The wizard picks up a wand off of a table and zaps you!\n");

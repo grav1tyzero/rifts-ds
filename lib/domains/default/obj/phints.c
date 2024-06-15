@@ -13,7 +13,7 @@ void create(){
                 "no steal" : 1,
                 ]));
     SetMass(3);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetTitle("The Player's Hint Book");
     SetSource("/doc/phints");

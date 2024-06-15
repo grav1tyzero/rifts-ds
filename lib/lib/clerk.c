@@ -16,7 +16,7 @@ void create(){
     SetRace("human");
     SetShort("the town clerk");
     SetLong("An officious-looking clerk."); 
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetClass("priest");
     AddCommandResponse("marry", (: MarriageRequest :));
     AddCommandResponse("wed", (: MarriageRequest :));

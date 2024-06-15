@@ -11,7 +11,7 @@ static void create(){
     SetShort("a long riding boot");
     SetLong("A long riding boot, made of black leather.");
     SetMass(60);
-    SetBaseCost("silver",75);
+    SetBaseCost("universal credits",75);
     SetDamagePoints(5);
     SetProtection(BLUNT,5);
     SetProtection(BLADE,5);

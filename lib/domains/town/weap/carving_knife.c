@@ -16,7 +16,7 @@ static void create() {
             "This is a dangerous knife, and can be considered a very "+
             "deadly weapon.");
     SetMass(50);
-    SetBaseCost("silver",120);
+    SetBaseCost("universal credits",120);
     SetVendorType(VT_WEAPON);
     SetClass(20);
     SetDamageType(KNIFE);

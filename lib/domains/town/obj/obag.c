@@ -24,7 +24,7 @@ static void create() {
                 "/domains/town/obj/needle_trap" : 1,
                 ]));
     SetMass(100);
-    SetBaseCost("silver",30);
+    SetBaseCost("universal credits",30);
     SetCanClose(1);
     SetClosed(1);
 }

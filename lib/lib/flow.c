@@ -36,7 +36,7 @@ void create(){
     SetLong("This is an overflow of water.");
     SetMass(20);
     SetInvis(1);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     shb(5);
     SetNoCondition(1);

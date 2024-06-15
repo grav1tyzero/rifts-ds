@@ -19,7 +19,7 @@ void create() {
                 "/domains/town/armor/breather" : 1,
                 ]));
     SetPreventGet("The workbench does not budge.");
-    SetBaseCost("silver",1);
+    SetBaseCost("universal credits",1);
 }
 
 void init(){

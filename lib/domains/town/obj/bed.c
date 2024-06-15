@@ -18,7 +18,7 @@ static void create() {
             "a canopy over such a bed, it is absent here.");
     SetMass(4000);
     SetMaxCarry(4000);
-    SetBaseCost("silver",1500);
+    SetBaseCost("universal credits",1500);
     SetMaxSitters(2);
     SetMaxLiers(1);
     SetPreventGet(1);

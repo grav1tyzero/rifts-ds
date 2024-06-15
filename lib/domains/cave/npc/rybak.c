@@ -35,7 +35,7 @@ static void create() {
     AddCurrency("electrum", random(200));
     SetSkill("bargaining", 1);
     SetProperty("no bump", 1);
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetEncounter(  (: CheckOrc :) );
 }
 

@@ -27,7 +27,7 @@ void create(){
             "keepalive command.");
     SetNoCondition(1);
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     set_heart_beat(1);
     SetVendorType(VT_TREASURE);
 }

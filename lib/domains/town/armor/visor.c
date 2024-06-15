@@ -11,7 +11,7 @@ static void create(){
     SetShort("clear plastic goggles");
     SetLong("A set of protective laboratory goggles.");
     SetMass(5);
-    SetBaseCost("silver",9);
+    SetBaseCost("universal credits",9);
     SetDamagePoints(1);
     SetProtection(BLUNT,1);
     SetProtection(BLADE,1);

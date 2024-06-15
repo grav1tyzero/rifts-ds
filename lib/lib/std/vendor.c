@@ -15,7 +15,7 @@ static void create(){
     sentient::create();
     Costs = ([]);
     Values = ([]);
-    LocalCurrency = "gold";
+    LocalCurrency = "universal credits";
     VendorType = VT_TREASURE;
     MaxItems = 40;
 }

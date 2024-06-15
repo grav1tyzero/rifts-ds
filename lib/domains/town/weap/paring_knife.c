@@ -12,7 +12,7 @@ static void create() {
     SetShort("a 4-inch paring knife");
     SetLong("This is a 4-inch paring knife. This very sharp knife has been forged from molded and hammered high-carbon stainless steel. Though light, it is solid and well-balanced.");
     SetMass(20);
-    SetBaseCost("silver",55);
+    SetBaseCost("universal credits",55);
     SetVendorType(VT_WEAPON);
     SetClass(15);
     SetDamageType(KNIFE);

@@ -133,8 +133,8 @@ best place to have the NPC cast spells.
 *****
 
 Function: varargs void SetCurrency(mixed val, int amount); 
-Examples: SetCurrency("gold", 100);
-          SetCurrency( ([ "gold" : 100, "electrum" : 1000 ]) );
+Examples: SetCurrency("universal credits", 100);
+          SetCurrency( ([ "universal credits" : 100, "electrum" : 1000 ]) );
 
 This function allows you to set how much money an NPC is carrying.
 The first syntax allows you to set one currency at a time.  The second

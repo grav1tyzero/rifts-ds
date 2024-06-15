@@ -27,7 +27,7 @@ static void create() {
     // He should stay in his shop
     SetProperty("no bump", 1);
     // He accepts electrum
-    SetLocalCurrency("electrum");
+    SetLocalCurrency("universal credits");
     // He sells armors
     SetVendorType(VT_ARMOR);
 }

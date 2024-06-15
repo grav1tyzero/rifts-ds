@@ -19,7 +19,7 @@ void create(){
     SetLanguage("farsi");
     SetDefaultRead("Hopefully this is not garbled.");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
 }
 void init(){

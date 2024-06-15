@@ -11,7 +11,7 @@ static void create(){
     SetShort("a black leather jacket");
     SetLong("This is a black jacket made of leather. ");
     SetMass(50);
-    SetBaseCost("silver",100);
+    SetBaseCost("universal credits",100);
     SetProtection(BLUNT,1);
     SetProtection(BLADE,2);
     SetProtection(KNIFE,5);

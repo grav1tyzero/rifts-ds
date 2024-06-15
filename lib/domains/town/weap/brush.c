@@ -15,7 +15,7 @@ static void create(){
             "tough-to-scrub areas while bathing.");
     SetVendorType(VT_WEAPON);
     SetClass(10);
-    SetBaseCost("silver",25);
+    SetBaseCost("universal credits",25);
     SetMass(100);
     SetWeaponType("blunt");
     SetDamageType(BLUNT);

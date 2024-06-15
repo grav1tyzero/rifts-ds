@@ -12,7 +12,7 @@ void create(){
     SetShort("a thick metal pipe embedded in the bedrock");
     SetLong("This is a metal pipe embedded in the bedrock.");
     SetMass(20);
-    SetBaseCost("silver",10);
+    SetBaseCost("universal credits",10);
     SetVendorType(VT_TREASURE);
     SetInvis(0);
     SetPreventGet("It's planted firmly in the bedrock.");

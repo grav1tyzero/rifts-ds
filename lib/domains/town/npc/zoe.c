@@ -21,11 +21,11 @@ static void create() {
     AddCurrency("silver", random(100));
     SetProperty("no bump", 1);
     SetBankName("First Village Bank");
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetLocalFee(1);
     SetOpenFee(5);
     SetExchangeFee(2);
-    SetCurrencies( ({ "dollars", "copper", "silver", "electrum", "gold", "platinum" }) );
+    SetCurrencies( ({ "universal credits"" }) );
     SetPolyglot(1);
     SetLanguage("common", 100);
     SetDefaultLanguage("common");

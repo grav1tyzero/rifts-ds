@@ -13,7 +13,7 @@ static void create(){
             "polymer fiber that provides excellent ballistic protection. It bears a "+
             "mottled camouflage design to aid in woodland concealment.");
     SetMass(50);
-    SetBaseCost("silver",500);
+    SetBaseCost("universal credits",500);
     SetArmorType(A_HELMET);
     SetProtection(BLUNT, 25);
     SetProtection(BLADE, 25);

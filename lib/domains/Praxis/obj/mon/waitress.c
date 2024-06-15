@@ -15,7 +15,7 @@ create() {
     SetHealthPoints(270);
     AddCurrency("copper", random(200));
     SetSkill("melee",90);
-    SetLocalCurrency("gold");
+    SetLocalCurrency("universal credits");
     //SetMenu(
     //	({
     //	"lobster", "worms", "fish", "fries"

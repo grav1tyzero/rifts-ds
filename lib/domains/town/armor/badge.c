@@ -17,7 +17,7 @@ static void create(){
                 "no steal" : 1,
                 ]));
     SetMass(1);
-    SetBaseCost("silver",500);
+    SetBaseCost("universal credits",500);
     SetArmorType(A_AMULET);
     SetRetainOnDeath(1);
     SetRestrictLimbs( ({ "torso" }) );

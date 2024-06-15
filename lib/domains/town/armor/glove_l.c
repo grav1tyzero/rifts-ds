@@ -14,7 +14,7 @@ static void create() {
     SetLong("A black glove with five fingers designed for a left hand.");
     SetVendorType(VT_ARMOR);
     SetMass(5);
-    SetBaseCost("silver",7);
+    SetBaseCost("universal credits",7);
     SetArmorType(A_GLOVE);
     SetProtection(BLUNT, 1);
     SetProtection(BLADE, 1);

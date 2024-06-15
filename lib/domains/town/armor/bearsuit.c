@@ -16,7 +16,7 @@ static void create(){
             "been fashioned from real bear parts.");
     SetMass(200);
     SetMatching(0);
-    SetBaseCost("silver",800);
+    SetBaseCost("universal credits",800);
     SetProtection(BLUNT,5);
     SetProtection(BLADE,10);
     SetProtection(KNIFE,10);

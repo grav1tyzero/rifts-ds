@@ -14,7 +14,7 @@ static void create(){
             "things open.");
     SetVendorType(VT_WEAPON);
     SetClass(20);
-    SetBaseCost("silver",150);
+    SetBaseCost("universal credits",150);
     SetMass(100);
     SetWeaponType("blunt");
     SetHands(1);

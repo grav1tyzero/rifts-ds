@@ -21,7 +21,7 @@ static void create() {
     SetRace("human");
     AddCurrency("silver", random(100));
     SetProperty("no bump", 1);
-    SetLocalCurrency("silver");
+    SetLocalCurrency("universal credits");
     SetStorageRoom("/domains/town/room/magic_shop2");
     SetMaxItems(10000);
     SetVendorType(VT_MAGIC);

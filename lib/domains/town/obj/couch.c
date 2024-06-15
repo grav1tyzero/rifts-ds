@@ -13,7 +13,7 @@ static void create() {
     SetLong("This is a beat-up, worn and dirty couch, the kind "
             "one might expect in a university dorm room.");
     SetMass(500);
-    SetBaseCost("silver",15);
+    SetBaseCost("universal credits",15);
     SetMaxSitters(2);
     SetMaxLiers(1);
     SetSmell( ([

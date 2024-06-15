@@ -13,7 +13,7 @@ inherit LIB_SENTIENT;
 static void EvaluateCitizenshipRequest();
 
 int Tax = 0;
-string LocalCurrency = "gold";
+string LocalCurrency = "universal credits";
 
 static void create(){
     sentient::create();

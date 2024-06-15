@@ -11,7 +11,7 @@ static void create() {
     SetShort("a bat shaped key");
     SetLong("It is a laser cut key with batman logos etched into it.");
     SetMass(20);
-    SetBaseCost("gold",1000);
+    SetBaseCost("universal credits",1000);
 }
 void init(){
     ::init();

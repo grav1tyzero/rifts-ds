@@ -14,7 +14,7 @@ static void create() {
     SetStrength(5);
     SetMealMessages("You drink a potion.",
             "$N drinks a potion.");
-    SetBaseCost("silver",10000);
+    SetBaseCost("universal credits",10000);
     SetDuration(30);
     SetStats( ([ "strength" : 50, "speed" : 50 ]) );
     SetSkills( ([ "bargaining" : 20, "melee defense" : 20 ]) );
