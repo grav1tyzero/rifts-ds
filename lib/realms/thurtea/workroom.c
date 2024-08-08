@@ -1,6 +1,6 @@
 #include <lib.h>
 #include ROOMS_H
-#include "./area/customdefs.h"
+#include "/realms/thurtea/area/customdefs.h"
 
 inherit LIB_ROOM;
 int ReadSign();
@@ -9,10 +9,10 @@ int privacy = 0;
 string privs = "";
 string LongString(){
     string ret = "You are standing in the workroom of the mighty " + privs +
-        "!  \nYou may return to the Creators' Hall by going down.\n"+
-        "A sample room is east."+
-        "\n%^GREEN%^There is a sign here you can read.%^RESET%^"+
-        "\n%^GREEN%^There is a sheet here you can read.%^RESET%^";
+    "!  \nYou may return to the Creators' Hall by going down.\n"+
+    "A sample room is east."+
+    "\n%^GREEN%^There is a sign here you can read.%^RESET%^"+
+    "\n%^GREEN%^There is a sheet here you can read.%^RESET%^";
     if(privacy) ret += "\n%^YELLOW%^There is a privacy force field "+
         "active around this room.%^RESET%^";
     return ret;
@@ -29,20 +29,22 @@ static void create() {
     SetShort(possessive_noun(privs) + " workroom");
     SetLong( (: LongString :) );
     SetItems( ([ "workroom" : "It looks very nice.",
-                ({"sign","hint","hints"}) : "A sign with hints for creators.",
-                ({"sheet","reminder","reminders"}) : "A sheet with quick reminders for creators.",
-                ]) );
+        ({"sign","hint","hints"}) : "A sign with hints for creators.",
+        ({"sheet","reminder","reminders"}) : "A sheet with quick reminders for creators.",
+      ]) );
+    SetExits( ([
+        "east" : "/realms/thurtea/area/room/sample_room",
+        "down" : "/domains/default/room/wiz_hall",
+        "north" : "/domains/examples/room/entrance.c",
+      ]) );
     SetRead( ([
-                ({"sign","hint","hints"}) : (: ReadSign :),
-                ({"sheet","reminder","reminders"}) : (: ReadSheet :)
-                ]) );
+        ({"sign","hint","hints"}) : (: ReadSign :),
+        ({"sheet","reminder","reminders"}) : (: ReadSheet :)
+      ]) );
     SetInventory( ([
-                MY_OBJ "/chest" : 1,
-                "/domains/default/obj/bbucket" :1,
-                ]) );
-    SetExits( ([ "down" : "/domains/default/room/wiz_hall.c",
-                "east" : MY_ROOM "/sample_room"
-                ]) );
+        MY_OBJ "/chest" : 1,
+        "/domains/default/obj/bbucket" :1,
+      ]) );
     SetNoModify(0);
 }
 
@@ -72,7 +74,7 @@ int CanReceive(object sneak) {
         if(!archp(ob) && ob->GetKeyName() != lower_case(privs)){
             message("info","You bounce off the privacy field.", ob);
             message("info",ob->GetName()+" bounced off the privacy field.",
-                    this_object());
+              this_object());
             if(!environment(ob)) ob->eventMoveLiving(ROOM_START);
             return 0;
         }
@@ -80,14 +82,14 @@ int CanReceive(object sneak) {
     ret = ::CanReceive(sneak);
     if(ret){
         tell_room(this_object(), "\n\nPRIVACY WARNING: "+identify(sneak)+
-                " has entered the room.\n\n", sneak);
+          " has entered the room.\n\n", sneak);
     }
     return ret;
 }
 
 static int set_privacy(int i){
     object *npcs = filter(deep_inventory(this_object()),
-            (: living($1) && !interactive($1) :) );
+      (: living($1) && !interactive($1) :) );
     privacy=i;
     SetProperty("no peer", i);
     if(sizeof(npcs)){
@@ -101,10 +103,10 @@ static int set_privacy(int i){
 
 int mod_privacy(string str){
     if(!archp(this_player()) &&
-            this_player()->GetKeyName() != lower_case(privs)) {
+      this_player()->GetKeyName() != lower_case(privs)) {
         write("You lack the adequate privileges to do that.");
         tell_room(this_object(), this_player()->GetName()+" is "+
-                "trying to muck around with the privacy field system.");
+          "trying to muck around with the privacy field system.");
         return 1;
     }
     if(!str || str == ""){
@@ -115,16 +117,14 @@ int mod_privacy(string str){
         set_privacy(1);
         write("You enable the privacy field.\n");
         say(this_player()->GetName()+" enables a privacy force field "
-                "around the room.");
+          "around the room.");
         return 1;
     }
     if(str=="off" || str == "0"){
         set_privacy(0);
         write("You disable the privacy field.\n");
         say(this_player()->GetName()+" disables a privacy force field "
-                "around the room.");
+          "around the room.");
         return 1;
     }
 }
-
-

@@ -8,3 +8,36 @@
 2024.06.01-11.51,58 /realms/thurtea/tmp/twsword.c line 57: syntax error
 2024.06.01-11.57,14 /realms/thurtea/tmp/twsword.c line 57: syntax error
 2024.06.06-20.27,42 /realms/thurtea/area/obj/wiztool.c line 32: syntax error
+2024.06.21-19.05,17 /realms/thurtea/wiztool.c line 8: syntax error
+2024.06.21-19.05,17 /realms/thurtea/wiztool.c line 8: syntax error
+2024.06.21-19.08,40 /realms/thurtea/wiztool.c line 8: syntax error
+2024.06.21-19.08,40 /realms/thurtea/wiztool.c line 8: syntax error
+2024.06.21-19.10,10 /realms/thurtea/wiztool.c line 8: syntax error
+2024.06.21-19.10,10 /realms/thurtea/wiztool.c line 8: syntax error
+2024.06.22-10.46,38 /realms/thurtea/greathorneddragon.c line 1: syntax error
+2024.06.22-10.46,38 /realms/thurtea/greathorneddragon.c line 1: syntax error
+2024.06.22-20.09,19 /realms/thurtea/area/room/sample_two.c line 7: syntax error
+2024.06.22-20.17,47 /realms/thurtea/area/room/sample_two.c line 7: syntax error
+2024.06.22-20.17,47 /realms/thurtea/area/room/sample_two.c line 7: syntax error
+2024.06.22-20.19,50 /realms/thurtea/area/room/sample_two.c line 7: syntax error
+2024.06.22-20.51,58 /realms/thurtea/wolf.c line 16: syntax error
+2024.06.26-18.45,39 /realms/thurtea/exoskeleton.c line 5: Illegal to redefine 'nomask' function "GetShadows"
+2024.06.26-18.45,39 /realms/thurtea/exoskeleton.c line 5: Illegal to redefine 'nomask' function "RemoveShadow"
+2024.06.26-18.45,39 /realms/thurtea/exoskeleton.c line 5: Illegal to redefine 'nomask' function "AddShadow"
+2024.06.26-18.45,39 /realms/thurtea/exoskeleton.c line 25: Undefined function SetMaterial
+2024.06.26-18.45,39 /realms/thurtea/exoskeleton.c line 26: Undefined function SetRepairDifficulty
+2024.06.26-18.45,39 /realms/thurtea/exoskeleton.c line 27: Undefined function SetWarmth
+2024.06.26-19.03,20 /realms/thurtea/exoskeleton.c line 5: Illegal to redefine 'nomask' function "GetShadows"
+2024.06.26-19.03,20 /realms/thurtea/exoskeleton.c line 5: Illegal to redefine 'nomask' function "RemoveShadow"
+2024.06.26-19.03,20 /realms/thurtea/exoskeleton.c line 5: Illegal to redefine 'nomask' function "AddShadow"
+2024.06.26-19.03,20 /realms/thurtea/exoskeleton.c line 25: Undefined function SetMaterial
+2024.06.26-19.03,20 /realms/thurtea/exoskeleton.c line 26: Undefined function SetRepairDifficulty
+2024.06.26-19.03,20 /realms/thurtea/exoskeleton.c line 27: Undefined function SetWarmth
+2024.06.26-19.12,55 /realms/thurtea/scimitar.c line 18: Undefined variable 'SLASH'
+2024.06.26-19.15,31 /realms/thurtea/scimitar.c line 18: Undefined variable 'SLASH'
+2024.06.26-19.15,37 /realms/thurtea/scimitar.c line 18: Undefined variable 'SLASH'
+2024.06.26-19.15,37 /realms/thurtea/scimitar.c line 18: Undefined variable 'SLASH'
+2024.08.07-17.53,53 /realms/thurtea/hawk.c line 45: Undefined function query_position
+2024.08.07-17.53,53 /realms/thurtea/hawk.c line 48: Type of returned value doesn't match function return type ( int vs string )
+2024.08.07-17.55,50 /realms/thurtea/hawk.c line 48: Type of returned value doesn't match function return type ( int vs string )
+2024.08.07-17.55,50 /realms/thurtea/hawk.c line 48: Type of returned value doesn't match function return type ( int vs string )

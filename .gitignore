@@ -2,3 +2,10 @@
 lib/save/intermud.o
 /lib/log
 lib/www/mudlist.txt
+lib/log/terminals
+lib/log/runtime
+lib/log/reset
+/lib/log
+/lib/log
+/lib/secure/log
+/lib/secure/save/backup

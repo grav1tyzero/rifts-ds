@@ -1,2 +1,134 @@
 [2024.06.08-20.54,01] Thurtea <admin> suppose i should use this channel
 [2024.06.10-15.08,58] Thurtea <admin> guess I logged out incorrectly XD
+[2024.06.18-23.01,56] Thurtea <admin> i messed up something XD
+[2024.06.18-23.02,16] Thurtea <admin> my workroom is broke, or where it exits to the east is
+[2024.06.18-23.04,49] Thurtea <admin> ill play around on my own for now.. i broke my file somehow XD please fix I'll be back to work I promise
+[2024.06.19-01.05,12] Thurtea <admin> not sure what i did to break it but you know me :D
+[2024.06.19-01.21,38] Thurtea <admin> hopefully nothing that isnt a easy fix
+[2024.06.19-01.22,14] Thurtea <admin> i was going through the tutorial for the creation thing. though, im gonna learn this mud library so that it'll help me with other ones
+[2024.06.19-01.29,16] Thurtea <admin> I see, I deleted sample_room.c, and sampl_two.c that seems like an easy fix
+[2024.06.19-01.29,23] Thurtea <admin> oh well I'll be gone for the day ttyl :D
+[2024.06.19-10.44,36] Thurtea <admin> ah so, I need
+[2024.06.19-10.45,10] Thurtea <admin> sample_room.c, and sample_two.c, is there backups of those? I only found out which ones I needed by switching to your dir :D
+[2024.06.19-12.21,14] Thurtea <admin> I'll wait till you say something before I continue. Sorry my ADHD meds changed and I think I'm basically taking Speed now XD
+[2024.06.19-12.36,10] Thurtea <admin> you'd be proud if you were here
+[2024.06.19-12.36,21] Thurtea <admin> or shaking your head at my stupidity lol
+[2024.06.19-14.02,08] Thurtea <admin> 59,39:                     altern_obvious = "Obvious exit$Q: "+env->GetObviousExits() || "none"; think I found where exits are globally defined
+[2024.06.19-14.53,33] Thurtea <admin> brb
+[2024.06.19-15.28,56] Thurtea <admin> not that im a big stoner, but I smoke weed. I remember when I was younger. My friend Jake ingame name Psypher? I think. He showed me the shop on Merchant Street, in Camelot.
+[2024.06.19-15.29,48] Thurtea <admin> you could buy crackers, a joint, smoke it, got you high it showed in the score sheet IIRC. Honestly was my first intro to the game. I was like what is this how do I play it XD
+[2024.06.19-15.53,48] Thurtea <admin> can we make Splynncryth a npc in the game, make him a dick in a bar or something lol
+[2024.06.19-15.54,08] Thurtea <admin> not an actual dick just himself in a pub, retired splyn XD
+[2024.06.19-15.58,52] Thurtea <admin> I should block dchat, wth
+[2024.06.19-16.53,24] Thurtea <admin> well I got through the entire manual, read every page.
+[2024.06.19-16.53,36] Thurtea <admin> I also did the quick creation tutorial on the website
+[2024.06.19-16.53,41] Thurtea <admin> you'd be proud :D
+[2024.06.19-16.54,10] Thurtea <admin> I been up for 2.5 days though, unsure if I should stay up another and keep coding. Or if I should sleep to help the information I learned stick
+[2024.06.19-16.54,56] Thurtea <admin> thanks again for this. I know I can be annoying at times. Its just a thing, I'm probably on some sorta spectrum, but leaning towards and I say this jokingly the high functioning end.
+[2024.06.19-16.55,07] Thurtea <admin> Night!
+[2024.06.19-17.35,26] Thurtea <admin> think if we can change how things in the room are the color green. Then making exits bold green would work. I could probably whip you up an example
+[2024.06.19-17.52,24] Thurtea <admin> :D
+[2024.06.20-05.48,05] Thurtea <admin> you alright? feels like you havent said much for a while
+[2024.06.20-12.40,45] Thurtea <admin> so how do i make myself the level cap? what is the max level. I'll try to find a help file on it
+[2024.06.20-12.41,03] Thurtea <admin> also want to change my race to one from rifts after i add and implment it :D
+[2024.06.20-15.22,51] Thurtea <admin> you around?
+[2024.06.20-17.40,15] Thurtea <admin> I am not on mushclient
+[2024.06.20-17.55,42] Thurtea <admin> there we go
+[2024.06.20-17.55,59] Thurtea <admin> struggled with the font size as i couldnt see it update live
+[2024.06.20-17.56,13] Thurtea <admin> and the echo feature is determined to stay on XD
+[2024.06.20-17.58,29] Thurtea <admin> getting there, still too big I think
+[2024.06.20-18.51,26] Thurtea <admin> is there some character combo that will tell you the number of exits?
+[2024.06.20-19.30,54] Thurtea <admin> man I had like the words all cut off and I couldnt fix it XD
+[2024.06.20-19.39,34] Thurtea <admin> man how the fuck do i get it to stop cuttting off the end of things
+[2024.06.20-19.39,48] Thurtea <admin> i tried so many settings in mushclient im pulling my hair out
+[2024.06.20-19.43,31] Thurtea <admin> alas i found it :D
+[2024.06.20-20.16,24] Thurtea <admin> secure/save/creators/t probably in here maybe
+[2024.06.20-20.17,52] Thurtea <admin> I'll go to sleep for a bit ttyl :)
+[2024.06.21-07.08,35] Thurtea <admin> man it disconnects me or freezes a lot XD
+[2024.06.21-09.43,20] Thurtea <admin> you around grav?
+[2024.06.21-11.41,23] Thurtea <admin> alrighty gonna take off for a bit be back later to make my pet hawk :D
+[2024.06.21-12.29,29] Thurtea <admin> how do i make mushclient go to my last entered command when i press up?
+[2024.06.22-07.50,12] Thurtea <admin> hello
+[2024.06.22-10.19,38] Thurtea <admin> wish there was a n that worked for putting lines below lines in longdesc
+[2024.06.22-10.19,48] Thurtea <admin> I tried so many :(
+[2024.06.22-10.34,46] Thurtea <admin> /verbs/players/attack.c is easy to change by the looks of it
+[2024.06.22-10.35,17] Thurtea <admin> I need to practice making bakup files then editing
+[2024.06.23-12.36,25] Thurtea <admin> looks like the strider.c is a good place to start making my SAMAS or HV-Whatever it was called lol
+[2024.06.23-13.00,09] Thurtea <admin> sorry this area is for normal players lol wtf
+[2024.06.23-13.00,18] Thurtea <admin> i am normal player :(
+[2024.06.25-21.38,57] Thurtea <admin> well we got domains in
+[2024.06.25-21.39,07] Thurtea <admin> maybe im better suited to domain wiz
+[2024.06.25-21.39,28] Thurtea <admin> and cosmetic wiz. I'll work on menus and stuff cause the inventory is not great
+[2024.06.25-21.39,57] Thurtea <admin> not that I remember rifts inventory, but knowing splyn. He added a border to the inventory from the sheets within the books
+[2024.06.25-21.40,04] Thurtea <admin> which I downloaded all those =D
+[2024.06.26-14.15,52] Thurtea <admin> you see the domains I made?
+[2024.06.26-16.02,27] Thurtea <admin> im hoping to go into each domain and slam out another sub set of cities? i think would come next
+[2024.06.26-16.02,40] Thurtea <admin> I have the countries in I think
+[2024.06.26-16.02,52] Thurtea <admin> actually tell me if I am missing anyone you can think of
+[2024.06.26-16.03,03] Thurtea <admin> you aint here lmao what am i thinking
+[2024.06.26-19.12,00] Thurtea <admin> I could put in the character sheet from rifts, but it wouldn't have any values so I'd hate it XD
+[2024.06.27-01.10,36] Thurtea <admin> #===========================================================#
+[2024.06.27-01.10,37] Thurtea <admin> /-----------------------------------------------------------/
+[2024.06.27-01.10,37] Thurtea <admin> /   %^GREEN%^Megaversal Character Inventory Sheet%^RESET%^                    /
+[2024.06.27-01.10,37] Thurtea <admin> /-----------------------------------------------------------/
+[2024.06.27-01.10,37] Thurtea <admin> /                                                           /
+[2024.06.27-01.10,37] Thurtea <admin> /   %^BOLD%^%^BLUE%^You are carrying the following items:%^RESET%^                   /
+[2024.06.27-01.10,37] Thurtea <admin> /     A Creator's Manual                                    /
+[2024.06.27-01.10,37] Thurtea <admin> /     A test character Visitor's Pass                       /
+[2024.06.27-01.10,37] Thurtea <admin> /     A GPS device                                          /
+[2024.06.27-01.10,37] Thurtea <admin> /     %^B_RED%^%^BLACK%^Sunaj Assassin Armor%^RESET                                  /
+[2024.06.27-01.10,37] Thurtea <admin> /     A remote control                                      /
+[2024.06.27-01.10,37] Thurtea <admin> /     A pinger                                              /
+[2024.06.27-01.10,37] Thurtea <admin> /     A jagged obsidian blade                               /
+[2024.06.27-01.10,37] Thurtea <admin> /     A wooden staff                                        /
+[2024.06.27-01.10,37] Thurtea <admin> /     A light meter                                         /
+[2024.06.27-01.10,37] Thurtea <admin> /     A medical tricorder                                   /
+[2024.06.27-01.10,37] Thurtea <admin> /     A gray amulet                                         /
+[2024.06.27-01.10,37] Thurtea <admin> /     A yellow memo pad                                     /
+[2024.06.27-01.10,37] Thurtea <admin> /     An A99 breathing device                               /
+[2024.06.27-01.10,37] Thurtea <admin> /     An answering machine                                  /
+[2024.06.27-01.10,37] Thurtea <admin> /     A PR-15 Plasma Rifle                                  /
+[2024.06.27-01.10,37] Thurtea <admin> /     A jagged obsidian blade (%^RED%^wielded in right hand%^RESET%^)       /
+[2024.06.27-01.10,37] Thurtea <admin> /     A wizard's hat (%^GREEN%^worn%^RESET%^)                                 /
+[2024.06.27-01.10,37] Thurtea <admin> /     A jade ring (%^GREEN%^worn%^RESET%^)                                    /
+[2024.06.27-01.10,37] Thurtea <admin> /     A robe (%^GREEN%^worn)                                         /
+[2024.06.27-01.10,37] Thurtea <admin> /     A plastic collar (%^GREEN%^worn%^RESET%^)                               /
+[2024.06.27-01.10,37] Thurtea <admin> /     Wire-rimmed glasses (%^GREEN%^worn%^RESET%^)                            /
+[2024.06.27-01.10,37] Thurtea <admin> /                                                           /
+[2024.06.27-01.10,37] Thurtea <admin> /                                                           /
+[2024.06.27-01.10,37] Thurtea <admin> /-----------------------------------------------------------/
+[2024.06.27-01.10,37] Thurtea <admin> #"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""#
+[2024.06.27-01.11,06] Thurtea <admin> #===========================================================#
+[2024.06.27-01.11,06] Thurtea <admin> /-----------------------------------------------------------/
+[2024.06.27-01.11,06] Thurtea <admin> /   %^GREEN%^Megaversal Character Inventory Sheet%^RESET%^                    /
+[2024.06.27-01.11,06] Thurtea <admin> /-----------------------------------------------------------/
+[2024.06.27-01.11,06] Thurtea <admin> /                                                           /
+[2024.06.27-01.11,06] Thurtea <admin> /   %^BOLD%^%^BLUE%^You are carrying the following items:%^RESET%^                   /
+[2024.06.27-01.11,06] Thurtea <admin> /     A Creator's Manual                                    /
+[2024.06.27-01.11,06] Thurtea <admin> /     A test character Visitor's Pass                       /
+[2024.06.27-01.11,06] Thurtea <admin> /     A GPS device                                          /
+[2024.06.27-01.11,06] Thurtea <admin> /     %^B_RED%^%^BLACK%^Sunaj Assassin Armor%^RESET%^                                  /
+[2024.06.27-01.11,06] Thurtea <admin> /     A remote control                                      /
+[2024.06.27-01.11,06] Thurtea <admin> /     A pinger                                              /
+[2024.06.27-01.11,06] Thurtea <admin> /     A jagged obsidian blade                               /
+[2024.06.27-01.11,06] Thurtea <admin> /     A wooden staff                                        /
+[2024.06.27-01.11,06] Thurtea <admin> /     A light meter                                         /
+[2024.06.27-01.11,06] Thurtea <admin> /     A medical tricorder                                   /
+[2024.06.27-01.11,06] Thurtea <admin> /     A gray amulet                                         /
+[2024.06.27-01.11,06] Thurtea <admin> /     A yellow memo pad                                     /
+[2024.06.27-01.11,06] Thurtea <admin> /     An A99 breathing device                               /
+[2024.06.27-01.11,06] Thurtea <admin> /     An answering machine                                  /
+[2024.06.27-01.11,06] Thurtea <admin> /     A PR-15 Plasma Rifle                                  /
+[2024.06.27-01.11,06] Thurtea <admin> /     A jagged obsidian blade (%^RED%^wielded in right hand%^RESET%^)       /
+[2024.06.27-01.11,06] Thurtea <admin> /     A wizard's hat (%^GREEN%^worn%^RESET%^)                                 /
+[2024.06.27-01.11,06] Thurtea <admin> /     A jade ring (%^GREEN%^worn%^RESET%^)                                    /
+[2024.06.27-01.11,06] Thurtea <admin> /     A robe (%^GREEN%^worn)                                         /
+[2024.06.27-01.11,06] Thurtea <admin> /     A plastic collar (%^GREEN%^worn%^RESET%^)                               /
+[2024.06.27-01.11,06] Thurtea <admin> /     Wire-rimmed glasses (%^GREEN%^worn%^RESET%^)                            /
+[2024.06.27-01.11,06] Thurtea <admin> /                                                           /
+[2024.06.27-01.11,06] Thurtea <admin> /                                                           /
+[2024.06.27-01.11,06] Thurtea <admin> /-----------------------------------------------------------/
+[2024.06.27-01.11,06] Thurtea <admin> #"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""#
+[2024.06.27-01.11,27] Thurtea <admin> not exactly showing up how i predicted
+[2024.07.29-20.25,46] Thurtea <admin> hello
+[2024.07.29-20.25,55] Thurtea <admin> hello

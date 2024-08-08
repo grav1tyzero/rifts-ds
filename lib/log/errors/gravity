@@ -281,3 +281,5 @@
 2024.06.02-15.15,29 /realms/gravity/area/obj/crystalball.c line 12: Undefined function set_weight
 2024.06.02-15.15,29 /realms/gravity/area/obj/crystalball.c line 14: Undefined function SetPPECost 
 2024.06.02-15.15,29 /realms/gravity/area/obj/crystalball.c line 16: Undefined function set_destroy
+2024.08.05-10.16,43 /realms/gravity/cmds/ooc.c line 27: syntax error
+2024.08.05-10.16,43 /realms/gravity/cmds/ooc.c line 27: syntax error

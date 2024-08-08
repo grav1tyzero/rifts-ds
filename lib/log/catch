@@ -1,149 +1,1129 @@
-NEW_LOG 2024.06.02-18.25,35
+NEW_LOG 2024.08.08-03.48,09
 
---- Dead_Souls_gravity
-2024.06.02-18.26,30
-*Error in loading object '/cmds/players/inventory'
+--- RiftsMUD
+2024.08.08-03.48,14
+*Object cannot be loaded during compilation.
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 149
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
---- Dead_Souls_gravity
-2024.06.02-18.26,30
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/cmds/creators/update at line 170
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 170
-'CATCH' at /secure/cmds/creators/update at line 170
-
---- Dead_Souls_gravity
-2024.06.02-18.26,45
-*Error in loading object '/cmds/players/inventory'
+--- RiftsMUD
+2024.08.08-03.48,14
+*Object cannot be loaded during compilation.
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 149
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
---- Dead_Souls_gravity
-2024.06.02-18.26,45
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/cmds/creators/update at line 170
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 170
-'CATCH' at /secure/cmds/creators/update at line 170
-
---- Dead_Souls_gravity
-2024.06.02-18.27,18
-*Error in loading object '/cmds/players/inventory'
+--- RiftsMUD
+2024.08.08-03.49,14
+*Object cannot be loaded during compilation.
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 149
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
---- Dead_Souls_gravity
-2024.06.02-18.27,18
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/cmds/creators/update at line 170
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 170
-'CATCH' at /secure/cmds/creators/update at line 170
-
---- Dead_Souls_gravity
-2024.06.02-18.28,25
-*Error in loading object '/cmds/players/inventory'
+--- RiftsMUD
+2024.08.08-03.49,14
+*Object cannot be loaded during compilation.
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 149
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
---- Dead_Souls_gravity
-2024.06.02-18.28,25
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/cmds/creators/update at line 170
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 170
-'CATCH' at /secure/cmds/creators/update at line 170
-
---- Dead_Souls_gravity
-2024.06.02-18.42,10
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/cmds/creators/update at line 170
-
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 170
-'CATCH' at /secure/cmds/creators/update at line 170
-
---- Dead_Souls_gravity
-2024.06.02-18.42,28
-*Error in loading object '/cmds/players/inventory'
+--- RiftsMUD
+2024.08.08-03.50,14
+*Object cannot be loaded during compilation.
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 149
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
---- Dead_Souls_gravity
-2024.06.02-18.42,28
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/cmds/creators/update at line 170
+--- RiftsMUD
+2024.08.08-03.50,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 170
-'CATCH' at /secure/cmds/creators/update at line 170
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
---- Dead_Souls_gravity
-2024.06.02-18.43,21
-*Error in loading object '/cmds/players/inventory'
-Object: /secure/cmds/creators/update at line 170
+--- RiftsMUD
+2024.08.08-03.51,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'<fake>' at /secure/save/creators/g/gravity (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/g/gravity (/lib/command.c) at line 231
-'cmd' at /secure/cmds/creators/update at line 116
-'eventUpdate' at /secure/cmds/creators/update at line 170
-'CATCH' at /secure/cmds/creators/update at line 170
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
---- Dead_Souls_gravity
-2024.06.06-20.27,42
-*Error in loading object '/realms/thurtea/area/obj/wiztool'
-Object: /secure/sefun/sefun at line 120
+--- RiftsMUD
+2024.08.08-03.51,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'<fake>' at /secure/save/creators/t/thurtea (/<driver>) at line 0
-'cmdAll' at /secure/save/creators/t/thurtea (/lib/command.c) at line 231
-'cmd' at /cmds/creators/clone at line 26
-'CATCH' at /cmds/creators/clone at line 26
-'clone_object' at /secure/sefun/sefun at line 120
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.52,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.52,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.53,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.53,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.54,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.54,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.55,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.55,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.56,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.56,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.57,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.57,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.58,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.58,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.59,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-03.59,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.00,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.00,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.01,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.01,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.02,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.02,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.03,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.03,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.04,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.04,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.05,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.05,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.06,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.06,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.07,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.07,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.08,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.08,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.09,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.09,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.10,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.10,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.11,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.11,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.12,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.12,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.13,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.13,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.14,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.14,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.15,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.15,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.16,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.16,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.17,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.17,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.18,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.18,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.19,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.19,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.20,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.20,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.21,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.21,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.22,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.22,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.23,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.23,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.24,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.24,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.25,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.25,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.26,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.26,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.27,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.27,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.28,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.28,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.29,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.29,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.30,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.30,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.31,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.31,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.32,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.32,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.33,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.33,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.34,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- RiftsMUD
+2024.08.08-04.34,14
+*Object cannot be loaded during compilation.
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /domains/town/room/bank (/lib/std/room.c) at line 129
+'heart_beat' at /domains/town/room/bank (/lib/props/inventory.c) at line 130
+'eventLoadItem' at /domains/town/room/bank (/lib/props/inventory.c) at line 27
+'log_error' at /secure/daemon/master at line 685
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35

@@ -41,3 +41,201 @@ icp setup ended
 
 2024.06.14-08.52,04 close_callback: fd=6
 
+2024.06.19-21.52,49 socket_accepted: 7, ({ 808, "DATA_XFER", "MUD", "10.0.0.226.6672", "147.185.133.159.61388", OBJ(/secure/daemon/instances) })
+
+2024.06.19-21.52,50 close_callback: fd=7
+
+2024.06.21-01.34,57 socket_accepted: 7, ({ 752, "DATA_XFER", "MUD", "10.0.0.226.6672", "185.232.67.43.65385", OBJ(/secure/daemon/instances) })
+
+2024.06.21-01.34,58 close_callback: fd=7
+
+icp setup ended
+icp setup ended
+icp setup ended
+icp setup ended
+icp setup ended
+2024.06.27-07.03,47 socket_accepted: 6, ({ 1892, "DATA_XFER", "MUD", "10.0.0.226.6672", "162.216.150.75.60776", OBJ(/secure/daemon/instances) })
+
+2024.06.27-07.03,48 close_callback: fd=6
+
+2024.06.27-16.34,34 socket_accepted: 6, ({ 1924, "DATA_XFER", "MUD", "10.0.0.226.6672", "80.94.95.219.64590", OBJ(/secure/daemon/instances) })
+
+2024.06.27-16.34,34 close_callback: fd=6
+
+icp setup ended
+icp setup ended
+icp setup ended
+icp setup ended
+icp setup ended
+2024.07.05-03.16,33 socket_accepted: 9, ({ 5004, "DATA_XFER", "MUD", "10.0.0.226.6672", "37.1.194.232.39826", OBJ(/secure/daemon/instances) })
+
+2024.07.05-03.16,34 close_callback: fd=9
+
+2024.07.06-14.14,54 socket_accepted: 11, ({ 5060, "DATA_XFER", "MUD", "10.0.0.226.6672", "162.216.149.91.60714", OBJ(/secure/daemon/instances) })
+
+2024.07.06-14.14,54 close_callback: fd=11
+
+icp setup ended
+2024.07.19-22.32,35 socket_accepted: 1, ({ 944, "DATA_XFER", "MUD", "10.0.0.226.6672", "45.227.254.8.65180", OBJ(/secure/daemon/instances) })
+
+2024.07.19-22.32,35 close_callback: fd=1
+
+2024.07.20-08.46,13 socket_accepted: 1, ({ 648, "DATA_XFER", "MUD", "10.0.0.226.6672", "179.60.149.8.65176", OBJ(/secure/daemon/instances) })
+
+2024.07.20-08.46,14 close_callback: fd=1
+
+2024.07.20-23.01,39 socket_accepted: 1, ({ 700, "DATA_XFER", "MUD", "10.0.0.226.6672", "91.238.181.35.65533", OBJ(/secure/daemon/instances) })
+
+2024.07.20-23.01,39 close_callback: fd=1
+
+2024.07.21-12.59,27 socket_accepted: 1, ({ 728, "DATA_XFER", "MUD", "10.0.0.226.6672", "80.66.76.130.65064", OBJ(/secure/daemon/instances) })
+
+2024.07.21-12.59,28 close_callback: fd=1
+
+2024.07.21-16.22,46 socket_accepted: 1, ({ 580, "DATA_XFER", "MUD", "10.0.0.226.6672", "188.119.66.112.64216", OBJ(/secure/daemon/instances) })
+
+2024.07.21-16.22,47 close_callback: fd=1
+
+2024.07.22-03.19,45 socket_accepted: 7, ({ 964, "DATA_XFER", "MUD", "10.0.0.226.6672", "179.60.149.238.65424", OBJ(/secure/daemon/instances) })
+
+2024.07.22-03.19,45 close_callback: fd=7
+
+2024.07.22-17.36,15 socket_accepted: 6, ({ 876, "DATA_XFER", "MUD", "10.0.0.226.6672", "88.214.25.61.65231", OBJ(/secure/daemon/instances) })
+
+2024.07.22-17.36,16 close_callback: fd=6
+
+2024.07.23-08.58,18 socket_accepted: 6, ({ 888, "DATA_XFER", "MUD", "10.0.0.226.6672", "88.214.25.65.65333", OBJ(/secure/daemon/instances) })
+
+2024.07.23-08.58,19 close_callback: fd=6
+
+2024.07.23-10.59,50 socket_accepted: 6, ({ 736, "DATA_XFER", "MUD", "10.0.0.226.6672", "80.66.88.35.64885", OBJ(/secure/daemon/instances) })
+
+2024.07.23-10.59,50 close_callback: fd=6
+
+2024.07.23-23.53,58 socket_accepted: 6, ({ 832, "DATA_XFER", "MUD", "10.0.0.226.6672", "91.238.181.22.65237", OBJ(/secure/daemon/instances) })
+
+2024.07.23-23.53,58 close_callback: fd=6
+
+2024.07.24-15.01,35 socket_accepted: 6, ({ 1972, "DATA_XFER", "MUD", "10.0.0.226.6672", "194.165.16.76.65118", OBJ(/secure/daemon/instances) })
+
+2024.07.24-15.01,35 close_callback: fd=6
+
+2024.07.25-06.27,11 socket_accepted: 6, ({ 8720, "DATA_XFER", "MUD", "10.0.0.226.6672", "179.60.149.8.65402", OBJ(/secure/daemon/instances) })
+
+2024.07.25-06.27,12 close_callback: fd=6
+
+icp setup ended
+2024.07.25-21.34,22 socket_accepted: 7, ({ 972, "DATA_XFER", "MUD", "10.0.0.226.6672", "45.227.254.8.65454", OBJ(/secure/daemon/instances) })
+
+2024.07.25-21.34,23 close_callback: fd=7
+
+2024.07.26-14.22,04 socket_accepted: 6, ({ 1404, "DATA_XFER", "MUD", "10.0.0.226.6672", "80.66.76.121.65137", OBJ(/secure/daemon/instances) })
+
+2024.07.26-14.22,04 close_callback: fd=6
+
+2024.07.27-06.37,01 socket_accepted: 6, ({ 5508, "DATA_XFER", "MUD", "10.0.0.226.6672", "179.60.149.238.65335", OBJ(/secure/daemon/instances) })
+
+2024.07.27-06.37,01 close_callback: fd=6
+
+icp setup ended
+2024.07.27-21.13,16 socket_accepted: 6, ({ 936, "DATA_XFER", "MUD", "10.0.0.226.6672", "179.60.149.54.65330", OBJ(/secure/daemon/instances) })
+
+2024.07.27-21.13,16 close_callback: fd=6
+
+2024.07.28-10.34,42 socket_accepted: 6, ({ 896, "DATA_XFER", "MUD", "10.0.0.226.6672", "35.203.210.168.58676", OBJ(/secure/daemon/instances) })
+
+2024.07.28-10.34,42 close_callback: fd=6
+
+2024.07.28-11.00,44 socket_accepted: 6, ({ 964, "DATA_XFER", "MUD", "10.0.0.226.6672", "88.214.25.63.65036", OBJ(/secure/daemon/instances) })
+
+2024.07.28-11.00,45 close_callback: fd=6
+
+2024.07.28-22.43,21 socket_accepted: 7, ({ 2072, "DATA_XFER", "MUD", "10.0.0.226.6672", "92.255.85.67.63085", OBJ(/secure/daemon/instances) })
+
+2024.07.28-22.43,22 close_callback: fd=7
+
+2024.07.29-00.58,51 socket_accepted: 8, ({ 3152, "DATA_XFER", "MUD", "10.0.0.226.6672", "80.66.76.121.65405", OBJ(/secure/daemon/instances) })
+
+2024.07.29-00.58,51 close_callback: fd=8
+
+icp setup ended
+2024.07.29-14.33,36 socket_accepted: 1, ({ 1000, "DATA_XFER", "MUD", "10.0.0.226.6672", "80.66.76.134.65050", OBJ(/secure/daemon/instances) })
+
+2024.07.29-14.33,36 close_callback: fd=1
+
+2024.07.30-04.28,05 socket_accepted: 6, ({ 4540, "DATA_XFER", "MUD", "10.0.0.226.6672", "194.165.16.73.65484", OBJ(/secure/daemon/instances) })
+
+2024.07.30-04.28,05 close_callback: fd=6
+
+2024.07.30-17.12,15 socket_accepted: 6, ({ 8012, "DATA_XFER", "MUD", "10.0.0.226.6672", "194.165.16.72.65508", OBJ(/secure/daemon/instances) })
+
+2024.07.30-17.12,15 close_callback: fd=6
+
+icp setup ended
+2024.07.31-02.54,12 socket_accepted: 1, ({ 908, "DATA_XFER", "MUD", "10.0.0.226.6672", "92.255.85.67.65415", OBJ(/secure/daemon/instances) })
+
+2024.07.31-02.54,13 close_callback: fd=1
+
+2024.07.31-08.01,31 socket_accepted: 7, ({ 1016, "DATA_XFER", "MUD", "10.0.0.226.6672", "179.60.149.54.65256", OBJ(/secure/daemon/instances) })
+
+2024.07.31-08.01,31 close_callback: fd=7
+
+2024.07.31-22.20,37 socket_accepted: 7, ({ 992, "DATA_XFER", "MUD", "10.0.0.226.6672", "91.238.181.20.2204", OBJ(/secure/daemon/instances) })
+
+2024.07.31-22.20,38 close_callback: fd=7
+
+2024.08.01-12.49,55 socket_accepted: 8, ({ 948, "DATA_XFER", "MUD", "10.0.0.226.6672", "91.238.181.31.65319", OBJ(/secure/daemon/instances) })
+
+2024.08.01-12.49,55 close_callback: fd=8
+
+2024.08.01-17.27,38 socket_accepted: 8, ({ 984, "DATA_XFER", "MUD", "10.0.0.226.6672", "35.203.211.168.60168", OBJ(/secure/daemon/instances) })
+
+2024.08.01-17.27,38 close_callback: fd=8
+
+2024.08.02-02.50,40 socket_accepted: 8, ({ 976, "DATA_XFER", "MUD", "10.0.0.226.6672", "179.60.149.54.65177", OBJ(/secure/daemon/instances) })
+
+2024.08.02-02.50,40 close_callback: fd=8
+
+2024.08.02-18.27,15 socket_accepted: 8, ({ 3548, "DATA_XFER", "MUD", "10.0.0.226.6672", "194.165.16.10.2331", OBJ(/secure/daemon/instances) })
+
+2024.08.02-18.27,16 close_callback: fd=8
+
+2024.08.02-18.29,48 socket_accepted: 8, ({ 3524, "DATA_XFER", "MUD", "10.0.0.226.6672", "80.66.76.130.65216", OBJ(/secure/daemon/instances) })
+
+2024.08.02-18.29,49 close_callback: fd=8
+
+icp setup ended
+2024.08.03-08.26,34 socket_accepted: 1, ({ 1004, "DATA_XFER", "MUD", "10.0.0.226.6672", "88.214.25.62.65370", OBJ(/secure/daemon/instances) })
+
+2024.08.03-08.26,35 close_callback: fd=1
+
+2024.08.03-22.38,20 socket_accepted: 1, ({ 1000, "DATA_XFER", "MUD", "10.0.0.226.6672", "179.60.149.8.65232", OBJ(/secure/daemon/instances) })
+
+2024.08.03-22.38,21 close_callback: fd=1
+
+2024.08.04-13.42,32 socket_accepted: 1, ({ 2956, "DATA_XFER", "MUD", "10.0.0.226.6672", "91.238.181.22.65457", OBJ(/secure/daemon/instances) })
+
+2024.08.04-13.42,32 close_callback: fd=1
+
+2024.08.05-04.59,39 socket_accepted: 1, ({ 8168, "DATA_XFER", "MUD", "10.0.0.226.6672", "194.165.16.76.65289", OBJ(/secure/daemon/instances) })
+
+2024.08.05-04.59,40 close_callback: fd=1
+
+icp setup ended
+2024.08.05-19.44,47 socket_accepted: 1, ({ 624, "DATA_XFER", "MUD", "10.0.0.226.6672", "91.238.181.20.65488", OBJ(/secure/daemon/instances) })
+
+2024.08.05-19.44,47 close_callback: fd=1
+
+icp setup ended
+2024.08.07-05.02,22 socket_accepted: 6, ({ 2184, "DATA_XFER", "MUD", "10.0.0.226.6672", "88.214.25.64.2176", OBJ(/secure/daemon/instances) })
+
+2024.08.07-05.02,23 close_callback: fd=6
+
+2024.08.07-05.09,38 socket_accepted: 6, ({ 2152, "DATA_XFER", "MUD", "10.0.0.226.6672", "80.66.76.134.65148", OBJ(/secure/daemon/instances) })
+
+2024.08.07-05.09,39 close_callback: fd=6
+
+2024.08.07-17.04,55 socket_accepted: 6, ({ 2364, "DATA_XFER", "MUD", "10.0.0.226.6672", "147.185.133.64.64132", OBJ(/secure/daemon/instances) })
+
+2024.08.07-17.04,55 close_callback: fd=6
+

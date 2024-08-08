@@ -10,7 +10,7 @@
 #define AUTO_WIZ                 0
 #define RESTRICTED_INTERMUD      0
 #define DISABLE_INTERMUD         0
-#define DISABLE_IMC2             0
+#define DISABLE_IMC2             1
 #define MINUTES_REBOOT_WARNING   20
 #define TIME_TO_RESET            3600
 #define RESET_ALL                0
@@ -40,7 +40,7 @@
 #define RESET_INTERMUD           0
 #define ENGLISH_ONLY             0
 #define HUMANS_ONLY              0
-#define SEVERABLE_LIMBS          1
+#define SEVERABLE_LIMBS          0
 #define CLASS_SELECTION          0
 #define PINGING_MUDS             ({})
 #define PING_INTERVAL            290
@@ -84,8 +84,8 @@
 #define MEMUSE_HARD_LIMIT        0
 #define MAX_USERS                0
 #define MIN_PERF                 400
-#define MINIMAP                  0
-#define WIZMAP                   0
+#define MINIMAP                  1
+#define WIZMAP                   1
 #define GRID                     1
 #define ENABLE_INSTANCES         0
 #define CED_DISABLED             1

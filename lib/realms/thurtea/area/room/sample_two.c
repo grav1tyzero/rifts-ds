@@ -1,5 +1,5 @@
 #include <lib.h>
-#include "../customdefs.h"
+#include "/realms/thurtea/area/customdefs.h"
 
 inherit LIB_ROOM;
 
@@ -10,14 +10,15 @@ static void create() {
     SetShort("Second Sample Room");
     SetLong("This is another sample room.");
     SetItems( ([
-                "template" : "That's what this is.",
-                ]) );
+        "template" : "That's what this is.",
+      ]) );
+    SetExits( ([
+        "west" : "/realms/thurtea/area/room/sample_room",
+        "north" : "/realms/thurtea/area/room/test1.c",
+      ]) );
     SetInventory(([
-                MY_OBJ "/case" :1,
-                ]));
-    SetExits(([
-                "west" : MY_AREA "/room/sample_room",
-                ]));
+        MY_OBJ "/case" :1,
+      ]));
 
 }
 

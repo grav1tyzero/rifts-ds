@@ -2,15 +2,15 @@
 PersistentInventory 0
 PersistentInventoryEnabled 0
 tmpstr 0
-host 0
-who_str 0
+host "134.41.122.92"
+who_str "RiftsMUD*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*                   There are zero members of our reality.                  http://dead-souls.nettelnet://134.41.122.92:6666___________________________________________________________________________"
 mode 2
-autodisabled 1
-ping_requests 0
+autodisabled 0
+ping_requests ([])
 buf ""
 server_version 0
-localchaninfo 0
-mudinfo 0
-genders 0
-tells 0
-sequence 0
+localchaninfo ([])
+mudinfo ([])
+genders ([])
+tells ([])
+sequence 66
